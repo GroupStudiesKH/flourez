@@ -46,67 +46,8 @@
           <li class="nav-item d-none d-lg-block">
             <a class="nav-link" :href="`/${locale}/company`">{{ t("header.companyIntro") }}</a>
           </li>
-          <li class="nav-item dropdown d-lg-none show">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              data-bs-toggle="dropdown"
-            >
-              {{ t("header.product") }}
-            </a>
-            <ul class="dropdown-menu show">
-              <li
-                class="list-group-item"
-                v-for="(category, index) in categories"
-                :key="index"
-              >
-                <a
-                  class="fw-bold px-4"
-                  :href="`/${locale}/product/category/${category.id}`"
-                  v-if="category.products && category.products.length > 0"
-                >
-                  {{ category.title[locale] || category.title.zh_TW }}
-                </a>
-                <ul
-                  v-if="category.products && category.products.length > 0"
-                  class="list-group list-group-flush ps-3"
-                  :id="`secondMenu_${index}`"
-                >
-                  <li
-                    class="list-group-item"
-                    v-for="(product, subIndex) in category.products"
-                    :key="subIndex"
-                  >
-                    <a :href="`/${locale}/product/${product.id}`">
-                      {{ product.title[locale] || product.title.zh_TW }}
-                    </a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </li>
           <li class="nav-item d-none d-lg-block">
             <a class="nav-link" :href="`/${locale}/product`">{{ t("header.product") }}</a>
-          </li>
-          <li class="nav-item dropdown d-lg-none">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              data-bs-toggle="dropdown"
-            >
-              {{ t("header.productSpec") }}
-            </a>
-            <ul class="dropdown-menu">
-              <li v-for="(item, itemIndex) in specLists" :key="itemIndex">
-                <a class="dropdown-item" :href="`/${locale}/spec/${item.id}`">
-                  {{
-                    item.get_title_attribute.find(
-                      (attr) => attr.language === locale
-                    )?.meta_value || ""
-                  }}
-                </a>
-              </li>
-            </ul>
           </li>
           <li class="nav-item">
             <a class="nav-link" :href="`/${locale}/spec`">{{ t("header.productSpec") }}</a>
@@ -179,7 +120,6 @@
 <script>
 import { useI18n } from "vue-i18n";
 import cartService from "@/service/cart-service.js";
-import apiService from "@/service/api-service";
 import { ref, onMounted, computed } from "vue";
 import { useRouter, useRoute } from "vue-router";
 
@@ -190,8 +130,6 @@ export default {
     const cartItem = ref([]);
     const route = useRoute();
     const router = useRouter();
-    const categories = ref([]);
-    const specLists = ref([]);
 
     const localeOptions = ref([
       {
@@ -211,22 +149,6 @@ export default {
     const isHome = computed(() => {
       return route.name === "home";
     });
-
-    const getCategories = async () => {
-      try {
-        categories.value = await apiService.getProducts();
-      } catch (error) {
-        console.error("Error fetching categories:", error);
-      }
-    };
-
-    const getSpecLists = async () => {
-      try {
-        specLists.value = await apiService.getArticle("spec");
-      } catch (error) {
-        console.error("Error fetching spec lists:", error);
-      }
-    };
 
     const urlSetLocale = (lang) => {
       const currentPath = route.path;
@@ -301,8 +223,6 @@ export default {
         locale.value = storedLocale;
       }
 
-      getCategories();
-      getSpecLists();
       setInterval(() => {
         getCart();
       }, 500);
@@ -316,8 +236,6 @@ export default {
       localeOptions,
       cartItem,
       isHome,
-      categories,
-      specLists,
     };
   },
 };

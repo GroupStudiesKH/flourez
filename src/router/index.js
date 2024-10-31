@@ -9,70 +9,10 @@ const router = createRouter({
       component: () => import("../views/HomeView.vue"),
     },
     {
-      path: "/:locale(eng|zh_TW|zh_CN)?/product",
-      name: "product",
-      component: () => import("../views/ProductList.vue"),
-    },
-    {
-      path: "/:locale(eng|zh_TW|zh_CN)?/product/:id",
-      name: "product-detail",
-      component: () => import("../views/ProductDetail.vue"),
-    },
-    {
       path: "/:locale(eng|zh_TW|zh_CN)?/company",
       name: "company",
       component: () => import("../views/CompanyView.vue"),
-    },
-    {
-      path: "/:locale(eng|zh_TW|zh_CN)?/quality",
-      name: "quality",
-      component: () => import("../views/QualityView.vue"),
-    },
-    {
-      path: "/:locale(eng|zh_TW|zh_CN)?/cert",
-      name: "cert",
-      component: () => import("../views/CertView.vue"),
-    },
-    {
-      path: "/:locale(eng|zh_TW|zh_CN)?/equip",
-      name: "equip",
-      component: () => import("../views/EquipView.vue"),
-    },
-    {
-      path: "/:locale(eng|zh_TW|zh_CN)?/tech",
-      name: "tech",
-      component: () => import("../views/TechView.vue"),
-    },
-    {
-      path: "/:locale(eng|zh_TW|zh_CN)?/spec",
-      name: "spec",
-      component: () => import("../views/SpecView.vue"),
-    },
-    {
-      path: "/:locale(eng|zh_TW|zh_CN)?/spec/:id",
-      name: "specDetail",
-      component: () => import("../views/SpecView.vue"),
-    },
-    {
-      path: "/:locale(eng|zh_TW|zh_CN)?/contact",
-      name: "contact",
-      component: () => import("../views/ContactView.vue"),
-    },
-    {
-      path: "/:locale(eng|zh_TW|zh_CN)?/recurit",
-      name: "recurit",
-      component: () => import("../views/RecuritView.vue"),
-    },
-    {
-      path: "/:locale(eng|zh_TW|zh_CN)?/article",
-      name: "article",
-      component: () => import("../views/ArticleView.vue"),
-    },
-    {
-      path: "/:locale(eng|zh_TW|zh_CN)?/article/:id",
-      name: "articleDetail",
-      component: () => import("../views/ArticleView.vue"),
-    },
+    }
   ],
   scrollBehavior(to, from, savedPosition) {
     if (savedPosition) {
