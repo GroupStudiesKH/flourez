@@ -44,18 +44,18 @@ export default {
     <div id="bannerCarousel" class="carousel slide">
       <div class="carousel-inner banner">
         <div class="carousel-item active">
-          <div style="background-image: url('https://placehold.co/1920x1080')" class="banner-content">
+          <div style="background-image: url('/assets/img/home_banner.png')" class="banner-content">
             <div class="container">
-              <h1>We embrace the world and engage into life.</h1>
-              <p>To Value Relationship and Sustainability</p>
+              <h1>Discover Fluorez Technology</h1>
+              <p>A global leader in FFKM sealing solutions trusted by international industrial organizations. Our mission is simple: deliver cost-effective, durable solutions tailored to your specific needs. Experience excellence with Fluorez Technology</p>
             </div>
           </div>
         </div>
         <div class="carousel-item">
-          <div style="background-image: url('https://placehold.co/1920x1080/png')" class="banner-content">
+          <div style="background-image: url('/assets/img/home_banner.png')" class="banner-content">
             <div class="container">
-              <h1>We embrace the world and engage into life.</h1>
-              <p>To Value Relationship and Sustainability</p>
+              <h1>Discover Fluorez Technology</h1>
+              <p>A global leader in FFKM sealing solutions trusted by international industrial organizations. Our mission is simple: deliver cost-effective, durable solutions tailored to your specific needs. Experience excellence with Fluorez Technology</p>
             </div>
           </div>
         </div>

@@ -2,7 +2,7 @@
   <header class="navbar navbar-expand-lg" :class="{ home: isHome }">
     <div class="container">
       <a class="navbar-brand" :href="'/' + locale">
-        <img src="/assets/img/logo.png" alt="" />
+        <img src="/assets/img/logo.svg" alt="" />
       </a>
       <button
         class="navbar-toggler"
@@ -17,68 +17,20 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto" :class="locale">
-          <li class="nav-item dropdown d-lg-none">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              data-bs-toggle="dropdown"
-            >
-              {{ t("header.companyIntro") }}
-            </a>
-            <ul class="dropdown-menu">
-              <li>
-                <a class="dropdown-item" :href="`/${locale}/company`">{{
-                  t("company.title")
-                }}</a>
-              </li>
-              <li>
-                <a class="dropdown-item" :href="`/${locale}/quality`">{{
-                  t("quality.title")
-                }}</a>
-              </li>
-              <li>
-                <a class="dropdown-item" :href="`/${locale}/cert`">{{
-                  t("cert.title")
-                }}</a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-item d-none d-lg-block">
-            <a class="nav-link" :href="`/${locale}/company`">{{ t("header.companyIntro") }}</a>
-          </li>
-          <li class="nav-item d-none d-lg-block">
-            <a class="nav-link" :href="`/${locale}/product`">{{ t("header.product") }}</a>
+          <li class="nav-item">
+            <a class="nav-link" :href="`/${locale}/company`">關於孚瑞</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" :href="`/${locale}/spec`">{{ t("header.productSpec") }}</a>
+            <a class="nav-link" :href="`/${locale}/material`">材質介紹</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" :href="`/${locale}/tech`">{{
-              t("header.techEquipment")
-            }}</a>
+            <a class="nav-link" :href="`/${locale}/product`">產品介紹</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" :href="`/${locale}/article`">{{
-              t("header.sustainability")
-            }}</a>
+            <a class="nav-link" :href="`/${locale}/tech`">製程檢測</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" :href="`/${locale}/contact`">{{
-              t("header.contact")
-            }}</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" :href="`/${locale}/recurit`">{{
-              t("header.recruitment")
-            }}</a>
-          </li>
-
-          <li class="nav-item ask_price">
-            <a class="nav-link" :href="`/${locale}/contact`">
-              <span class="material-icons">&#xea20;</span>
-              <span>{{ t("header.askingPrice") }}</span>
-              <div class="bg-danger header-notify">{{ cartItem.length }}</div>
-            </a>
+            <a class="nav-link" :href="`/${locale}/service`">服務</a>
           </li>
           <li class="nav-item language_switch dropdown">
             <div
@@ -95,7 +47,7 @@
               <li>
                 <a class="dropdown-item" href="#">
                   <span class="material-icons">&#xE894;</span>
-                  <span>Language</span>
+                  <span>{{ localeOptions.find(opt => opt.lang === locale)?.name || 'Language' }}</span>
                 </a>
               </li>
               <li
@@ -119,7 +71,6 @@
 
 <script>
 import { useI18n } from "vue-i18n";
-import cartService from "@/service/cart-service.js";
 import { ref, onMounted, computed } from "vue";
 import { useRouter, useRoute } from "vue-router";
 
@@ -127,7 +78,6 @@ export default {
   name: "Header",
   setup() {
     const { t, locale } = useI18n();
-    const cartItem = ref([]);
     const route = useRoute();
     const router = useRouter();
 
@@ -207,10 +157,6 @@ export default {
       window.location.href = newPath;
     };
 
-    const getCart = () => {
-      cartItem.value = cartService.getCart();
-    };
-
     onMounted(() => {
       const urlLocale = route.params.locale;
       const storedLocale = localStorage.getItem("locale");
@@ -222,10 +168,6 @@ export default {
       } else if (!urlLocale && storedLocale) {
         locale.value = storedLocale;
       }
-
-      setInterval(() => {
-        getCart();
-      }, 500);
     });
 
     return {
@@ -234,7 +176,6 @@ export default {
       setLocale,
       urlSetLocale,
       localeOptions,
-      cartItem,
       isHome,
     };
   },
