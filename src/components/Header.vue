@@ -40,16 +40,10 @@
               aria-expanded="false"
             >
               <span class="material-icons">&#xE894;</span>
-              <span class="lang_switch_text">Language</span>
+              <span class="lang_switch_text">{{ localeOptions.find(opt => opt.lang === locale)?.name || 'Language' }}</span>
             </div>
 
             <ul class="dropdown-menu">
-              <li>
-                <a class="dropdown-item" href="#">
-                  <span class="material-icons">&#xE894;</span>
-                  <span>{{ localeOptions.find(opt => opt.lang === locale)?.name || 'Language' }}</span>
-                </a>
-              </li>
               <li
                 v-for="(lOption, lOptionIndex) in localeOptions"
                 :key="lOptionIndex"
@@ -88,11 +82,11 @@ export default {
       },
       {
         lang: "zh_TW",
-        name: "繁體中文",
+        name: "繁中",
       },
       {
         lang: "zh_CN",
-        name: "簡體中文",
+        name: "簡中",
       },
     ]);
 
