@@ -348,23 +348,29 @@ header {
 }
 
 footer {
-    background: rgb(189, 189, 189);
-    background: linear-gradient(166deg, rgba(189, 189, 189, 1) 0%, rgba(211, 211, 211, 1) 100%);
+    background: linear-gradient(to bottom, #BE1E2D, #840D19);
     padding: 20px 0 0 0;
-
-    @media (max-width: 991px) {
-        height: 600px;
-        max-height: fit-content;
-    }
+    height: 420px;
+    color: #fff;
+    overflow-y: hidden;
 
     img.logo {
         width: 85%;
-        float: right;
+    }
+
+    .left-point{
+        position: relative;
+        bottom: -300px;
+        left: 20px;
+    }
+
+    .right-point{
+        position: relative;
+        left: -0px;
     }
 
     .company_info {
-
-        margin-top: 1em;
+        margin: 120px 0 0px 0;
 
         .h5 {
             font-weight: 700;
@@ -383,98 +389,50 @@ footer {
         }
     }
 
-    .address {
-        margin: 10px 0 20px -80px;
-        line-height: 18px;
-        padding-left: 10px;
+    .contact {
         font-size: 16px;
-        border-left: 2px solid #666;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin-bottom: 1em;
 
         p {
+            border-left: 2px solid #fff;
             margin-bottom: 10px;
+            margin-left: 20px;
+            padding-left: 20px;
+            line-height: 30px;
         }
 
         .material-icons {
             font-size: 14px;
             margin-right: 5px;
         }
-
-        @media (max-width: 1400px) {
-            margin: 10px 0 20px -20px;
-        }
-
-        @media (max-width: 992px) {
-            padding-left: 0px;
-            margin: 0 0 0 20px;
-            border-left: none;
-            height: 120px;
-            padding-top: 10px;
-        }
-
     }
 
-    .copyright {
-        background-color: #BE1E2D;
-        width: 100%;
-        text-align: right;
-        font-size: 10pt;
-        line-height: 40px;
-    }
+    .slogan{
+        margin: 140px 0 0 0;
+        padding-left: 50px;
+        h4 {
+            font-family: "Myriad Pro Bold", "Myriad Pro", sans-serif;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 1.4;
+            text-transform: uppercase;
 
-    .group_logo {
-        margin-top: -60px;
-        text-align: right;
-        z-index: 1;
-
-        @media (max-width: 991px) {
-            margin: 0px 0 20px 10px;
-            text-align: left;
-        }
-
-        img {
-            height: 40px;
-            padding: 0 10px;
-
-            @media (max-width: 991px) {
-                height: 25px;
+            span{
+                color: yellow;
+                font-weight: 700;
             }
         }
-    }
 
-    .social_link {
-        text-align: right;
-
-        img {
-            width: 30px;
-            margin: 5px 5px 20px 5px;
-        }
-
-        @media (max-width: 991px) {
-            margin-top: 0px;
-            margin-left: 15px;
-            text-align: left;
-        }
-
-        &:first-child {
-            img {
-                width: 50px;
-            }
+        span.copyright {
+            transform: translateY(-10px);
+            font-size: 14px;
+            color: #fff;
         }
     }
 
-    #footer_right_shape {
-        position: absolute;
-        height: 300px;
-        width: 300px;
-        opacity: 0.2;
-        z-index: 0;
-        right: 0;
-        transform: translateY(-260px);
-        background-image: url('../assets/img/right_side_triangle.webp');
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: right bottom;
-    }
 }
 
 main {
