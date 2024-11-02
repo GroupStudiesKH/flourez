@@ -732,96 +732,52 @@ main {
             }
         }
 
-        #csr_green {
-            background-image: url('../assets/img/csr_factory.png');
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center center;
+        #csr_red {
+            position: relative;
             width: 100%;
             left: 0;
-            height: 750px;
-            margin-top: 50px;
-            padding-top: 50px;
+            padding: 70px 0;
+            background-color: #EAEAEA;
+            .container{
+                background: linear-gradient(to bottom, #BE1E2D, #840D19);
+                color: #fff;
+                padding: 0;
+                img{
+                    width: 100%;
+                }
+                a{
+                    color: #fff;
+                }
+            }
 
             h3 {
-                font-weight: 800;
-                font-size: 40px;
-                color: #eeff41;
-                letter-spacing: 2px;
-                margin-top: 20px;
+                font-size: 46px;
+                color: #fff;
+                margin-top: 70px;
             }
 
-            @media (max-width: 768px) {
-                background-position: center left;
-                height: 550px;
+            p{
+                font-size: 22px;
+            }
 
-                h3 {
-                    font-size: 30px;
-                }
+            a{
+                font-size: 26px;
             }
 
 
-
-            ul {
-                list-style-type: none;
-                padding-left: 0;
-
-                li {
-                    position: relative;
-                    margin-left: -20px;
-                    margin-bottom: 10px;
-                    font-weight: 700;
-                    font-size: 21px;
-
-                    img {
-                        width: 20px;
-                    }
-
-                    @media (max-width: 768px) {
-                        margin-left: 0px;
-                        font-size: 15px;
-                    }
-                }
-            }
         }
 
 
         #iso_quality {
-            padding: 100px 0 0 0;
-            margin-bottom: 300px;
-            font-size: 20px;
+            padding: 50px 0;
 
-            @media(max-width: 991px) {
-                margin-bottom: 150px;
-
-            }
-
-            h3 {
-                color: #BE1E2D;
+            img{
+                width: 100%;
             }
 
             .container {
                 z-index: 1;
                 position: relative;
-            }
-
-            #index_left_shape {
-                position: absolute;
-                height: 900px;
-                width: 300px;
-                opacity: 0.7;
-                z-index: 0;
-                background-image: url('../assets/img/home_left_bottom_shape.png');
-                background-repeat: no-repeat;
-                background-size: contain;
-                background-position: left bottom;
-                transform: translateY(-500px);
-
-                @media (max-width: 768px) {
-                    transform: translateY(-543px);
-                    height: 600px;
-                    width: 200px;
-                }
             }
         }
     }

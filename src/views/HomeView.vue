@@ -76,7 +76,7 @@ export default {
           </div>
         </div>
       </div>
-      <button
+      <!-- <button
         class="carousel-control-prev"
         type="button"
         data-bs-target="#bannerCarousel"
@@ -93,7 +93,7 @@ export default {
       >
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
-      </button>
+      </button> -->
     </div>
 
     <div id="company_info">
@@ -148,30 +148,14 @@ export default {
       </div>
     </div>
 
-    <div id="csr_green">
+    <div id="csr_red">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-xl-6 pt-lg-5">
-            <img src="/assets/img/euro_logo.webp" />
-            <h3>{{ t("index.feature5.title") }}</h3>
-            <ul class="mt-lg-4">
-              <li>
-                <img src="/assets/img/check.webp" />
-                {{ t("index.feature5.content_1") }}
-              </li>
-              <li>
-                <img src="/assets/img/check.webp" />
-                {{ t("index.feature5.content_2") }}
-              </li>
-              <li>
-                <img src="/assets/img/check.webp" />
-                {{ t("index.feature5.content_3") }}
-              </li>
-              <li>
-                <img src="/assets/img/check.webp" />
-                {{ t("index.feature5.content_4") }}
-              </li>
-            </ul>
+          <div class="col-7"><img src="/assets/img/home_bottom.webp" /></div>
+          <div class="col-5">
+            <h3 v-html="t('index.feature5.title')"></h3>
+            <p>{{ t("index.feature5.content") }}</p>
+            <a href="#">{{ t("index.feature5.readmore") }}</a>
           </div>
         </div>
       </div>
@@ -181,15 +165,10 @@ export default {
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <h3>{{ t("index.feature6.title") }}</h3>
-            <p>{{ t("index.feature6.content_1") }}</p>
-            <a :href="`/${locale}/quality`" class="pill_button mt-5">
-              {{ t("index.feature6.btn") }}
-            </a>
+            <img src="/assets/img/home_iso.png">
           </div>
         </div>
       </div>
-      <div id="index_left_shape"></div>
     </div>
   </main>
   <Footer />
