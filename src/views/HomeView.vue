@@ -44,18 +44,34 @@ export default {
     <div id="bannerCarousel" class="carousel slide">
       <div class="carousel-inner banner">
         <div class="carousel-item active">
-          <div style="background-image: url('/assets/img/home_banner.png')" class="banner-content">
+          <div
+            style="background-image: url('/assets/img/home_banner.png')"
+            class="banner-content"
+          >
             <div class="container">
               <h1>Discover Fluorez Technology</h1>
-              <p>A global leader in FFKM sealing solutions trusted by international industrial organizations. Our mission is simple: deliver cost-effective, durable solutions tailored to your specific needs. Experience excellence with Fluorez Technology</p>
+              <p>
+                A global leader in FFKM sealing solutions trusted by
+                international industrial organizations. Our mission is simple:
+                deliver cost-effective, durable solutions tailored to your
+                specific needs. Experience excellence with Fluorez Technology
+              </p>
             </div>
           </div>
         </div>
         <div class="carousel-item">
-          <div style="background-image: url('/assets/img/home_banner.png')" class="banner-content">
+          <div
+            style="background-image: url('/assets/img/home_banner.png')"
+            class="banner-content"
+          >
             <div class="container">
               <h1>Discover Fluorez Technology</h1>
-              <p>A global leader in FFKM sealing solutions trusted by international industrial organizations. Our mission is simple: deliver cost-effective, durable solutions tailored to your specific needs. Experience excellence with Fluorez Technology</p>
+              <p>
+                A global leader in FFKM sealing solutions trusted by
+                international industrial organizations. Our mission is simple:
+                deliver cost-effective, durable solutions tailored to your
+                specific needs. Experience excellence with Fluorez Technology
+              </p>
             </div>
           </div>
         </div>
@@ -81,12 +97,14 @@ export default {
     </div>
 
     <div id="company_info">
-      <div class="row">
-        <div class="col-md-6 col-lg-6 col-12" id="company_pic">
-          <img src="/assets/img/index_intro.png" alt="" />
-        </div>
-        <div class="col-md-6 col-lg-6 col-12" id="company_intro">
-          <p v-html="$t('index.intro')"></p>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-6 col-12" id="company_pic">
+            <img src="/assets/img/index_intro.png" alt="" />
+          </div>
+          <div class="col-md-6 col-lg-6 col-12" id="company_intro">
+            <p v-html="$t('index.intro')"></p>
+          </div>
         </div>
       </div>
 
@@ -96,24 +114,36 @@ export default {
     <div class="container" :class="isIntroScolled ? `scrolled` : ``" id="intro">
       <div class="row">
         <div class="col-6 col-md-3 badge">
+          <div class="heading">
+            <h3>氟化橡膠</h3>
+            <span>Fluoroelastomers, FKM</span>
+          </div>
           <img src="/assets/img/home_section1.webp" alt="" />
-          <h3 v-html="t('index.feature1')" v-if="locale != 'eng'"></h3>
-          <p class="h5" v-html="t('index.feature1_subtitle')"></p>
+          <p v-html="t('index.feature1_subtitle')"></p>
         </div>
         <div class="col-6 col-md-3 badge">
+          <div class="heading">
+            <h3>全氟橡膠</h3>
+            <span>Fluoroelastomers, FKM</span>
+          </div>
           <img src="/assets/img/home_section2.webp" alt="" />
-          <h3 v-html="t('index.feature2')" v-if="locale != 'eng'"></h3>
-          <p class="h5" v-html="t('index.feature2_subtitle')"></p>
+          <p v-html="t('index.feature2_subtitle')"></p>
         </div>
         <div class="col-6 col-md-3 badge">
+          <div class="heading">
+            <h3>全氟化液</h3>
+            <span>Perfluorinated liquids</span>
+          </div>
           <img src="/assets/img/home_section3.webp" alt="" />
-          <h3 v-html="t('index.feature3')" v-if="locale != 'eng'"></h3>
-          <p class="h5" v-html="t('index.feature3_subtitle')"></p>
+          <p v-html="t('index.feature3_subtitle')"></p>
         </div>
         <div class="col-6 col-md-3 badge">
+          <div class="heading">
+            <h3>特殊氟橡膠</h3>
+            <span>PTFE micropowders</span>
+          </div>
           <img src="/assets/img/home_section4.webp" alt="" />
-          <h3 v-html="t('index.feature4')" v-if="locale != 'eng'"></h3>
-          <p class="h5" v-html="t('index.feature4_subtitle')"></p>
+          <p v-html="t('index.feature4_subtitle')"></p>
         </div>
       </div>
     </div>
@@ -122,24 +152,24 @@ export default {
       <div class="container">
         <div class="row">
           <div class="col-12 col-xl-6 pt-lg-5">
-            <img src="/assets/img/euro_logo.webp">
-            <h3>{{ t('index.feature5.title') }}</h3>
+            <img src="/assets/img/euro_logo.webp" />
+            <h3>{{ t("index.feature5.title") }}</h3>
             <ul class="mt-lg-4">
               <li>
-                <img src="/assets/img/check.webp">
-                {{ t('index.feature5.content_1') }}
+                <img src="/assets/img/check.webp" />
+                {{ t("index.feature5.content_1") }}
               </li>
               <li>
-                <img src="/assets/img/check.webp">
-                {{ t('index.feature5.content_2') }}
+                <img src="/assets/img/check.webp" />
+                {{ t("index.feature5.content_2") }}
               </li>
               <li>
-                <img src="/assets/img/check.webp">
-                {{ t('index.feature5.content_3') }}
+                <img src="/assets/img/check.webp" />
+                {{ t("index.feature5.content_3") }}
               </li>
               <li>
-                <img src="/assets/img/check.webp">
-                {{ t('index.feature5.content_4') }}
+                <img src="/assets/img/check.webp" />
+                {{ t("index.feature5.content_4") }}
               </li>
             </ul>
           </div>
@@ -151,10 +181,10 @@ export default {
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <h3>{{ t('index.feature6.title') }}</h3>
-            <p>{{ t('index.feature6.content_1') }}</p>
+            <h3>{{ t("index.feature6.title") }}</h3>
+            <p>{{ t("index.feature6.content_1") }}</p>
             <a :href="`/${locale}/quality`" class="pill_button mt-5">
-              {{ t('index.feature6.btn') }}
+              {{ t("index.feature6.btn") }}
             </a>
           </div>
         </div>

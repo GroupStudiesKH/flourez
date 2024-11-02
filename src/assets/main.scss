@@ -9,6 +9,7 @@ body {
     font-family: 'Noto Sans TC', 'Noto Sans SC', '微軟正黑體', sans-serif !important;
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
 }
 
 a {
@@ -581,21 +582,33 @@ main {
                 color: #696969;
                 opacity: 0;
                 margin-top: 100px;
+                text-align: left;
 
-                h3 {
-                    font-weight: 400;
+                .heading{
+                    border-left: 5px solid #BE1E2D;
+                    padding-left: 10px;
+
+                    h3{
+                        font-weight: 600;
+                        color: #393434;
+                    }
+
+                    span{
+                        color: #393434;
+                    }
                 }
 
                 p {
-                    font-weight: 300;
                     word-break: break-word;
                     white-space: normal;
                     overflow-wrap: break-word;
+                    font-size: 16px;
+                    line-height: 23px;
                 }
 
                 img {
                     width: 100%;
-                    max-width: 200px;
+                    // max-width: 200px;
                     margin: 20px 0;
                 }
 
@@ -656,38 +669,8 @@ main {
                 text-align: right;
 
                 img {
-                    height: 300px;
+                    width: 100%;
                     margin: 130px 30px 0 0;
-                }
-
-                @media (max-width: 1280px) {
-                    height: 500px;
-                    padding: 0;
-
-                    img {
-                        height: 380px;
-                        margin: 80px 0px 0 0;
-                    }
-                }
-
-                @media (max-width: 1200px) {
-                    height: 450px;
-                    padding: 0;
-
-                    img {
-                        height: 300px;
-                        margin: 80px 0px 0 0;
-                    }
-                }
-
-                @media (max-width: 992px) {
-                    height: 400px;
-                    padding: 0;
-
-                    img {
-                        height: 250px;
-                        margin: 80px 0px 0 0;
-                    }
                 }
 
                 @media (max-width: 768px) {
@@ -720,15 +703,6 @@ main {
                     line-height: 30px;
                     font-size: 14pt;
                     font-weight: 300;
-                }
-
-                @media (max-width: 1200px) {
-                    margin: 30px auto;
-
-                    p {
-                        line-height: 25px;
-                        font-size: 12pt;
-                    }
                 }
 
                 @media (max-width: 768px) {
