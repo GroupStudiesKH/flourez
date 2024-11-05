@@ -121,8 +121,8 @@ header {
 
             @media (max-width: 991px) {
                 position: absolute;
-                height: 100px;
-                width: 100px;
+                height: 140px;
+                width: 140px;
                 margin-top: 0px;
                 top: 0;
                 display: flex;
@@ -537,22 +537,17 @@ main {
 
             @media (max-width: 991px) {
 
-                height: 567px;
+                height: 226px;
 
 
                 .container {
+                    padding: 80px 0 0 20px;
 
                     h1 {
-                        width: 100%;
-                        padding: 0 40px;
-                        font-size: 28px;
+                        width: 50%; 
+                        font-size: 32px;
                     }
 
-                    p {
-                        width: 100%;
-                        padding: 0 40px;
-                        font-size: 22px;
-                    }
                 }
             }
         }
