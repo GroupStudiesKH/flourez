@@ -74,30 +74,27 @@ header {
 
     &.navbar {
         height: 152px;
-        .navbar-toggler {
-            border: 1px solid #ccc;
+
+        @media(max-width: 991px) {
+            height: 80px;
         }
 
         .navbar-toggler-icon {
             width: 1em;
             height: 1em;
-            filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+            filter: invert(21%) sepia(0%) saturate(0%) hue-rotate(153deg) brightness(98%) contrast(92%);
+        }
+
+        .navbar-toggler{
+            border: none;
+            &:focus {
+                outline: none;
+                box-shadow: none;
+            }
         }
 
         .container {
             height: auto;
-
-            @media(min-width: 768px) and (max-width: 992px) {
-                height: 100px;
-            }
-
-            @media(max-width: 768px) and (min-width: 576px) {
-                height: 115px;
-            }
-
-            @media(max-width: 576px) {
-                height: 80px;
-            }
 
         }
 
@@ -116,16 +113,26 @@ header {
                 padding: 10px 0;
             }
 
-            @media (max-width: 576px) {
-                position: relative;
-                height: 60px;
-                width: auto;
-                margin: 0 auto 0 auto;
-                transform: translateX(20px);
+            @media (max-width: 1400px) {
+                height: 200px;
+                width: 200px;
+                margin-top: 40px;
+            }
 
+            @media (max-width: 991px) {
+                position: absolute;
+                height: 100px;
+                width: 100px;
+                margin-top: 0px;
+                top: 0;
+                display: flex;
+                justify-content: center;
+                background: linear-gradient(to bottom, #BE1E2D, #840D19);
+    
                 img {
-                    height: 60px;
-                    width: auto;
+                    width: 160px;
+                    object-fit: contain;
+                    padding: 10px 0;
                 }
             }
         }
@@ -136,7 +143,6 @@ header {
             transition: all 0.3s ease;
 
             .navbar-nav {
-                margin-left: 300px;
                 &.eng {
                     @media (min-width: 991px) {
                         font-size: 10pt;
@@ -166,56 +172,16 @@ header {
                         border-right: 1.5px solid #000;
                         padding: 0px 30px;
                         transition: color 0.2s ease;
+
+                        @media (max-width: 1400px) {
+                            padding: 0px 20px;
+                        }
                     }
 
                     &:hover:not(:last-child) {
                         border-bottom: 5px solid #BE1E2D;
                     }
 
-                    .header-notify {
-                        border-radius: 50%;
-                        width: 20px;
-                        height: 20px;
-                        color: #fff;
-                        font-size: 15px;
-                        line-height: 20px;
-                        font-weight: 600;
-                        display: inline-block;
-                        text-align: center;
-                        margin-left: 5px;
-                        transition: all 0.2s ease;
-
-                        @media (max-width: 1366px) {
-                            position: absolute;
-                        }
-                    }
-
-                    &.ask_price {
-                        border: 1px solid #fff !important;
-                        border-radius: 10px;
-                        font-size: 12pt;
-                        line-height: 12pt;
-                        width: 115px !important;
-                        transition: all 0.2s ease;
-
-                        .material-icons {
-                            font-size: 20px;
-                            vertical-align: text-top;
-                            margin-right: 5px;
-                            transition: transform 0.2s ease;
-                        }
-
-                        &:hover .material-icons {
-                            transform: scale(1.1);
-                        }
-
-                        @media (max-width: 992px) {
-                            border: none;
-                            font-size: 14pt;
-                            line-height: 16px;
-                            margin: 10px 0px;
-                        }
-                    }
                 }
 
                 .nav-item:nth-child(n+5) .nav-link,
@@ -224,12 +190,22 @@ header {
                 }
             }
 
-            @media (max-width: 992px) {
+            @media (max-width: 1400px) {
+                font-size: 23px;
+            }
+
+            @media (max-width: 991px) {
                 box-shadow: 0px 10px 10px #666;
                 background-color: #fff;
                 z-index: 99;
                 transform: translateY(0);
                 opacity: 1;
+                position: fixed;
+                top: 80px;
+                z-index: 99;
+                width: 90%;
+                left: 5%;
+                font-size: 20px;
 
                 &.collapsing {
                     transform: translateY(-10px);
@@ -237,6 +213,7 @@ header {
                 }
 
                 .navbar-nav {
+                    
                     .nav-item {
                         .nav-link {
                             border: none;

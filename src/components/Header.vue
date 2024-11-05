@@ -4,10 +4,10 @@
       <a class="navbar-brand" :href="'/' + locale">
         <img src="/assets/img/logo.svg" alt="" />
       </a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
+      <button 
+        class="navbar-toggler ms-auto" 
+        type="button" 
+        data-bs-toggle="collapse" 
         data-bs-target="#navbarNav"
         aria-controls="navbarNav"
         aria-expanded="false"
