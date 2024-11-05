@@ -141,6 +141,7 @@ header {
             font-size: 28px;
             color: #000;
             transition: all 0.3s ease;
+            flex-direction: row-reverse;
 
             .navbar-nav {
                 &.eng {
@@ -333,26 +334,48 @@ footer {
 
     img.logo {
         width: 85%;
+        max-width: 300px;
+        margin: 0 0 20px 0;
     }
 
-    .left-point{
-        position: relative;
-        bottom: -300px;
-        left: 20px;
+    @media (max-width: 991px) {
+        height: 75px;
+        padding: 0;
+
     }
 
-    .right-point{
-        position: relative;
-        left: -0px;
+    #footer-point{
+        margin-top: -280px;
+        height: 420px;
+
+        .left-point{
+            position: relative;
+            bottom: -300px;
+            left: 0px;
+        }
+    
+        .right-point{
+            position: relative;
+            right: 0px;
+            float: right;
+        }
+
+
+        @media (max-width: 1200px) {
+            display: none;
+        }
     }
 
     .company_info {
-        margin: 120px 0 0px 0;
+        margin: 100px 0 0px 0;
 
         .h5 {
             font-weight: 700;
         }
 
+        h3{
+            font-size: 32px;
+        }
 
         .h6 {
             text-transform: uppercase;
@@ -363,7 +386,22 @@ footer {
 
         @media (max-width: 992px) {
             margin-top: 10px;
+            h3{
+                font-size: 13px;
+                width: 100%;
+                text-align: left;
+                padding-left: 50px;
+                float: left;
+            }
+
+            img{
+                margin: 0;
+                float: left;
+                height: 30px;
+                width: auto;
+            }
         }
+
     }
 
     .contact {
@@ -371,12 +409,12 @@ footer {
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
-        margin-bottom: 1em;
+        margin-bottom: 2em;
 
         p {
             border-left: 2px solid #fff;
             margin-bottom: 10px;
-            margin-left: 20px;
+            margin-left: 0px;
             padding-left: 20px;
             line-height: 30px;
         }
@@ -388,12 +426,12 @@ footer {
     }
 
     .slogan{
-        margin: 140px 0 0 0;
-        padding-left: 50px;
+        margin: 130px 0 0 0;
+        padding-left: 0px;
         h4 {
             font-family: "Myriad Pro Bold", "Myriad Pro", sans-serif;
             font-weight: 700;
-            font-size: 24px;
+            font-size: 23px;
             line-height: 1.4;
             text-transform: uppercase;
 
@@ -408,6 +446,15 @@ footer {
             font-size: 14px;
             color: #fff;
         }
+
+        @media (max-width: 992px) {
+            margin-top: 20px;
+            h4 {
+                font-size: 14px;
+                text-align: right;
+            }
+        }
+
     }
 
 }
