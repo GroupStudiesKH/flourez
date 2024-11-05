@@ -99,10 +99,10 @@ export default {
     <div id="company_info">
       <div class="container">
         <div class="row">
-          <div class="col-md-6 col-lg-6 col-12" id="company_pic">
+          <div class="col-lg-6 col-12" id="company_pic">
             <img src="/assets/img/index_intro.png" alt="" />
           </div>
-          <div class="col-md-6 col-lg-6 col-12" id="company_intro">
+          <div class="col-lg-6 col-12" id="company_intro">
             <p v-html="$t('index.intro')"></p>
           </div>
         </div>
