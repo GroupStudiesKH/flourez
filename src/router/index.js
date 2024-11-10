@@ -37,6 +37,11 @@ const router = createRouter({
       path: "/:locale(eng|zh_TW|zh_CN)?/product/fkm",
       name: "ProductFKM",
       component: () => import("../views/ProductFKMView.vue"),
+    },
+    {
+      path: "/:locale(eng|zh_TW|zh_CN)?/product/specfkm",
+      name: "ProductSpecFKM",
+      component: () => import("../views/ProductSpecFKMView.vue"),
     }
   ],
   scrollBehavior(to, from, savedPosition) {
