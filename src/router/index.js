@@ -12,6 +12,11 @@ const router = createRouter({
       path: "/:locale(eng|zh_TW|zh_CN)?/about",
       name: "about",
       component: () => import("../views/AboutView.vue"),
+    },
+    {
+      path: "/:locale(eng|zh_TW|zh_CN)?/material",
+      name: "material",
+      component: () => import("../views/MaterialView.vue"),
     }
   ],
   scrollBehavior(to, from, savedPosition) {

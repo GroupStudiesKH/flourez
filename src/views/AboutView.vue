@@ -59,20 +59,20 @@ export default {
 
       <div class="container" id="badge_area">
         <div class="row">
-          <div class="col-12 col-md-4 badge">
+          <div class="col-6 col-md-4 badge">
             <div class="outline" style="margin-right: 20px">
               <img src="/assets/img/company-professional.png" alt="" />
               <h4>PROFESSIONAL</h4>
             </div>
           </div>
-          <div class="col-12 col-md-4 badge">
+          <div class="col-6 col-md-4 badge">
             <div class="outline" style="margin: 0 20px">
               <img src="/assets/img/company-bestquality.png" alt="" />
 
               <h4>BEST QUALITY</h4>
             </div>
           </div>
-          <div class="col-12 col-md-4 badge">
+          <div class="col-6 col-md-4 badge">
             <div class="outline" style="margin-left: 20px">
               <img src="/assets/img/company-customer-service.png" alt="" />
 
