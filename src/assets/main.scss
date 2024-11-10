@@ -906,7 +906,40 @@ main {
             background-position: center center;
         }
 
+        .company_card{
+            .card{
+                border: 1px solid #333;
+                border-radius: 25px;
+                background-color: #fff;
+                text-align: left;
+                color: #393434;
+                font-family: "Myriad Pro Bold", "Myriad Pro", sans-serif;
+                margin: 80px auto;
+                padding: 0px 20px 50px 20px;
 
+                h4{
+                    font-size: 40px;
+                    font-weight: 600;
+                    line-height: 50px;
+                    margin: 50px 0 20px 0;
+
+                    img{
+                        margin-top: -10px;
+                        padding-right: 20px;
+                    }
+                }
+
+                p{
+                    font-size: 22px;
+                    line-height: 40px;
+                }
+
+                table thead.table-danger{
+                    --bs-table-bg: #BE1E2D;
+                    --bs-table-color: #fff;
+                }
+            }
+        }
 
         .clickable-image {
             cursor: pointer;
