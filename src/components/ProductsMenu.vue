@@ -5,7 +5,7 @@
             <a href="ffkm">
                 <div class="outline">
                     <img src="/assets/img/ffkm.png" alt="" />
-                    <h4>{{ t('product.ffkm') }}</h4>
+                    <h4>{{ t('product.ffkm.title') }}</h4>
                 </div>
             </a>
             </div>
@@ -13,7 +13,7 @@
             <a href="fkm">
                 <div class="outline" style="margin: 0 10px 0 0">
                     <img src="/assets/img/fkm.png" alt="" />
-                    <h4>{{ t('product.fkm') }}</h4>
+                    <h4>{{ t('product.fkm.title') }}</h4>
                 </div>
             </a>
             </div>
@@ -21,7 +21,7 @@
             <a href="specfkm">
                 <div class="outline" style="margin: 0 10px 0 0">
                     <img src="/assets/img/spec_fkm.png" alt="" />
-                    <h4>{{ t('product.specfkm') }}</h4>
+                    <h4>{{ t('product.specFkm.title') }}</h4>
                 </div>
             </a>
             </div>
@@ -29,7 +29,7 @@
             <a href="pfls">
                 <div class="outline" style="margin: 0 0 0 5px">
                     <img src="/assets/img/pfls.png" alt="" />
-                    <h4>{{ t('product.pfls') }}</h4>
+                    <h4>{{ t('product.pfls.title') }}</h4>
                 </div>
             </a>
             </div>
