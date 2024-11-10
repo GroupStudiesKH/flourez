@@ -42,28 +42,28 @@ export default {
           <div class="col-6 col-md-4 badge">
             <div class="outline" style="margin-right: 20px">
               <img src="/assets/img/ffkm.png" alt="" />
-              <h4>{{ t('product.ffkm') }}</h4>
+              <h4>{{ t('product.ffkm.title') }}</h4>
             </div>
           </div>
           <div class="col-6 col-md-4 badge">
             <div class="outline" style="margin: 0 20px">
               <img src="/assets/img/fkm.png" alt="" />
 
-              <h4>{{ t('product.fkm') }}</h4>
+              <h4>{{ t('product.fkm.title') }}</h4>
             </div>
           </div>
           <div class="col-6 col-md-4 badge">
             <div class="outline" style="margin-left: 20px">
               <img src="/assets/img/pfls.png" alt="" />
 
-              <h4>{{ t('product.pfls') }}</h4>
+              <h4>{{ t('product.pfls.title') }}</h4>
             </div>
           </div>
         </div>
       </div>
 
       <div class="container text-section">
-        <h4>{{ t('product.ffkm') }}</h4>
+        <h4>{{ t('product.ffkm.title') }}</h4>
         <div class="row application">
           <div class="col-6 p-4">
             <img src="/assets/img/hpi-cpi-applications.webp" />
@@ -95,7 +95,7 @@ export default {
       </div>
 
       <div class="container text-section" id="fkm_section">
-        <h4>{{ t('product.fkm') }}</h4>
+        <h4>{{ t('product.fkm.title') }}</h4>
         <p>{{ t('material.fkmIntro') }}</p>
         <p><strong>{{ t('material.fkmFeatureTitle1') }}：</strong></p>
         <ul>
@@ -133,7 +133,7 @@ export default {
       </div>
 
       <div class="container text-section">
-        <h4>{{ t('product.pfls') }}</h4>
+        <h4>{{ t('product.pfls.title') }}</h4>
         <p>{{ t('material.pflsIntro') }}</p>
         <ul>
           <li>{{ t('material.pflsFeature1') }}</li>
