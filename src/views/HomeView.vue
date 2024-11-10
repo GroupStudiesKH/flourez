@@ -15,18 +15,9 @@ export default {
     const isIntroScolled = ref(false);
     const { t, locale } = useI18n();
 
-    const handleScroll = () => {
-      const targetDiv = document.getElementById("intro");
-      const rect = targetDiv.getBoundingClientRect();
 
-      if (rect.top >= 0 && rect.bottom <= window.innerHeight) {
-        isIntroScolled.value = true;
-      }
-    };
 
-    onMounted(() => {
-      window.addEventListener("scroll", handleScroll);
-    });
+
 
     return {
       isIntroScolled,

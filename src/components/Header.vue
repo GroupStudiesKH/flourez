@@ -27,7 +27,7 @@
             <a class="nav-link" :href="`/${locale}/product`">產品介紹</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" :href="`/${locale}/tech`">製程檢測</a>
+            <a class="nav-link" :href="`/${locale}/lab`">製程檢測</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" :href="`/${locale}/service`">服務</a>
