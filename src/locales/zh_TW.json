@@ -253,7 +253,48 @@
       "conclusion": "相類似的產品在市面上多被過度包裝並與全氟橡膠(FFKM)進行比較，這樣的比較事實上是沒有意義的。因為密封件的材質選擇，不單單只看使用環境，很多時候，使用壽命也是一個重要的選擇要點。無論是哪一種氟橡膠產品，都有他擅長表現的環境狀態與相對應的疲態。全氟橡膠在潔淨度，使用壽命，耐溫耐化上，依然有其不可取代性。選擇上，我們多建議客戶與製造方多討論，必要的測試經常比書面文字更有效率。唯有將合適的材質應用在合適的應用範圍，方能在經濟考量上與期待的使用狀態上取得平衡。如果有其他特殊成品項目，歡迎與我們聯繫。"
     },
     "pfls": {
-      "title": "電子氟化液"
+      "title": "PFLs 電子氟化液",
+      "intro": "電子氟化液為一種無色透明、無味、無毒性且具熱穩定的全氟化液體，可滿足各種熱傳導、製造和測試應用的需求。電子氟化液具有極佳的熱和化學的穩定性、可以與活性材料如金屬、塑膠和彈性體相相容。電子氟化液依其沸點不同適合於半導體製造工業中許多單相熱傳導應用與電子業封裝洩漏測試。工作溫度範圍廣，適用於蝕刻機、離子注入機、測試設備等諸設備上的熱傳導應用。",
+
+      "table1": {
+        "header": "電子氟化液(PFLs)",
+        "test": "測試",
+        "solventTest": "溶劑測試",
+        "testLiquid": "測試液 (Bubble Tank)",
+        "tempShockTest": "溫度電擊試驗",
+        "lowTemp": "低溫側",
+        "highTemp": "高溫側",
+        "humidityTest": "濕度阻燃/度力測試",
+        "tempConduction": "低溫/高溫傳導等",
+        "voltageTest": "高電壓/介電質測試",
+        "liquidBath": "便道液浴"
+      },
+      "table2": {
+        "header": "產品規格",
+        "appearance": "外觀",
+        "colorless": "無色透明、無味",
+        "molecularWeight": "平均分子量",
+        "boilingPoint": "沸點 ℃",
+        "freezingPoint": "冰點 ℃", 
+        "criticalTemp": "預估臨界溫度 ℃",
+        "criticalPressure": "預估臨界壓力 Mpa",
+        "density": "密度 g/cm3",
+        "specificHeat": "在沸點下的標熱 J/g",
+        "kinematicViscosity": "動力粘度 cSt",
+        "absoluteViscosity": "絕對粘度 cP",
+        "vaporPressure": "蒸氣壓 kPa",
+        "specificHeatCapacity": "比熱 J·kg-1·℃-1",
+        "thermalCoefficient": "熱傳係數 K-1",
+        "surfaceTension": "表面張力 mN/m",
+        "dielectricStrength": "絕緣強度 KV (2.54 mm)",
+        "dielectricConstant": "絕緣常數 (1KHz)",
+        "dissipationFactor": "耗散因數 (1KHz)",
+        "resistivity": "電阻率 ohm-cm",
+        "waterSolubility": "對水的溶解度 ppm",
+        "solubilityInWater": "在水中的溶解度 ppmw",
+        "ozoneDepletion": "臭氧消耗值"
+      }
+
     }
   },
 
