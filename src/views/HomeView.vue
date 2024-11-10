@@ -15,7 +15,18 @@ export default {
     const isIntroScolled = ref(false);
     const { t, locale } = useI18n();
 
+    const handleScroll = () => {
+      const targetDiv = document.getElementById("intro");
+      const rect = targetDiv.getBoundingClientRect();
 
+      if (rect.top >= 0 && rect.bottom <= window.innerHeight) {
+        isIntroScolled.value = true;
+      }
+    };
+
+    onMounted(() => {
+      window.addEventListener("scroll", handleScroll);
+    });
 
 
 
@@ -106,7 +117,7 @@ export default {
       <div class="row">
         <div class="col-6 col-md-3 badge">
           <div class="heading">
-            <h3>氟化橡膠</h3>
+            <h3>{{ t('index.feature1_title') }}</h3>
             <span>Fluoroelastomers, FKM</span>
           </div>
           <img src="/assets/img/home_section1.webp" alt="" />
@@ -114,7 +125,7 @@ export default {
         </div>
         <div class="col-6 col-md-3 badge">
           <div class="heading">
-            <h3>全氟橡膠</h3>
+            <h3>{{ t('index.feature2_title') }}</h3>
             <span>Fluoroelastomers, FKM</span>
           </div>
           <img src="/assets/img/home_section2.webp" alt="" />
@@ -122,7 +133,7 @@ export default {
         </div>
         <div class="col-6 col-md-3 badge">
           <div class="heading">
-            <h3>全氟化液</h3>
+            <h3>{{ t('index.feature3_title') }}</h3>
             <span>Perfluorinated liquids</span>
           </div>
           <img src="/assets/img/home_section3.webp" alt="" />
@@ -130,7 +141,7 @@ export default {
         </div>
         <div class="col-6 col-md-3 badge">
           <div class="heading">
-            <h3>特殊氟橡膠</h3>
+            <h3>{{ t('index.feature4_title') }}</h3>
             <span>PTFE micropowders</span>
           </div>
           <img src="/assets/img/home_section4.webp" alt="" />

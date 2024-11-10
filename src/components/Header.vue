@@ -18,19 +18,19 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto" :class="locale">
           <li class="nav-item">
-            <a class="nav-link" :href="`/${locale}/about`">關於孚瑞</a>
+            <a class="nav-link" :href="`/${locale}/about`">{{ t('header.about') }}</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" :href="`/${locale}/material`">材質介紹</a>
+            <a class="nav-link" :href="`/${locale}/material`">{{ t('header.material') }}</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" :href="`/${locale}/product/ffkm`">產品介紹</a>
+            <a class="nav-link" :href="`/${locale}/product/ffkm`">{{ t('header.product') }}</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" :href="`/${locale}/lab`">製程檢測</a>
+            <a class="nav-link" :href="`/${locale}/lab`">{{ t('header.lab') }}</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" :href="`/${locale}/service`">服務</a>
+            <a class="nav-link" :href="`/${locale}/service`">{{ t('header.service') }}</a>
           </li>
           <li class="nav-item language_switch dropdown">
             <div
