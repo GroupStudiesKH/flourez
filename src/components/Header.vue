@@ -18,7 +18,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto" :class="locale">
           <li class="nav-item">
-            <a class="nav-link" :href="`/${locale}/company`">關於孚瑞</a>
+            <a class="nav-link" :href="`/${locale}/about`">關於孚瑞</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" :href="`/${locale}/material`">材質介紹</a>

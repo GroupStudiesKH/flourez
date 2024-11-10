@@ -9,9 +9,9 @@ const router = createRouter({
       component: () => import("../views/HomeView.vue"),
     },
     {
-      path: "/:locale(eng|zh_TW|zh_CN)?/company",
-      name: "company",
-      component: () => import("../views/CompanyView.vue"),
+      path: "/:locale(eng|zh_TW|zh_CN)?/about",
+      name: "about",
+      component: () => import("../views/AboutView.vue"),
     }
   ],
   scrollBehavior(to, from, savedPosition) {
