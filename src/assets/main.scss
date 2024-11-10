@@ -1408,4 +1408,196 @@ main {
 
     }
 
+    &#product{
+
+        .banner {
+            margin: 0 auto;
+            position: relative;
+            max-width: 100%;
+            z-index: 0;
+            background-color: #fff;
+            background-size: auto 100%;
+            background-position: center center;
+            height: 435px;
+            background-repeat: no-repeat;
+
+            @media (max-width: 1280px) {
+                height: 350px;
+            }
+
+            @media (max-width: 991px) {
+                height: 150px;
+            }
+
+        }
+
+        #product_intro {
+
+
+            p {
+                font-size: 30px;
+                color: #696969;
+                line-height: 60px;
+                font-weight: 600;
+            }
+
+            img {
+                width: 100%;
+            }
+        }
+
+        #badge_area{
+            margin: 30px auto;
+            .badge{
+                div.outline{
+                    width: 100%;
+                    border: 1px solid #ccc;
+                    border-radius: 25px;
+                    background-color: #fff;
+                    text-align: center;
+                    display: block;
+                    color: #393434;
+                    font-size: 25px;
+                    font-family: "Myriad Pro Bold", "Myriad Pro", sans-serif;
+
+
+                    img{
+                        height: 250px;
+                        object-fit: cover;
+                        width: 100%;
+                        margin: 20px 0;
+
+                        @media (max-width: 991px) {
+                            height: 50px;
+                            width: auto;
+                            float: right;
+                            margin: 5px 15px 0 0;
+                        }
+                    }
+
+                    h4{
+                        font-weight: 600;
+                        margin: 20px 0;
+
+                        @media (max-width: 991px) {
+                            font-size: 15px;
+                            text-align: left;
+                            margin-left: 15px;
+                            line-height: 20px;
+                        }
+                    }
+
+                    @media (max-width: 991px) {
+                        margin: 0 !important;
+                        border-radius: 5px;
+                    }
+                }
+            }
+        }
+
+        #ffkm_section{
+            margin: 30px auto;
+            .badge{
+                div.outline{
+                    width: 100%;
+                    border: 1px solid #ccc;
+                    border-radius: 25px;
+                    background-color: #fff;
+                    text-align: center;
+                    display: block;
+
+
+                    img{
+                        object-fit: cover;
+                        width: 100%;
+                        padding: 20px;
+                    }
+
+                }
+            }
+
+        }
+
+        .text-section{
+            margin: 20px auto;
+
+            h4{
+                border-left: 5px solid #BE1E2D;
+                font-size: 54px;
+                padding-left: 20px;
+                font-weight: 600;
+            }
+
+            p{
+                padding-left: 1em;
+                font-size: 28px;
+                line-height: 63px;
+            }
+        }
+
+
+        .company_card{
+            .card{
+                border: 1px solid #ccc;
+                border-radius: 25px;
+                background-color: #fff;
+                text-align: left;
+                color: #393434;
+                font-family: "Myriad Pro Bold", "Myriad Pro", sans-serif;
+                margin: 20px auto;
+                padding: 0px 20px 20px 20px;
+
+                h4{
+                    font-size: 40px;
+                    font-weight: 600;
+                    line-height: 50px;
+                    margin: 50px 0 20px 0;
+
+                    img{
+                        margin-top: -10px;
+                        padding-right: 20px;
+                    }
+                }
+
+                p{
+                    font-size: 22px;
+                    line-height: 40px;
+                }
+
+                ol{
+                    padding-left: 0;
+                    li{
+                        font-size: 22px;
+                    }
+                }
+
+                table{
+                    text-align: center;
+                }
+
+                table thead.table-danger{
+                    --bs-table-bg: #BE1E2D;
+                    --bs-table-color: #fff;
+                }
+            }
+        }
+
+        .table-responsive {
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            margin: 0 -20px;
+            padding: 0 20px;
+            
+            table {
+                min-width: 600px;
+            }
+        }
+
+        table thead.table-danger{
+            --bs-table-bg: #BE1E2D;
+            --bs-table-color: #fff;
+        }
+
+    }
+
 }

@@ -24,7 +24,7 @@
             <a class="nav-link" :href="`/${locale}/material`">材質介紹</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" :href="`/${locale}/product`">產品介紹</a>
+            <a class="nav-link" :href="`/${locale}/product/ffkm`">產品介紹</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" :href="`/${locale}/lab`">製程檢測</a>
