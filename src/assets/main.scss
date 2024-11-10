@@ -1495,7 +1495,7 @@ main {
             }
         }
 
-        #ffkm_section{
+        #ffkm_section, #fkm_section{
             margin: 30px auto;
             .badge{
                 div.outline{
@@ -1516,6 +1516,19 @@ main {
                 }
             }
 
+        }
+
+        #fkm_table_hint{
+            text-align: center;
+            width: 100%;
+            background-color: #E5E5E5;
+            span{
+                font-size: 18px;
+                margin: 0 20px;
+            }
+            p{
+                line-height: 43px;
+            }
         }
 
         .text-section{

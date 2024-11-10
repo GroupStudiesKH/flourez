@@ -35,7 +35,7 @@ export default {
     ></div>
 
     <div id="product_info">
-      <ProductsMenu />
+      <ProductsMenu  />
 
       <div class="container text-section">
         <h4>FFKM 全氟化橡膠</h4>
