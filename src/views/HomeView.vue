@@ -118,7 +118,7 @@ export default {
         <div class="col-6 col-md-3 badge">
           <div class="heading">
             <h3>{{ t('index.feature1_title') }}</h3>
-            <span>Fluoroelastomers, FKM</span>
+            <span>Fluoroelastomers, FFKM</span>
           </div>
           <img src="/assets/img/home_section1.webp" alt="" />
           <p v-html="t('index.feature1_subtitle')"></p>
