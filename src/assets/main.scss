@@ -169,7 +169,7 @@ header {
                         border-right: 1.5px solid #000;
                         padding: 0px 30px;
                         transition: color 0.2s ease;
-                        font-size: 16pt;
+                        font-size: 22pt;
                         line-height: 40px;
 
 
@@ -235,7 +235,7 @@ header {
         .language_switch {
 
             .dropdown-toggle {
-                border: 2px solid #333;
+                border: 2px solid #666;
                 border-radius: 10px;
                 font-size: 13pt;
                 line-height: 25px;
@@ -264,9 +264,10 @@ header {
                 font-size: 18pt;
                 vertical-align: middle;
                 margin-top: -5px;
+                color: #3B4046;
 
                 @media(max-width: 991px) {
-                    color: #333;
+                    color: #696969;
                     margin-left: 5px;
                 }
             }
@@ -367,7 +368,7 @@ footer {
 
     .company_info {
         margin: 100px 0 0px 0;
-
+        max-width: 450px;
         .h5 {
             font-weight: 700;
         }
@@ -412,10 +413,11 @@ footer {
 
         p {
             border-left: 2px solid #fff;
-            margin-bottom: 10px;
-            margin-left: 0px;
+            margin-bottom: -10px;
+            margin-left: -40px;
             padding-left: 20px;
             line-height: 30px;
+            font-size: 16pt;
         }
 
         .material-icons {
@@ -430,19 +432,19 @@ footer {
         h4 {
             font-family: "Myriad Pro Bold", "Myriad Pro", sans-serif;
             font-weight: 700;
-            font-size: 23px;
-            line-height: 1.4;
+            font-size: 24pt;
+           
             text-transform: uppercase;
 
             span{
-                color: yellow;
+                color: #F9BA48;
                 font-weight: 700;
             }
         }
 
         span.copyright {
             transform: translateY(-10px);
-            font-size: 14px;
+            font-size: 14pt;
             color: #fff;
         }
 
@@ -519,16 +521,15 @@ main {
                 padding: 200px 0 0 0;
 
                 h1 {
-                    font-size: 55px;
-                    font-weight: 600;
+                    font-size: 38pt;
+                    font-weight: 800;
                     width: 60%;
-                    font-family: 'Myriad Pro', sans-serif;
                     font-stretch: condensed;
                 }
 
                 p {
-                    width: 40%;
-                    font-size: 14px;
+                    width: 50%;
+                    font-size: 15pt;
                 }
             }
 
@@ -563,12 +564,15 @@ main {
                     padding-left: 10px;
 
                     h3{
+                        font-size: 32pt;
                         font-weight: 600;
                         color: #393434;
                     }
 
                     span{
+                        font-size: 15pt;
                         color: #393434;
+                        font-weight: 400;
                     }
                 }
 
@@ -576,8 +580,9 @@ main {
                     word-break: break-word;
                     white-space: normal;
                     overflow-wrap: break-word;
-                    font-size: 16px;
-                    line-height: 23px;
+                    font-size: 14pt;
+                    line-height: 34px;
+                    color: #505050;
                 }
 
                 img {
@@ -662,8 +667,8 @@ main {
             }
 
             #company_intro {
-                margin: 100px 0;
-                max-width: 600px;
+                margin: 80px 0;
+                max-width: 660px;
 
 
                 h2 {
@@ -674,9 +679,10 @@ main {
                 }
 
                 p {
-                    line-height: 30px;
-                    font-size: 14pt;
-                    font-weight: 300;
+                    line-height: 36px;
+                    font-size: 17pt;
+                    font-weight: 400;
+                    color: #505050;
                 }
 
                 @media (max-width: 1200px) {
@@ -694,7 +700,7 @@ main {
                 height: 900px;
                 width: 50%;
                 right: -200px;
-                top: 600px;
+                top: 850px;
                 opacity: 0.7;
                 z-index: 0;
                 background-image: url('../assets/img/rubber_bg.png');
@@ -841,10 +847,10 @@ main {
 
 
             p {
-                font-size: 30px;
-                color: #696969;
-                line-height: 60px;
-                font-weight: 600;
+                font-size: 18pt;
+                color: #505050;
+                line-height: 36px;
+                font-weight: 400;
             }
 
             img {
