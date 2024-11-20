@@ -155,10 +155,8 @@ export default {
           <div class="col-12 card">
             <h4><img src="/assets/img/ffkm_icon.png" />{{ t('product.ffkm.thermalResistant.title') }}</h4>
             <p>{{ t('product.ffkm.thermalResistant.description1') }}</p>
-            <p>{{ t('product.ffkm.thermalResistant.description2') }}</p>
-            <p>
-              <strong>{{ t('product.ffkm.thermalResistant.equivalent') }}</strong>
-            </p>
+            
+            <p><strong>{{ t('product.ffkm.thermalResistant.equivalent') }}</strong></p>
             <div class="table-responsive">
               <table class="table table-striped">
                 <thead class="table-danger">
@@ -243,7 +241,7 @@ export default {
               <li>{{ t('product.ffkm.highPurity.feature8') }}</li>
             </ol>
             <p>{{ t('product.ffkm.highPurity.applications') }}</p>
-            <p>{{ t('product.ffkm.highPurity.customization') }}</p>
+            <p><strong>{{ t('product.ffkm.highPurity.customization') }}</strong></p>
             <div class="table-responsive">
               <table class="table table-striped">
                 <thead class="table-danger">
@@ -517,7 +515,7 @@ export default {
         <div class="row">
           <div class="col-12">
             <div class="mb-4">
-              <p>{{ t('product.ffkm.products.intro') }}</p>
+              <p><strong>{{ t('product.ffkm.products.intro') }}</strong></p>
               <p>
                 {{ t('product.ffkm.products.item1') }}<br />
                 {{ t('product.ffkm.products.item2') }}<br />
@@ -526,8 +524,7 @@ export default {
             </div>
 
             <div>
-              <p>{{ t('product.ffkm.contact') }}</p>
-
+              <p><strong>{{ t('product.ffkm.contact') }}</strong></p>
               <p>
                 • ASTM D2240 (pellet test specimen)<br />
                 • ASTM D412 & D1414 (dumbbell test specimen)<br />

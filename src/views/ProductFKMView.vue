@@ -142,7 +142,7 @@ export default {
             </div>
 
             <div class="container" id="fkm_section">
-                <h5>Viton Types Monomer Composition</h5>
+                <p><strong>Viton Types Monomer Composition</strong></p>
 
               <div class="row">
                 <div class="col-12 badge">
