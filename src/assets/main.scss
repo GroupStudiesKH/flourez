@@ -169,7 +169,7 @@ header {
                         border-right: 1.5px solid #000;
                         padding: 0px 30px;
                         transition: color 0.2s ease;
-                        font-size: 22pt;
+                        font-size: 20pt;
                         line-height: 40px;
 
 
@@ -1024,7 +1024,7 @@ main {
                     text-align: center;
                     display: block;
                     color: #393434;
-                    font-size: 30px;
+                    font-size: 28pt;
                     font-family: "Myriad Pro Bold", "Myriad Pro", sans-serif;
 
                     img{
@@ -1062,25 +1062,32 @@ main {
             margin: 20px auto;
 
             h4{
-                border-left: 5px solid #BE1E2D;
-                font-size: 54px;
-                padding-left: 20px;
+                border-left:10px solid #BE1E2D;
+                font-size: 32pt;
+                padding-left: 15px;
                 font-weight: 600;
             }
 
+            h3{
+                font-size: 20pt;
+                line-height: 40px;
+                font-weight: 600;
+                color: #3B4046;
+            }
             p{
                 padding-left: 1em;
-                font-size: 28px;
-                line-height: 55px;
+                font-size: 17pt;
+                line-height: 42px;
             }
 
             ul{
                 li{
                     margin-left: 1em;
-                    font-size: 28px;
-                    line-height: 55px;
+                    font-size: 17pt;
+                    line-height: 42px;
                     list-style: disc;
                 }
+                
             }
 
             img{
@@ -1126,10 +1133,12 @@ main {
 
             p{
                 padding-left: 0;
-                font-size: 28px;
+                font-size: 16pt;
                 font-weight: 600;
+              
                 @media (max-width: 991px) {
-                    font-size: 18px;
+                    font-size: 10ptx;
+                    line-height: 24px;
                 }
             }
         }
