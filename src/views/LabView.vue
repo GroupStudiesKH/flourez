@@ -118,10 +118,10 @@ export default {
     <div class="container text-section mb-5">
         <h4>{{ t('lab.qualityAssurance.title') }}</h4>
         <p>{{ t('lab.qualityAssurance.content') }}</p>
-
+        <br>
         <h4>{{ t('lab.cleanroom.title') }}</h4>
         <p>{{ t('lab.cleanroom.content') }}</p>
-
+        <br>
         <h4>{{ t('lab.customerSupport.title') }}</h4>
         <p>{{ t('lab.customerSupport.intro') }}</p>
         <ul>
@@ -130,10 +130,11 @@ export default {
           <li>{{ t('lab.customerSupport.point3') }}</li>
         </ul>
         <p>{{ t('lab.customerSupport.conclusion') }}</p>
-
+        <br>
         <h4>{{ t('lab.qualityManagement.title') }}</h4>
         <p>{{ t('lab.qualityManagement.content') }}</p>
         <p>{{ t('lab.conclusion') }}</p>
+        <br>
       </div>
   </main>
   <Footer />
