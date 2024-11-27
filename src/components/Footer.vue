@@ -29,9 +29,12 @@
 
         <div class="col-6 slogan d-block d-lg-none">
           <h4>
-            The<span> solution provider </span>of<br />
+            The<br/><span> solution provider </span>of<br />
             perfluoroelastome.
           </h4>
+        </div>
+        <div class="col-12 company_info d-block d-lg-none">
+          <p class="bottom_company_info">{{ t('footer.address') }} / {{ t('footer.phone') }}</p>
         </div>
       </div>
     </div>

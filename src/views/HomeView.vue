@@ -165,11 +165,7 @@ export default {
 
     <div id="iso_quality">
       <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <img src="/assets/img/home_iso.png">
-          </div>
-        </div>
+        <img src="/assets/img/home_iso.png">
       </div>
     </div>
   </main>
