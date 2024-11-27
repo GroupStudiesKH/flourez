@@ -165,6 +165,7 @@ header {
                 .nav-item {
                     border-bottom: 5px solid transparent;
                     transition: border-bottom 0.2s ease;
+                    padding-bottom: 5px;
                     .nav-link {
                         border-right: 1.5px solid #000;
                         padding: 0px 30px;
@@ -292,7 +293,8 @@ header {
                 color: #696969;
 
                 .dropdown-item:hover {
-                    background-color: #fff;
+                    background-color: #BE1E2D;
+                    color: #fff;
                 }
 
                 li {
@@ -310,6 +312,8 @@ header {
                         background-color: #fff;
                         color: #696969;
                     }
+
+
                 }
 
                 li:first-child {
@@ -330,7 +334,7 @@ footer {
     padding: 20px 0 0 0;
     height: 420px;
     color: #fff;
-    overflow-y: hidden;
+    overflow: hidden;
 
     img.logo {
         width: 85%;

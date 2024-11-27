@@ -157,7 +157,7 @@ export default {
           <div class="col-5">
             <h3 v-html="t('index.feature5.title')"></h3>
             <p>{{ t("index.feature5.content") }}</p>
-            <a href="#">{{ t("index.feature5.readmore") }}</a>
+            <a :href="`${locale}/about?content=pfas_content`">{{ t("index.feature5.readmore") }}</a>
           </div>
         </div>
       </div>

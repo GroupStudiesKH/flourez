@@ -12,11 +12,23 @@ export default {
   },
   setup() {
     const router = useRouter();
+    const route = useRoute();
     const isIntroScolled = ref(false);
     const { t, locale } = useI18n();
 
 
-
+    onMounted(() => {
+      setTimeout(() => {
+        // Check if the 'content' query parameter exists and matches 'pfas_content'
+        if (route.query.content === 'pfas_content') {
+          const element = document.getElementById('pfas_content');
+          if (element) {
+            // Scroll to the element with id 'pfas_content'
+            element.scrollIntoView({ behavior: 'smooth' });
+          }
+        }
+      }, 500);
+    });
 
 
     return {
@@ -86,7 +98,7 @@ export default {
 
       <div id="company_center_image"></div>
 
-      <div class="container company_card">
+      <div class="container company_card" id="pfas_content">
         <div class="row">
           <div class="col-12 card">
             <h4>
