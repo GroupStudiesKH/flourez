@@ -170,7 +170,7 @@ export default {
                 </thead>
                 <tbody>
                   <tr>
-                    <td>Hardness, Shore A</td>
+                    <td>Hardness,<br/> Shore A</td>
                     <td>74</td>
                     <td>74</td>
                     <td>91</td>
@@ -184,35 +184,35 @@ export default {
                     <td>White</td>
                   </tr>
                   <tr>
-                    <td>100% Modulus, Mpa</td>
+                    <td>100% <br/>Modulus, Mpa</td>
                     <td>6</td>
                     <td>4.5</td>
                     <td>13.5</td>
                     <td>3.3</td>
                   </tr>
                   <tr>
-                    <td>Tensile Strength at Breakb, Mpa</td>
+                    <td>Tensile Strength <br/>at Breakb, Mpa</td>
                     <td>14</td>
                     <td>7.5</td>
                     <td>16.5</td>
                     <td>11</td>
                   </tr>
                   <tr>
-                    <td>Elongation at Breakb, %</td>
+                    <td>Elongation <br/>at Breakb, %</td>
                     <td>260</td>
                     <td>262</td>
                     <td>115</td>
                     <td>189</td>
                   </tr>
                   <tr>
-                    <td>Compression Set (%, 70hr@200℃)c</td>
+                    <td>Compression Set <br/>(%, 70hr@200℃)c</td>
                     <td>23</td>
                     <td>24</td>
                     <td>25</td>
                     <td>11</td>
                   </tr>
                   <tr>
-                    <td>Max. Continuous Service Temp.d ℃</td>
+                    <td>Max. <br/>Continuous Service <br/>Temp.d ℃</td>
                     <td>330</td>
                     <td>330</td>
                     <td>330</td>

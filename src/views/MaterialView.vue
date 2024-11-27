@@ -16,13 +16,19 @@ export default {
     const { t, locale } = useI18n();
 
 
-
+    const scrollToMaterialSection = (elementID) => {
+      const element = document.getElementById(elementID);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
 
 
     return {
       isIntroScolled,
       t,
       locale,
+      scrollToMaterialSection
     };
   },
 };
@@ -40,20 +46,20 @@ export default {
       <div class="container" id="badge_area">
         <div class="row">
           <div class="col-6 col-md-4 badge">
-            <div class="outline" style="margin-right: 20px">
+            <div class="outline" style="margin-right: 20px" @click="scrollToMaterialSection('ffkm_section')" role="button">
               <img src="/assets/img/ffkm.png" alt="" />
               <h4>{{ t('product.ffkm.title') }}</h4>
             </div>
           </div>
           <div class="col-6 col-md-4 badge">
-            <div class="outline" style="margin: 0 20px">
+            <div class="outline" style="margin: 0 20px" @click="scrollToMaterialSection('fkm_section')" role="button">
               <img src="/assets/img/fkm.png" alt="" />
 
               <h4>{{ t('product.fkm.title') }}</h4>
             </div>
           </div>
           <div class="col-6 col-md-4 badge">
-            <div class="outline" style="margin-left: 20px">
+            <div class="outline" style="margin-left: 20px" @click="scrollToMaterialSection('pfls_section')" role="button">
               <img src="/assets/img/pfls.png" alt="" />
 
               <h4>{{ t('product.pfls.title') }}</h4>
@@ -62,7 +68,7 @@ export default {
         </div>
       </div>
 
-      <div class="container text-section">
+      <div class="container text-section" id="ffkm_section">
         <h4>{{ t('product.ffkm.title') }}</h4>
         <div class="row application">
           <div class="col-6 p-4">
@@ -132,7 +138,7 @@ export default {
         <h3>{{ t('material.fkmConclusion') }}</h3>
       </div>
 <br>
-      <div class="container text-section">
+      <div class="container text-section" id="pfls_section">
         <h4>{{ t('product.pfls.title') }}</h4>
         <p>{{ t('material.pflsIntro') }}</p>
         <ul>

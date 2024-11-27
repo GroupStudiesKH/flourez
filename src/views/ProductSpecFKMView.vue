@@ -58,7 +58,7 @@ export default {
               <br/>
               <p>{{ t('product.specFkm.conclusion') }}</p>
 
-              <img src="/assets/img/specfkm_img.jpg" />
+              <img src="/assets/img/specfkm_img.jpg" class="w-100" />
 
             </div>
 

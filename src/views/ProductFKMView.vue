@@ -78,15 +78,15 @@ export default {
                   </tr>
                   <tr>
                     <td>{{ t('product.fkm.table.row.chemical') }}</td>
-                    <td>°</td>
+                    <td>○</td>
                     <td>★</td>
                     <td>★★</td>
                     <td>★</td>
                     <td>★★</td>
-                    <td>°</td>
+                    <td>○</td>
                     <td>★</td>
                     <td>★★</td>
-                    <td>°</td>
+                    <td>○</td>
                     <td>★★★</td>
                   </tr>
                   <tr>
@@ -94,8 +94,8 @@ export default {
                     <td>×</td>
                     <td>×</td>
                     <td>×</td>
-                    <td>°</td>
-                    <td>°</td>
+                    <td>○</td>
+                    <td>○</td>
                     <td>★</td>
                     <td>★</td>
                     <td>★</td>
@@ -106,14 +106,14 @@ export default {
                     <td>{{ t('product.fkm.table.row.temperature') }}</td>
                     <td>★</td>
                     <td>★</td>
-                    <td>°</td>
+                    <td>○</td>
                     <td>★</td>
-                    <td>°</td>
+                    <td>○</td>
                     <td>★★★</td>
                     <td>★★</td>
                     <td>★★</td>
                     <td>×</td>
-                    <td>°</td>
+                    <td>○</td>
                   </tr>
                   <tr>
                     <td>{{ t('product.fkm.table.row.compression') }}</td>
@@ -133,10 +133,12 @@ export default {
             </div>
             <div id="fkm_table_hint">
               <p>
-                <span>{{ t('product.fkm.rating.excellent') }}</span>
-                <span>{{ t('product.fkm.rating.veryGood') }}</span>
-                <span>{{ t('product.fkm.rating.good') }}</span>
-                <span>{{ t('product.fkm.rating.fair') }}</span>
+                <span>{{ t('product.fkm.rating.excellent') }}</span> 
+                <span>{{ t('product.fkm.rating.veryGood') }}</span> 
+              </p>
+              <p>
+                <span>{{ t('product.fkm.rating.good') }}</span> 
+                <span>{{ t('product.fkm.rating.fair') }}</span> 
                 <span>{{ t('product.fkm.rating.poor') }}</span>
               </p>
             </div>
