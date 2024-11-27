@@ -31,11 +31,18 @@ export default {
       class="banner"
       style="background-image: url('/assets/img/service_banner.webp')"
     ></div>
-
-    <div class="container text-section">
-      <p class="page_intro">
-        {{ t('service.pageIntro') }}
+   
+    <div class="container">
+        <div class="row">
+          <div class="col-12" id="service_intro">
+           <p class="page_intro">
+            {{ t('service.pageIntro') }}
       </p>
+    </div>
+  </div>
+</div>
+     <div class="container text-section">
+      
 
       <h4>{{ t('service.customCompoundTitle') }}</h4>
       <div>

@@ -77,7 +77,7 @@ export default {
         <p>{{ t('material.ffkmIntro') }}</p>
 
         <p>
-          <strong>{{ t('material.mainFeatures') }}：</strong>
+          <h3>{{ t('material.mainFeatures') }}：</h3>
         </p>
 
         <ul>
@@ -88,7 +88,7 @@ export default {
           <li>{{ t('material.ffkmFeature5') }}</li>
         </ul>
         <p>
-          <strong>{{ t('material.ffkmConclusion') }}</strong>
+          <h3>{{ t('material.ffkmConclusion') }}</h3>
         </p>
 
         <img src="/assets/img/material_center.png" />
@@ -97,30 +97,30 @@ export default {
       <div class="container text-section" id="fkm_section">
         <h4>{{ t('product.fkm.title') }}</h4>
         <p>{{ t('material.fkmIntro') }}</p>
-        <p><strong>{{ t('material.fkmFeatureTitle1') }}：</strong></p>
+        <p><h3>{{ t('material.fkmFeatureTitle1') }}：</h3></p>
         <ul>
           <li>{{ t('material.fkmFeature1_1') }}</li>
           <li>{{ t('material.fkmFeature1_2') }}</li>
         </ul>
 
-        <p><strong>{{ t('material.fkmFeatureTitle2') }}：</strong></p>
+        <p><h3>{{ t('material.fkmFeatureTitle2') }}：</h3></p>
         <ul>
           <li>{{ t('material.fkmFeature2_1') }}</li>
           <li>{{ t('material.fkmFeature2_2') }}</li>
         </ul>
 
-        <p><strong>{{ t('material.fkmFeatureTitle3') }}：</strong></p>
+        <p><h3>{{ t('material.fkmFeatureTitle3') }}：</h3></p>
         <ul>
           <li>{{ t('material.fkmFeature3_1') }}</li>
         </ul>
 
-        <p><strong>{{ t('material.fkmFeatureTitle4') }}：</strong></p>
+        <p><h3>{{ t('material.fkmFeatureTitle4') }}：</h3></p>
         <ul>
           <li>{{ t('material.fkmFeature4_1') }}</li>
           <li>{{ t('material.fkmFeature4_2') }}</li>
         </ul>
 
-        <p><strong>{{ t('material.applicationAreas') }}：</strong></p>
+        <p><h3>{{ t('material.applicationAreas') }}：</h3></p>
         <ul>
           <li>{{ t('material.fkmApplication1') }}</li>
           <li>{{ t('material.fkmApplication2') }}</li>
@@ -128,10 +128,10 @@ export default {
           <li>{{ t('material.fkmApplication4') }}</li>
           <li>{{ t('material.fkmApplication5') }}</li>
         </ul>
-
-        <p>{{ t('material.fkmConclusion') }}</p>
+<br>
+        <h3>{{ t('material.fkmConclusion') }}</h3>
       </div>
-
+<br>
       <div class="container text-section">
         <h4>{{ t('product.pfls.title') }}</h4>
         <p>{{ t('material.pflsIntro') }}</p>
