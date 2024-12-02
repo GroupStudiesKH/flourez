@@ -53,7 +53,7 @@ export default {
         <div class="row">
           <div class="col-12" id="company_intro">
             <p>{{ t('about.intro') }}</p>
-            <img src="/assets/img/company_intro.png" />
+            <img src="/assets/img/company_intro.jpg" />
           </div>
         </div>
       </div>
