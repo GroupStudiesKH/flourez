@@ -232,7 +232,7 @@
         "excellent": "★★★ Excellent",
         "veryGood": "★★ Very Good", 
         "good": "★ Good",
-        "fair": "° Fair",
+        "fair": "○ Fair",
         "poor": "× Poor"
       }
     },

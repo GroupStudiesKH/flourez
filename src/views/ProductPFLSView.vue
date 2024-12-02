@@ -49,7 +49,7 @@ export default {
                 <table class="table table-striped">
                   <thead class="table-danger">
                     <tr>
-                      <th>{{ t('product.pfls.table1.header') }}</th>
+                      <th width="30%">{{ t('product.pfls.table1.header') }}</th>
                       <th>FL-50</th>
                       <th>FL-98</th>
                       <th>FL-125</th>
@@ -150,7 +150,7 @@ export default {
                 <table class="table table-striped">
                   <thead class="table-danger">
                     <tr>
-                      <th>{{ t('product.pfls.table2.header') }}</th>
+                      <th clas>{{ t('product.pfls.table2.header') }}</th>
                       <th>FL-50</th>
                       <th>FL-98</th>
                       <th>FL-125</th>

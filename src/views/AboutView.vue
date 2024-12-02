@@ -12,11 +12,23 @@ export default {
   },
   setup() {
     const router = useRouter();
+    const route = useRoute();
     const isIntroScolled = ref(false);
     const { t, locale } = useI18n();
 
 
-
+    onMounted(() => {
+      setTimeout(() => {
+        // Check if the 'content' query parameter exists and matches 'pfas_content'
+        if (route.query.content === 'pfas_content') {
+          const element = document.getElementById('pfas_content');
+          if (element) {
+            // Scroll to the element with id 'pfas_content'
+            element.scrollIntoView({ behavior: 'smooth' });
+          }
+        }
+      }, 500);
+    });
 
 
     return {
@@ -86,7 +98,7 @@ export default {
 
       <div id="company_center_image"></div>
 
-      <div class="container company_card">
+      <div class="container company_card" id="pfas_content">
         <div class="row">
           <div class="col-12 card">
             <h4>
@@ -107,69 +119,69 @@ export default {
             <table class="table table-striped">
               <thead class="table-danger">
                 <tr>
-                  <th scope="col" width="22%">{{ t('about.pfas.table.th1') }}</th>
-                  <th scope="col">{{ t('about.pfas.table.th2') }}</th>
-                  <th scope="col">{{ t('about.pfas.table.th3') }}</th>
-                  <th scope="col">{{ t('about.pfas.table.th4') }}</th>
+                  <th class="text-center" scope="col" width="15%">{{ t('about.pfas.table.th1') }}</th>
+                  <th class="text-center" scope="col">{{ t('about.pfas.table.th2') }}</th>
+                  <th class="text-center" scope="col">{{ t('about.pfas.table.th3') }}</th>
+                  <th class="text-center" scope="col">{{ t('about.pfas.table.th4') }}</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td>{{ t('about.pfas.table.row1.country') }}</td>
+                  <td class="text-center">{{ t('about.pfas.table.row1.country') }}</td>
                   <td>{{ t('about.pfas.table.row1.regulation') }}</td>
                   <td>{{ t('about.pfas.table.row1.substances') }}</td>
                   <td>{{ t('about.pfas.table.row1.note') }}</td>
                 </tr>
                 <tr>
-                  <td>{{ t('about.pfas.table.row2.country') }}</td>
+                  <td class="text-center">{{ t('about.pfas.table.row2.country') }}</td>
                   <td>{{ t('about.pfas.table.row2.regulation') }}</td>
                   <td>{{ t('about.pfas.table.row2.substances') }}</td>
                   <td>{{ t('about.pfas.table.row2.note') }}</td>
                 </tr>
                 <tr>
-                  <td>{{ t('about.pfas.table.row3.country') }}</td>
+                  <td class="text-center">{{ t('about.pfas.table.row3.country') }}</td>
                   <td>{{ t('about.pfas.table.row3.regulation') }}</td>
                   <td>{{ t('about.pfas.table.row3.substances') }}</td>
                   <td>{{ t('about.pfas.table.row3.note') }}</td>
                 </tr>
                 <tr>
-                  <td>{{ t('about.pfas.table.row4.country') }}</td>
+                  <td class="text-center">{{ t('about.pfas.table.row4.country') }}</td>
                   <td>{{ t('about.pfas.table.row4.regulation') }}</td>
                   <td>{{ t('about.pfas.table.row4.substances') }}</td>
                   <td>{{ t('about.pfas.table.row4.note') }}</td>
                 </tr>
                 <tr>
-                  <td>{{ t('about.pfas.table.row5.country') }}</td>
+                  <td class="text-center">{{ t('about.pfas.table.row5.country') }}</td>
                   <td>{{ t('about.pfas.table.row5.regulation') }}</td>
                   <td>{{ t('about.pfas.table.row5.substances') }}</td>
                   <td>{{ t('about.pfas.table.row5.note') }}</td>
                 </tr>
                 <tr>
-                  <td>{{ t('about.pfas.table.row6.country') }}</td>
+                  <td class="text-center">{{ t('about.pfas.table.row6.country') }}</td>
                   <td>{{ t('about.pfas.table.row6.regulation') }}</td>
                   <td>{{ t('about.pfas.table.row6.substances') }}</td>
                   <td>{{ t('about.pfas.table.row6.note') }}</td>
                 </tr>
                 <tr>
-                  <td>{{ t('about.pfas.table.row7.country') }}</td>
+                  <td class="text-center">{{ t('about.pfas.table.row7.country') }}</td>
                   <td>{{ t('about.pfas.table.row7.regulation') }}</td>
                   <td>{{ t('about.pfas.table.row7.substances') }}</td>
                   <td>{{ t('about.pfas.table.row7.note') }}</td>
                 </tr>
                 <tr>
-                  <td>{{ t('about.pfas.table.row8.country') }}</td>
+                  <td class="text-center">{{ t('about.pfas.table.row8.country') }}</td>
                   <td>{{ t('about.pfas.table.row8.regulation') }}</td>
                   <td>{{ t('about.pfas.table.row8.substances') }}</td>
                   <td>{{ t('about.pfas.table.row8.note') }}</td>
                 </tr>
                 <tr>
-                  <td>{{ t('about.pfas.table.row9.country') }}</td>
+                  <td class="text-center">{{ t('about.pfas.table.row9.country') }}</td>
                   <td>{{ t('about.pfas.table.row9.regulation') }}</td>
                   <td>{{ t('about.pfas.table.row9.substances') }}</td>
                   <td>{{ t('about.pfas.table.row9.note') }}</td>
                 </tr>
                 <tr>
-                  <td>{{ t('about.pfas.table.row10.country') }}</td>
+                  <td class="text-center">{{ t('about.pfas.table.row10.country') }}</td>
                   <td>{{ t('about.pfas.table.row10.regulation') }}</td>
                   <td>{{ t('about.pfas.table.row10.substances') }}</td>
                   <td>{{ t('about.pfas.table.row10.note') }}</td>
