@@ -19,7 +19,10 @@ export default {
       const targetDiv = document.getElementById("intro");
       const rect = targetDiv.getBoundingClientRect();
 
-      if (rect.top >= 0 && rect.bottom <= window.innerHeight) {
+      console.log(`rect.bottom: ${rect.bottom}`)
+      console.log(`window.innerHeight: ${window.innerHeight}`)
+
+      if (rect.top >= 0 && (rect.bottom / 2) <= window.innerHeight) {
         isIntroScolled.value = true;
       }
     };
