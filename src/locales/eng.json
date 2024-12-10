@@ -10,7 +10,7 @@
 
   "footer": {
     "company": "Fluorez Technology Inc.",
-    "address": "11F.-23, No. 6, Ln. 180, Sec. 6, Minquan E. Rd., Neihu Dist., Taipei City 114, Taiwan",
+    "address": "11F.-24, No. 6, Ln. 180, Sec. 6, Minquan E. Rd., Neihu Dist., Taipei City 114, Taiwan",
     "phone": "+886-2-22173688",
     "fax": "+886-2-22176411",
     "intro": "Fluorez Technology Inc."
@@ -127,7 +127,7 @@
     "feature1_subtitle": "Fluoroelastomer (FKM) has different brand names from different manufacturers. DuPont®'s FKM brand name is Viton®, 3M®'s FKM brand name is Dyneon®; Daikin®'s brand name is DAI-EL®, and Japanese Asahi Glass®'s brand name is Aflas®.",
     "feature2_subtitle": "Fluoroelastomer (FKM) has different brand names from different manufacturers. DuPont®'s FKM brand name is Viton®, 3M®'s FKM brand name is Dyneon®; Daikin®'s brand name is DAI-EL®, and Japanese Asahi Glass®'s brand name is Aflas®.",
     "feature3_subtitle": "• Non-flammable even in high oxygen oxidizing environments<br/>• Does not react with metals, plastics, rubber, or most materials<br/>• Wide working temperature range from -60°C to 165°C<br/>• Excellent insulation properties at both high and low temperatures<br/>• Superior thermal conductivity",
-    "feature4_subtitle": "PTFE micropowder is a low molecular weight polytetrafluoroethylene powder with an average particle size of 3-20μm, produced from high molecular weight PTFE resin. PTFE micropowder has excellent wear resistance, non-stick properties, electrical insulation, and extremely low friction coefficient, making it ideal for lubrication and as a coating for non-stick pans and pipe linings.",
+    "feature4_subtitle": "The so-called special fluororubber refers to fluororubbers other than Viton A: products with high fluorine content, whose raw materials have a fluorine content between 67-70%, which have stronger resistance and physical properties compared to general fluorine-containing FKM, but are also relatively more expensive, low-temperature resistant products, and peroxide-crosslinked products. They are applied in areas with higher requirements for the use environment.",
     "feature5": {
       "title": "Sustainable Commitment to<br>Safety and Environmental Responsibility",
       "content": "Safe and reliable products compliant with global regulatory standards",
@@ -177,7 +177,7 @@
         "feature7": "Plasma erosion resistance: High purity perfluoroelastomer remains stable in plasma environments and resists plasma erosion, which is particularly important for plasma etching processes in semiconductor manufacturing.",
         "feature8": "High purity processing: During production, this type of rubber typically undergoes special clean treatment to ensure product cleanliness meets high-requirement applications.",
         "applications": "High purity perfluoroelastomer is widely used in semiconductor manufacturing, chemical processing, pharmaceuticals, medical equipment, and other fields requiring high cleanliness and chemical corrosion resistance due to its excellent chemical and physical properties.",
-        "customization": "For different semiconductor process needs, we have also developed different high purity perfluoroelastomer formulations. All materials are available in both finished and semi-finished products."
+        "customization": "For different semiconductor process needs, we have also developed different high purity perfluoroelastomer formulations."
       },
       "lowCompression": {
         "title": "Low Compression Set Perfluoroelastomer",
@@ -296,15 +296,15 @@
   "lab": {
     "intro": "At Fluorez Technology Ltd., we are committed to providing high-quality FKM (Fluoroelastomer) and FFKM (Perfluoroelastomer) products to our customers. Our confidence in product quality stems from our rigorous quality control and comprehensive testing conducted in our advanced internal laboratory.",
     "ffkmTitle": "FFKM Perfluoroelastomer",
-    "equipment1": "Rheometer",
+    "equipment1": "Sulfur Test Instrument",
     "equipment2": "Shore Hardness Tester",
-    "equipment3": "Tensile Testing Machine",
-    "equipment4": "Compression Set Tester",
-    "equipment5": "Specific Gravity Meter",
-    "equipment6": "Thermogravimetric Analyzer",
-    "equipment7": "Thermomechanical Analyzer",
-    "equipment8": "Differential Scanning Calorimeter",
-    "equipment9": "Mixing Mill",
+    "equipment3": "Viscosity Test Instrument",
+    "equipment4": "Cutting Sample Machine",
+    "equipment5": "Tensile Strength Test Instrument",
+    "equipment6": "Image Measurement Instrument",
+    "equipment7": "Density Meter",
+    "equipment8": "Hydraulic Cutting Machine",
+    "equipment9": "Mixing Machine",
     "qualityAssurance": {
       "title": "Quality Assurance Commitment",
       "content": "Our comprehensive testing system enables us to closely monitor every step of the production process, from raw materials to final product performance control, ensuring each batch meets strict quality standards. This attention to detail reduces variability and enhances product reliability, providing customers with trustworthy materials."
