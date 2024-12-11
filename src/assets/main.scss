@@ -943,15 +943,19 @@ main {
                     font-size: 25px;
                     font-family: "Myriad Pro Bold", "Myriad Pro", sans-serif;
 
+                    @media (max-width: 991px) {
+                        border: 1px solid #ccc;
+                        height: 150px;
+                    }
+
                     img {
                         max-width: 187px;
                         width: 100%;
                         margin: 20px 0;
 
                         @media (max-width: 991px) {
-                            max-width: 40px;
-                            float: right;
-                            margin: 10px 5px 0 0;
+                            max-width: 80px;
+                            margin: 10px 0;
                         }
                     }
 
@@ -960,9 +964,12 @@ main {
                         margin: 20px 0;
 
                         @media (max-width: 991px) {
-                            font-size: 15px;
-                            text-align: left;
-                            margin-left: 15px;
+                            font-size: 14px;
+                            margin: 5px 0 10px 0;
+                            text-align: center;
+                            width: 100%;
+                            word-break: break-all;
+                            word-wrap: break-word;
                         }
                     }
 
@@ -1087,18 +1094,21 @@ main {
                     text-align: center;
                     display: block;
                     color: #393434;
-                    font-size: 28pt;
+                    font-size: 25px;
                     font-family: "Myriad Pro Bold", "Myriad Pro", sans-serif;
 
+                    @media (max-width: 991px) {
+                        border: 1px solid #ccc;
+                    }
+
                     img {
-                        max-width: 280px;
+                        max-width: 187px;
                         width: 100%;
-                        margin: 20px 0 0 0;
+                        margin: 20px 0;
 
                         @media (max-width: 991px) {
-                            max-width: 40px;
-                            float: right;
-                            margin: 10px 5px 0 0;
+                            max-width: 100%;
+                            margin: 10px 0 0 0;
                         }
                     }
 
@@ -1107,9 +1117,13 @@ main {
                         margin: 20px 0;
 
                         @media (max-width: 991px) {
-                            font-size: 15px;
-                            text-align: left;
-                            margin-left: 15px;
+                            font-size: 20px;
+                            font-weight: 900;
+                            margin: 0 0 10px 0;
+                            text-align: center;
+                            width: 100%;
+                            word-break: break-all;
+                            word-wrap: break-word;
                         }
                     }
 

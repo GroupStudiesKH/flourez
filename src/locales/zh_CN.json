@@ -25,7 +25,8 @@
     "badge": {
       "professional": "PROFESSIONAL",
       "quality": "BEST QUALITY",
-      "service": "CUSTOMER SERVICE"
+      "service": "CUSTOMER SERVICE",
+      "service_mobile": "CUSTOMER<br/>SERVICE"
     },
     "professional": {
       "title": "专业",

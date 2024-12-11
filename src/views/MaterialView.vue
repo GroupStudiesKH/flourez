@@ -45,24 +45,25 @@ export default {
     <div id="material_info">
       <div class="container" id="badge_area">
         <div class="row">
-          <div class="col-6 col-md-4 badge">
+          <div class="col-4 badge">
             <div class="outline" style="margin-right: 20px" @click="scrollToMaterialSection('ffkm_section')" role="button">
               <img src="/assets/img/ffkm.png" alt="" />
-              <h4>{{ t('product.ffkm.title') }}</h4>
+              <h4 class="d-none d-md-block">{{ t('product.ffkm.title') }}</h4>
+              <h4 class="d-md-none">{{ t('product.ffkm.title_mobile') }}</h4>
             </div>
           </div>
-          <div class="col-6 col-md-4 badge">
+          <div class="col-4 badge">
             <div class="outline" style="margin: 0 20px" @click="scrollToMaterialSection('fkm_section')" role="button">
               <img src="/assets/img/fkm.png" alt="" />
-
-              <h4>{{ t('product.fkm.title') }}</h4>
+              <h4 class="d-none d-md-block">{{ t('product.fkm.title') }}</h4>
+              <h4 class="d-md-none">{{ t('product.fkm.title_mobile') }}</h4>
             </div>
           </div>
-          <div class="col-6 col-md-4 badge">
+          <div class="col-4 badge">
             <div class="outline" style="margin-left: 20px" @click="scrollToMaterialSection('pfls_section')" role="button">
               <img src="/assets/img/pfls.png" alt="" />
-
-              <h4>{{ t('product.pfls.title') }}</h4>
+              <h4 class="d-none d-md-block">{{ t('product.pfls.title') }}</h4>
+              <h4 class="d-md-none">{{ t('product.pfls.title_mobile') }}</h4>
             </div>
           </div>
         </div>
