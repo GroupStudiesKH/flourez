@@ -25,7 +25,8 @@
     "badge": {
       "professional": "PROFESSIONAL",
       "quality": "BEST QUALITY",
-      "service": "CUSTOMER SERVICE"
+      "service": "CUSTOMER SERVICE",
+      "service_mobile": "CUSTOMER<br/>SERVICE"
     },
     "professional": {
       "title": "专业",
@@ -269,7 +270,7 @@
       "table2": {
         "header": "产品规格",
         "appearance": "外观",
-        "colorless": "无色透明、无味",
+        "colorless": "Clear, Colorless",
         "molecularWeight": "平均分子量",
         "boilingPoint": "沸点 ℃",
         "freezingPoint": "冰点 ℃", 

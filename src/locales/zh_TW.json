@@ -26,7 +26,8 @@
     "badge": {
       "professional": "PROFESSIONAL",
       "quality": "BEST QUALITY", 
-      "service": "CUSTOMER SERVICE"
+      "service": "CUSTOMER SERVICE",
+      "service_mobile": "CUSTOMER<br/>SERVICE"
     },
     "professional": {
       "title": "專業",
@@ -156,6 +157,7 @@
   "product": {
     "ffkm": {
       "title": "FFKM 全氟化橡膠",
+      "title_mobile": "FFKM",
       "chemicalResistant": {
         "title": "耐化型全氟橡膠",
         "description": "以頂級耐化級別的全氟橡膠為基礎方向，具備最廣泛的耐化性的彈性體產品，適用於最嚴苛的耐酸鹼及耐溶劑應用環境中。由於其整體配方上充分強調耐化性能，因此在耐溫方面優異性較低一般。然而其耐化性遠勝於其它橡膠產品。",
@@ -214,6 +216,7 @@
     },
     "fkm": {
       "title": "FKM 氟化橡膠",
+      "title_mobile": "FKM",
       "intro1": "FKM的成品一般指的是氟橡膠原料含氟量66%的雙分架橋氟化橡膠，也就是一般俗稱的Viton®。事實上氟橡膠也有高氟的成品，其原料含氟量介於67-70%之間，相對於一般含氟量的FKM來說，具有更強的抗化性與物理性質，但相對售價也偏高，應用於對使用環境要求更高的的領域中。不同廠牌的氟橡膠具備各自的特色，針對較高的耐溫與耐化性，以及耐高溫水氣等的不同需求，氟橡膠皆須透過混練廠調整FKM原膠材質與不同的佐劑而製造適合的商品。因此，如何挑選合適的氟橡膠產品仰賴的不僅是經驗，還有不同混練配方的測試，以求達成使用上的狀況需求。",
       "intro2": "氟橡膠FKM，是由偏二氟乙烯（VDF），六氟丙烯（HFP），四氟乙烯（TFE）全氟甲基乙烯基醚（PMVE）和乙烯（Ethylene）這些不同的單元體聚合而成。不同的單元體組合而成的FKM具備有不同的含氟量與應用性能，以美商科慕(Chemours)的FKM產品Viton®而言，選用參考如下，享瑞科技提供客戶各式不同Viton®製品與相對應規格品供客戶使用。如果有其他特殊成品項目，歡迎與我們聯繫。",
       "table": {
@@ -253,6 +256,7 @@
     },
     "pfls": {
       "title": "PFLs 電子氟化液",
+      "title_mobile": "PFLs",
       "intro": "電子氟化液為一種無色透明、無味、無毒性且具熱穩定的全氟化液體，可滿足各種熱傳導、製造和測試應用的需求。電子氟化液具有極佳的熱和化學的穩定性、可以與活性材料如金屬、塑膠和彈性體相相容。電子氟化液依其沸點不同適合於半導體製造工業中許多單相熱傳導應用與電子業封裝洩漏測試。工作溫度範圍廣，適用於蝕刻機、離子注入機、測試設備等諸設備上的熱傳導應用。",
 
       "table1": {
@@ -271,7 +275,7 @@
       "table2": {
         "header": "產品規格",
         "appearance": "外觀",
-        "colorless": "無色透明、無味",
+        "colorless": "Clear, Colorless",
         "molecularWeight": "平均分子量",
         "boilingPoint": "沸點 ℃",
         "freezingPoint": "冰點 ℃", 
