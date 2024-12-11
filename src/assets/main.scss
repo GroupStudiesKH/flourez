@@ -1614,6 +1614,10 @@ main {
                         font-weight: 800;
                         margin: 20px 0;
 
+                        @media (max-width: 1366px) {
+                            font-size: 24px;
+                        }
+
                         @media (max-width: 991px) {
                             font-size: 15px;
                             text-align: left;
