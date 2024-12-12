@@ -100,6 +100,10 @@ export default {
     acceptCookies() {
       this.cookieAccepted = true;
       localStorage.setItem("cookieAccepted", "true");
+      gtag("consent", "update", {
+        ad_storage: "granted",
+        analytics_storage: "granted",
+      });
     },
   },
 };
