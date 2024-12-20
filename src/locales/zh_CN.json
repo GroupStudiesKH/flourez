@@ -153,6 +153,12 @@
     "technicalSupportText": "我们不仅提供材料，还提供完整的技术支持，帮助您选择适合需求的产品。我们拥有自有的先进实验室，因此能够协助客户进行故障分析，快速诊断并解决材料性能问题。"
   },
   "product": {
+    "color": {
+      "color": "顏色",
+      "black": "黑",
+      "white": "白",
+      "beige": "米白"
+    },
     "ffkm": {
       "title": "FFKM 全氟化橡胶",
       "chemicalResistant": {

@@ -153,6 +153,12 @@
     "technicalSupportText": "We not only provide materials but also offer complete technical support to help you select products suitable for your needs. With our own advanced laboratory, we can assist customers with failure analysis, quickly diagnose and solve material performance issues."
   },
   "product": {
+    "color": {
+      "color": "Color",
+      "black": "Black",
+      "white": "White",
+      "beige": "Beige"
+    },
     "ffkm": {
       "title": "FFKM Perfluoroelastomer",
       "chemicalResistant": {

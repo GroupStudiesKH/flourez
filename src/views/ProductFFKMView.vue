@@ -84,14 +84,14 @@ export default {
                     <td>62</td>
                   </tr>
                   <tr>
-                    <td>Color</td>
-                    <td>Black</td>
-                    <td>White</td>
-                    <td>Black</td>
-                    <td>Beige</td>
-                    <td>Black</td>
-                    <td>Black</td>
-                    <td>White</td>
+                    <td>{{ t('product.color.color') }}</td>
+                    <td>{{ t('product.color.black') }}</td>
+                    <td>{{ t('product.color.white') }}</td>
+                    <td>{{ t('product.color.black') }}</td>
+                    <td>{{ t('product.color.beige') }}</td>
+                    <td>{{ t('product.color.black') }}</td>
+                    <td>{{ t('product.color.black') }}</td>
+                    <td>{{ t('product.color.white') }}</td>
                   </tr>
                   <tr>
                     <td>100% Modulus<sup>b</sup>, Mpa</td>
