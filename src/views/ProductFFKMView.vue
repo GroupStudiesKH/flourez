@@ -74,7 +74,7 @@ export default {
                 </thead>
                 <tbody>
                   <tr>
-                    <td>Hardness, Shore A</td>
+                    <td>Hardness<sup>a</sup>, Shore A</td>
                     <td>75</td>
                     <td>74</td>
                     <td>76</td>
@@ -94,7 +94,7 @@ export default {
                     <td>White</td>
                   </tr>
                   <tr>
-                    <td>100% Modulus, Mpa</td>
+                    <td>100% Modulus<sup>b</sup>, Mpa</td>
                     <td>10</td>
                     <td>4.5</td>
                     <td>11.6</td>
@@ -104,7 +104,7 @@ export default {
                     <td>4.5</td>
                   </tr>
                   <tr>
-                    <td>Tensile Strength at Break, Mpa</td>
+                    <td>Tensile Strength<sup>b</sup> at Break, Mpa</td>
                     <td>17.5</td>
                     <td>10</td>
                     <td>15.8</td>
@@ -114,7 +114,7 @@ export default {
                     <td>14.1</td>
                   </tr>
                   <tr>
-                    <td>Elongation at Break, %</td>
+                    <td>Elongation at Break<sup>b</sup>, %</td>
                     <td>177</td>
                     <td>190</td>
                     <td>129</td>
@@ -124,7 +124,7 @@ export default {
                     <td>188</td>
                   </tr>
                   <tr>
-                    <td>Compression Set (%, 70hr@200 °C )</td>
+                    <td>Compression Set<sup>c</sup> (%, 70hr@200 °C )</td>
                     <td>17</td>
                     <td>25</td>
                     <td>20</td>
@@ -134,7 +134,7 @@ export default {
                     <td>19</td>
                   </tr>
                   <tr>
-                    <td>Max. Continuous Service Temp.d °C</td>
+                    <td>Max. Continuous Service Temp.d °C<sup>d</sup></td>
                     <td>250</td>
                     <td>250</td>
                     <td>275</td>
@@ -526,12 +526,10 @@ export default {
             <div>
               <p><strong>{{ t('product.ffkm.contact') }}</strong></p>
               <p>
-                • ASTM D2240 (pellet test specimen)<br />
-                • ASTM D412 & D1414 (dumbbell test specimen)<br />
-                • ASTM D395B (AS568 K214 O-ring test specimen)<br />
-                • ASTM D412 (dumbbell test specimens)<br />
-                • ASTM D395B (AS214 O-ring test specimens)<br />
-                • Fluorez proprietary test method
+                <sup>a</sup> ASTM D2240 (pellet test specimen)<br />
+                <sup>b</sup> ASTM D412 & D1414 (dumbbell test specimen)<br />
+                <sup>c</sup> ASTM D395B (AS568 K214 O-ring test specimen)<br />
+                <sup>d</sup> Fluorez proprietary test method
               </p>
             </div>
           </div>

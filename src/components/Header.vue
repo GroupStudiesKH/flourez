@@ -76,18 +76,18 @@ export default {
     const router = useRouter();
 
     const localeOptions = ref([
-      // {
-      //   lang: "eng",
-      //   name: "English",
-      // },
+      {
+        lang: "eng",
+        name: "English",
+      },
       {
         lang: "zh_TW",
         name: "繁中",
       },
-      // {
-      //   lang: "zh_CN",
-      //   name: "簡中",
-      // },
+      {
+        lang: "zh_CN",
+        name: "簡中",
+      },
     ]);
 
     const isHome = computed(() => {
