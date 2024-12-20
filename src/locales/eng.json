@@ -154,13 +154,22 @@
   },
   "product": {
     "color": {
-      "color": "Color",
       "black": "Black",
       "white": "White",
       "beige": "Beige"
     },
     "ffkm": {
       "title": "FFKM Perfluoroelastomer",
+      "heading": {
+        "l1": "Typical Physical Properties",
+        "l2": "Hardness<sup>a</sup>, Shore A",
+        "l3": "Color",
+        "l4": "100% Modulus<sup>b</sup>, Mpa",
+        "l5": "Tensile Strength<sup>b</sup> at Break, Mpa",
+        "l6": "Elongation at Break<sup>b</sup>, %",
+        "l7": "Compression Set<sup>c</sup> (%, 70hr@200 °C )",
+        "l8": "Max. Continuous Service Temp.d °C<sup>d</sup>"
+      },
       "chemicalResistant": {
         "title": "Chemical Resistant Perfluoroelastomer",
         "description": "Based on top-grade chemical-resistant perfluoroelastomer, this product offers the broadest chemical resistance among elastomer products, suitable for the most demanding acid, alkali, and solvent applications. Due to its formulation emphasizing chemical resistance, its temperature resistance is relatively lower. However, its chemical resistance far surpasses other rubber products.",

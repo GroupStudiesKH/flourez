@@ -62,7 +62,7 @@ export default {
               <table class="table table-striped">
                 <thead class="table-danger">
                   <tr>
-                    <th>Typical Physical Properties</th>
+                    <th v-html="t('product.ffkm.heading.l1')"></th>
                     <th>FCT505</th>
                     <th>FCT506</th>
                     <th>FCT28</th>
@@ -74,7 +74,7 @@ export default {
                 </thead>
                 <tbody>
                   <tr>
-                    <td>Hardness<sup>a</sup>, Shore A</td>
+                    <th v-html="t('product.ffkm.heading.l2')"></th>
                     <td>75</td>
                     <td>74</td>
                     <td>76</td>
@@ -84,7 +84,7 @@ export default {
                     <td>62</td>
                   </tr>
                   <tr>
-                    <td>{{ t('product.color.color') }}</td>
+                    <td v-html="t('product.ffkm.heading.l3')"></td>
                     <td>{{ t('product.color.black') }}</td>
                     <td>{{ t('product.color.white') }}</td>
                     <td>{{ t('product.color.black') }}</td>
@@ -94,7 +94,7 @@ export default {
                     <td>{{ t('product.color.white') }}</td>
                   </tr>
                   <tr>
-                    <td>100% Modulus<sup>b</sup>, Mpa</td>
+                    <td v-html="t('product.ffkm.heading.l4')"></td>
                     <td>10</td>
                     <td>4.5</td>
                     <td>11.6</td>
@@ -104,7 +104,7 @@ export default {
                     <td>4.5</td>
                   </tr>
                   <tr>
-                    <td>Tensile Strength<sup>b</sup> at Break, Mpa</td>
+                    <td v-html="t('product.ffkm.heading.l5')"></td>
                     <td>17.5</td>
                     <td>10</td>
                     <td>15.8</td>
@@ -114,7 +114,7 @@ export default {
                     <td>14.1</td>
                   </tr>
                   <tr>
-                    <td>Elongation at Break<sup>b</sup>, %</td>
+                    <td v-html="t('product.ffkm.heading.l6')"></td>
                     <td>177</td>
                     <td>190</td>
                     <td>129</td>
@@ -124,7 +124,7 @@ export default {
                     <td>188</td>
                   </tr>
                   <tr>
-                    <td>Compression Set<sup>c</sup> (%, 70hr@200 °C )</td>
+                    <td v-html="t('product.ffkm.heading.l7')"></td>
                     <td>17</td>
                     <td>25</td>
                     <td>20</td>
@@ -134,7 +134,7 @@ export default {
                     <td>19</td>
                   </tr>
                   <tr>
-                    <td>Max. Continuous Service Temp.d °C<sup>d</sup></td>
+                    <td v-html="t('product.ffkm.heading.l8')"></td>
                     <td>250</td>
                     <td>250</td>
                     <td>275</td>
