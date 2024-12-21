@@ -62,7 +62,7 @@ export default {
               <table class="table table-striped">
                 <thead class="table-danger">
                   <tr>
-                    <th v-html="t('product.ffkm.heading.l1')"></th>
+                    <th>Typical Physical Properties</th>
                     <th>FCT505</th>
                     <th>FCT506</th>
                     <th>FCT28</th>
@@ -74,7 +74,7 @@ export default {
                 </thead>
                 <tbody>
                   <tr>
-                    <th v-html="t('product.ffkm.heading.l2')"></th>
+                    <th>Hardness<sup>a</sup>, Shore A</th>
                     <td>75</td>
                     <td>74</td>
                     <td>76</td>
@@ -84,7 +84,7 @@ export default {
                     <td>62</td>
                   </tr>
                   <tr>
-                    <td v-html="t('product.ffkm.heading.l3')"></td>
+                    <td>Color</td>
                     <td>{{ t('product.color.black') }}</td>
                     <td>{{ t('product.color.white') }}</td>
                     <td>{{ t('product.color.black') }}</td>
@@ -94,7 +94,7 @@ export default {
                     <td>{{ t('product.color.white') }}</td>
                   </tr>
                   <tr>
-                    <td v-html="t('product.ffkm.heading.l4')"></td>
+                    <td>100% Modulus<sup>b</sup>, Mpa</td>
                     <td>10</td>
                     <td>4.5</td>
                     <td>11.6</td>
@@ -104,7 +104,7 @@ export default {
                     <td>4.5</td>
                   </tr>
                   <tr>
-                    <td v-html="t('product.ffkm.heading.l5')"></td>
+                    <td>Tensile Strength<sup>b</sup> at Break, Mpa</td>
                     <td>17.5</td>
                     <td>10</td>
                     <td>15.8</td>
@@ -114,7 +114,7 @@ export default {
                     <td>14.1</td>
                   </tr>
                   <tr>
-                    <td v-html="t('product.ffkm.heading.l6')"></td>
+                    <td>Elongation at Break<sup>b</sup>, %</td>
                     <td>177</td>
                     <td>190</td>
                     <td>129</td>
@@ -124,7 +124,7 @@ export default {
                     <td>188</td>
                   </tr>
                   <tr>
-                    <td v-html="t('product.ffkm.heading.l7')"></td>
+                    <td>Compression Set<sup>c</sup> (%, 70hr@200 °C )</td>
                     <td>17</td>
                     <td>25</td>
                     <td>20</td>
@@ -134,7 +134,7 @@ export default {
                     <td>19</td>
                   </tr>
                   <tr>
-                    <td v-html="t('product.ffkm.heading.l8')"></td>
+                    <td>Max. Continuous Service Temp °C<sup>d</sup></td>
                     <td>250</td>
                     <td>250</td>
                     <td>275</td>
@@ -170,7 +170,7 @@ export default {
                 </thead>
                 <tbody>
                   <tr>
-                    <td>Hardness,<br/> Shore A</td>
+                    <td>Hardness<sup>a</sup>,<br/> Shore A</td>
                     <td>74</td>
                     <td>74</td>
                     <td>91</td>
@@ -184,35 +184,35 @@ export default {
                     <td>White</td>
                   </tr>
                   <tr>
-                    <td>100% <br/>Modulus, Mpa</td>
+                    <td>100% <br/>Modulus<sup>b</sup>, Mpa</td>
                     <td>6</td>
                     <td>4.5</td>
                     <td>13.5</td>
                     <td>3.3</td>
                   </tr>
                   <tr>
-                    <td>Tensile Strength <br/>at Breakb, Mpa</td>
+                    <td>Tensile Strength<sup>b</sup> <br/>at Break, Mpa</td>
                     <td>14</td>
                     <td>7.5</td>
                     <td>16.5</td>
                     <td>11</td>
                   </tr>
                   <tr>
-                    <td>Elongation <br/>at Breakb, %</td>
+                    <td>Elongation<sup>b</sup> <br/>at Break, %</td>
                     <td>260</td>
                     <td>262</td>
                     <td>115</td>
                     <td>189</td>
                   </tr>
                   <tr>
-                    <td>Compression Set <br/>(%, 70hr@200℃)c</td>
+                    <td>Compression Set<sup>c</sup> <br/>(%, 70hr@200℃)</td>
                     <td>23</td>
                     <td>24</td>
                     <td>25</td>
                     <td>11</td>
                   </tr>
                   <tr>
-                    <td>Max. <br/>Continuous Service <br/>Temp.d ℃</td>
+                    <td>Max. <br/>Continuous Service<sup>d</sup> <br/>Temp ℃</td>
                     <td>330</td>
                     <td>330</td>
                     <td>330</td>
@@ -256,7 +256,7 @@ export default {
                 </thead>
                 <tbody>
                   <tr>
-                    <td>Hardness, Shore A</td>
+                    <td>Hardness<sup>a</sup>, Shore A</td>
                     <td>65</td>
                     <td>75</td>
                     <td>65</td>
@@ -272,7 +272,7 @@ export default {
                     <td>Black</td>
                   </tr>
                   <tr>
-                    <td>100% Modulus, Mpa</td>
+                    <td>100% Modulus<sup>b</sup>, Mpa</td>
                     <td>3.3</td>
                     <td>6.2</td>
                     <td>6.8</td>
@@ -280,7 +280,7 @@ export default {
                     <td>8.5</td>
                   </tr>
                   <tr>
-                    <td>Tensile Strength at Breakb, Mpa</td>
+                    <td>Tensile Strength at Break<sup>b</sup>, Mpa</td>
                     <td>13</td>
                     <td>17</td>
                     <td>12.8</td>
@@ -288,7 +288,7 @@ export default {
                     <td>12.5</td>
                   </tr>
                   <tr>
-                    <td>Elongation at Breakb, %</td>
+                    <td>Elongation at Break<sup>b</sup>, %</td>
                     <td>215</td>
                     <td>251</td>
                     <td>232</td>
@@ -296,7 +296,7 @@ export default {
                     <td>220</td>
                   </tr>
                   <tr>
-                    <td>Compression Set (%, 70hr@200℃)c</td>
+                    <td>Compression Set<sup>c</sup> (%, 70hr@200℃)</td>
                     <td>12.5</td>
                     <td>17.5</td>
                     <td>17</td>
@@ -304,7 +304,7 @@ export default {
                     <td>25</td>
                   </tr>
                   <tr>
-                    <td>Max. Continuous Service Temp.d ℃</td>
+                    <td>Max. Continuous Service Temp<sup>d</sup> ℃</td>
                     <td>315</td>
                     <td>315</td>
                     <td>275</td>
@@ -337,7 +337,7 @@ export default {
                 </thead>
                 <tbody>
                   <tr>
-                    <td>Hardness, Shore A</td>
+                    <td>Hardness<sup>a</sup>, Shore A</td>
                     <td>74</td>
                     <td>75</td>
                   </tr>
@@ -347,27 +347,27 @@ export default {
                     <td>White</td>
                   </tr>
                   <tr>
-                    <td>100% Modulus, Mpa</td>
+                    <td>100% Modulus<sup>b</sup>, Mpa</td>
                     <td>8.8</td>
                     <td>6.1</td>
                   </tr>
                   <tr>
-                    <td>Tensile Strength at Break, Mpa</td>
+                    <td>Tensile Strength<sup>b</sup> at Break, Mpa</td>
                     <td>12.5</td>
                     <td>12.2</td>
                   </tr>
                   <tr>
-                    <td>Elongation at Break, %</td>
+                    <td>Elongation at Break<sup>b</sup>, %</td>
                     <td>180</td>
                     <td>215</td>
                   </tr>
                   <tr>
-                    <td>Compression Set (%, 70hr@200°C)c</td>
+                    <td>Compression Set<sup>c</sup> (%, 70hr@200°C)</td>
                     <td>12.5</td>
                     <td>12.6</td>
                   </tr>
                   <tr>
-                    <td>Max. Continuous Service Temp.d °C</td>
+                    <td>Max. Continuous Service Temp<sup>d</sup> °C</td>
                     <td>330</td>
                     <td>330</td>
                   </tr>
@@ -417,7 +417,7 @@ export default {
               </thead>
               <tbody>
                 <tr>
-                  <td>Hardness, Shore A</td>
+                  <td>Hardness<sup>a</sup>, Shore A</td>
                   <td>75</td>
                   <td>76</td>
                 </tr>
@@ -427,27 +427,27 @@ export default {
                   <td>White</td>
                 </tr>
                 <tr>
-                  <td>100% Modulus, Mpa</td>
+                  <td>100% Modulus<sup>b</sup>, Mpa</td>
                   <td>10</td>
                   <td>5.8</td>
                 </tr>
                 <tr>
-                  <td>Tensile Strength at Break, Mpa</td>
+                  <td>Tensile Strength<sup>b</sup> at Break, Mpa</td>
                   <td>17.5</td>
                   <td>12.2</td>
                 </tr>
                 <tr>
-                  <td>Elongation at Break, %</td>
+                  <td>Elongation at Break<sup>b</sup>, %</td>
                   <td>180</td>
                   <td>215</td>
                 </tr>
                 <tr>
-                  <td>Compression Set (%, 70hr@200°C)c</td>
+                  <td>Compression Set<sup>c</sup> (%, 70hr@200°C)</td>
                   <td>17</td>
                   <td>28</td>
                 </tr>
                 <tr>
-                  <td>Max. Continuous Service Temp.d °C</td>
+                  <td>Max. Continuous Service Temp<sup>d</sup> °C</td>
                   <td>250</td>
                   <td>250</td>
                 </tr>
@@ -471,7 +471,7 @@ export default {
               </thead>
               <tbody>
                 <tr>
-                  <td>Hardness, Shore A</td>
+                  <td>Hardness<sup>a</sup>, Shore A</td>
                   <td>73</td>
                   <td>75</td>
                 </tr>
@@ -481,27 +481,27 @@ export default {
                   <td>White</td>
                 </tr>
                 <tr>
-                  <td>100% Modulus, Mpa</td>
+                  <td>100% Modulus<sup>b</sup>, Mpa</td>
                   <td>9.8</td>
                   <td>9.7</td>
                 </tr>
                 <tr>
-                  <td>Tensile Strength at Break, Mpa</td>
+                  <td>Tensile Strength<sup>b</sup> at Break, Mpa</td>
                   <td>17.2</td>
                   <td>16.5</td>
                 </tr>
                 <tr>
-                  <td>Elongation at Break, %</td>
+                  <td>Elongation at Break<sup>b</sup>, %</td>
                   <td>180</td>
                   <td>175</td>
                 </tr>
                 <tr>
-                  <td>Compression Set (%, 70hr@200°C)c</td>
+                  <td>Compression Set<sup>c</sup> (%, 70hr@200°C)</td>
                   <td>17</td>
                   <td>25</td>
                 </tr>
                 <tr>
-                  <td>Max. Continuous Service Temp.d °C</td>
+                  <td>Max. Continuous Service Temp<sup>d</sup> °C</td>
                   <td>250</td>
                   <td>250</td>
                 </tr>
