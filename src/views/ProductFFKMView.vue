@@ -28,7 +28,7 @@ export default {
 
 <template>
   <Header />
-  <main id="product">
+  <main id="product" :class="locale">
     <div
       class="banner"
       style="background-image: url('/assets/img/product_banner.png')"
@@ -62,7 +62,7 @@ export default {
               <table class="table table-striped">
                 <thead class="table-danger">
                   <tr>
-                    <th>Typical Physical Properties</th>
+                    <th v-html="t('product.ffkm.chemicalResistant.table.heading1')"></th>
                     <th>FCT505</th>
                     <th>FCT506</th>
                     <th>FCT28</th>
@@ -74,7 +74,7 @@ export default {
                 </thead>
                 <tbody>
                   <tr>
-                    <th>Hardness<sup>a</sup>, Shore A</th>
+                    <th v-html="t('product.ffkm.chemicalResistant.table.heading2')"></th>
                     <td>75</td>
                     <td>74</td>
                     <td>76</td>
@@ -84,7 +84,7 @@ export default {
                     <td>62</td>
                   </tr>
                   <tr>
-                    <td>Color</td>
+                    <td v-html="t('product.ffkm.chemicalResistant.table.heading3')"></td>
                     <td>{{ t('product.color.black') }}</td>
                     <td>{{ t('product.color.white') }}</td>
                     <td>{{ t('product.color.black') }}</td>
@@ -94,7 +94,7 @@ export default {
                     <td>{{ t('product.color.white') }}</td>
                   </tr>
                   <tr>
-                    <td>100% Modulus<sup>b</sup>, Mpa</td>
+                    <td v-html="t('product.ffkm.chemicalResistant.table.heading4')"></td>
                     <td>10</td>
                     <td>4.5</td>
                     <td>11.6</td>
@@ -104,7 +104,7 @@ export default {
                     <td>4.5</td>
                   </tr>
                   <tr>
-                    <td>Tensile Strength<sup>b</sup> at Break, Mpa</td>
+                    <td v-html="t('product.ffkm.chemicalResistant.table.heading5')"></td>
                     <td>17.5</td>
                     <td>10</td>
                     <td>15.8</td>
@@ -114,7 +114,7 @@ export default {
                     <td>14.1</td>
                   </tr>
                   <tr>
-                    <td>Elongation at Break<sup>b</sup>, %</td>
+                    <td v-html="t('product.ffkm.chemicalResistant.table.heading6')"></td>
                     <td>177</td>
                     <td>190</td>
                     <td>129</td>
@@ -124,7 +124,7 @@ export default {
                     <td>188</td>
                   </tr>
                   <tr>
-                    <td>Compression Set<sup>c</sup> (%, 70hr@200 °C )</td>
+                    <td v-html="t('product.ffkm.chemicalResistant.table.heading7')"></td>
                     <td>17</td>
                     <td>25</td>
                     <td>20</td>
@@ -134,7 +134,7 @@ export default {
                     <td>19</td>
                   </tr>
                   <tr>
-                    <td>Max. Continuous Service Temp °C<sup>d</sup></td>
+                    <td v-html="t('product.ffkm.chemicalResistant.table.heading8')"></td>
                     <td>250</td>
                     <td>250</td>
                     <td>275</td>
@@ -161,7 +161,7 @@ export default {
               <table class="table table-striped">
                 <thead class="table-danger">
                   <tr>
-                    <th>Typical Physical Properties</th>
+                    <th v-html="t('product.ffkm.thermalResistant.table.heading1')"></th>
                     <th>FC750B</th>
                     <th>FC750W</th>
                     <th>FC900B</th>
@@ -170,49 +170,49 @@ export default {
                 </thead>
                 <tbody>
                   <tr>
-                    <td>Hardness<sup>a</sup>,<br/> Shore A</td>
+                    <td v-html="t('product.ffkm.thermalResistant.table.heading2')"></td>
                     <td>74</td>
                     <td>74</td>
                     <td>91</td>
                     <td>62</td>
                   </tr>
                   <tr>
-                    <td>Color</td>
+                    <td v-html="t('product.ffkm.thermalResistant.table.heading3')"></td>
                     <td>Black</td>
                     <td>Cream White</td>
                     <td>Black</td>
                     <td>White</td>
                   </tr>
                   <tr>
-                    <td>100% <br/>Modulus<sup>b</sup>, Mpa</td>
+                    <td v-html="t('product.ffkm.thermalResistant.table.heading4')"></td>
                     <td>6</td>
                     <td>4.5</td>
                     <td>13.5</td>
                     <td>3.3</td>
                   </tr>
                   <tr>
-                    <td>Tensile Strength<sup>b</sup> <br/>at Break, Mpa</td>
+                    <td v-html="t('product.ffkm.thermalResistant.table.heading5')"></td>
                     <td>14</td>
                     <td>7.5</td>
                     <td>16.5</td>
                     <td>11</td>
                   </tr>
                   <tr>
-                    <td>Elongation<sup>b</sup> <br/>at Break, %</td>
+                    <td v-html="t('product.ffkm.thermalResistant.table.heading6')"></td>
                     <td>260</td>
                     <td>262</td>
                     <td>115</td>
                     <td>189</td>
                   </tr>
                   <tr>
-                    <td>Compression Set<sup>c</sup> <br/>(%, 70hr@200℃)</td>
+                    <td v-html="t('product.ffkm.thermalResistant.table.heading7')"></td>
                     <td>23</td>
                     <td>24</td>
                     <td>25</td>
                     <td>11</td>
                   </tr>
                   <tr>
-                    <td>Max. <br/>Continuous Service<sup>d</sup> <br/>Temp ℃</td>
+                    <td v-html="t('product.ffkm.thermalResistant.table.heading8')"></td>
                     <td>330</td>
                     <td>330</td>
                     <td>330</td>
@@ -246,7 +246,7 @@ export default {
               <table class="table table-striped">
                 <thead class="table-danger">
                   <tr>
-                    <th>Typical Physical Properties</th>
+                    <th v-html="t('product.ffkm.highPurity.table.heading1')"></th>
                     <th>FU650N</th>
                     <th>FU750N</th>
                     <th>FU650B</th>
@@ -256,7 +256,7 @@ export default {
                 </thead>
                 <tbody>
                   <tr>
-                    <td>Hardness<sup>a</sup>, Shore A</td>
+                    <td v-html="t('product.ffkm.highPurity.table.heading2')"></td>
                     <td>65</td>
                     <td>75</td>
                     <td>65</td>
@@ -264,7 +264,7 @@ export default {
                     <td>75</td>
                   </tr>
                   <tr>
-                    <td>Color</td>
+                    <td v-html="t('product.ffkm.highPurity.table.heading3')"></td>
                     <td>Dark Amber</td>
                     <td>Dark Amber</td>
                     <td>Black</td>
@@ -272,7 +272,7 @@ export default {
                     <td>Black</td>
                   </tr>
                   <tr>
-                    <td>100% Modulus<sup>b</sup>, Mpa</td>
+                    <td v-html="t('product.ffkm.highPurity.table.heading4')"></td>
                     <td>3.3</td>
                     <td>6.2</td>
                     <td>6.8</td>
@@ -280,7 +280,7 @@ export default {
                     <td>8.5</td>
                   </tr>
                   <tr>
-                    <td>Tensile Strength at Break<sup>b</sup>, Mpa</td>
+                    <td v-html="t('product.ffkm.highPurity.table.heading5')"></td>
                     <td>13</td>
                     <td>17</td>
                     <td>12.8</td>
@@ -288,7 +288,7 @@ export default {
                     <td>12.5</td>
                   </tr>
                   <tr>
-                    <td>Elongation at Break<sup>b</sup>, %</td>
+                    <td v-html="t('product.ffkm.highPurity.table.heading6')"></td>
                     <td>215</td>
                     <td>251</td>
                     <td>232</td>
@@ -296,7 +296,7 @@ export default {
                     <td>220</td>
                   </tr>
                   <tr>
-                    <td>Compression Set<sup>c</sup> (%, 70hr@200℃)</td>
+                    <td v-html="t('product.ffkm.highPurity.table.heading7')"></td>
                     <td>12.5</td>
                     <td>17.5</td>
                     <td>17</td>
@@ -304,7 +304,7 @@ export default {
                     <td>25</td>
                   </tr>
                   <tr>
-                    <td>Max. Continuous Service Temp<sup>d</sup> ℃</td>
+                    <td v-html="t('product.ffkm.highPurity.table.heading8')"></td>
                     <td>315</td>
                     <td>315</td>
                     <td>275</td>
@@ -330,44 +330,44 @@ export default {
               <table class="table table-striped">
                 <thead class="table-danger">
                   <tr>
-                    <th>Typical Physical Properties</th>
+                    <th v-html="t('product.ffkm.lowCompression.table.heading1')"></th>
                     <th>LCS759B</th>
                     <th>LCS759B</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td>Hardness<sup>a</sup>, Shore A</td>
+                    <td v-html="t('product.ffkm.lowCompression.table.heading2')"></td>
                     <td>74</td>
                     <td>75</td>
                   </tr>
                   <tr>
-                    <td>Color</td>
+                    <td v-html="t('product.ffkm.lowCompression.table.heading3')"></td>
                     <td>Black</td>
                     <td>White</td>
                   </tr>
                   <tr>
-                    <td>100% Modulus<sup>b</sup>, Mpa</td>
+                    <td v-html="t('product.ffkm.lowCompression.table.heading4')"></td>
                     <td>8.8</td>
                     <td>6.1</td>
                   </tr>
                   <tr>
-                    <td>Tensile Strength<sup>b</sup> at Break, Mpa</td>
+                    <td v-html="t('product.ffkm.lowCompression.table.heading5')"></td>
                     <td>12.5</td>
                     <td>12.2</td>
                   </tr>
                   <tr>
-                    <td>Elongation at Break<sup>b</sup>, %</td>
+                    <td v-html="t('product.ffkm.lowCompression.table.heading6')"></td>
                     <td>180</td>
                     <td>215</td>
                   </tr>
                   <tr>
-                    <td>Compression Set<sup>c</sup> (%, 70hr@200°C)</td>
+                    <td v-html="t('product.ffkm.lowCompression.table.heading7')"></td>
                     <td>12.5</td>
                     <td>12.6</td>
                   </tr>
                   <tr>
-                    <td>Max. Continuous Service Temp<sup>d</sup> °C</td>
+                    <td v-html="t('product.ffkm.lowCompression.table.heading8')"></td>
                     <td>330</td>
                     <td>330</td>
                   </tr>
@@ -410,44 +410,44 @@ export default {
             <table class="table table-striped">
               <thead class="table-danger">
                 <tr>
-                  <th>Typical Physical Properties</th>
+                  <th v-html="t('product.ffkm.foodMedical.table.heading1')"></th>
                   <th>F807B</th>
                   <th>F807W</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td>Hardness<sup>a</sup>, Shore A</td>
+                  <td v-html="t('product.ffkm.foodMedical.table.heading2')"></td>
                   <td>75</td>
                   <td>76</td>
                 </tr>
                 <tr>
-                  <td>Color</td>
+                  <td v-html="t('product.ffkm.foodMedical.table.heading3')"></td>
                   <td>Black</td>
                   <td>White</td>
                 </tr>
                 <tr>
-                  <td>100% Modulus<sup>b</sup>, Mpa</td>
+                  <td v-html="t('product.ffkm.foodMedical.table.heading4')"></td>
                   <td>10</td>
                   <td>5.8</td>
                 </tr>
                 <tr>
-                  <td>Tensile Strength<sup>b</sup> at Break, Mpa</td>
+                  <td v-html="t('product.ffkm.foodMedical.table.heading5')"></td>
                   <td>17.5</td>
                   <td>12.2</td>
                 </tr>
                 <tr>
-                  <td>Elongation at Break<sup>b</sup>, %</td>
+                  <td v-html="t('product.ffkm.foodMedical.table.heading6')"></td>
                   <td>180</td>
                   <td>215</td>
                 </tr>
                 <tr>
-                  <td>Compression Set<sup>c</sup> (%, 70hr@200°C)</td>
+                  <td v-html="t('product.ffkm.foodMedical.table.heading7')"></td>
                   <td>17</td>
                   <td>28</td>
                 </tr>
                 <tr>
-                  <td>Max. Continuous Service Temp<sup>d</sup> °C</td>
+                  <td v-html="t('product.ffkm.foodMedical.table.heading8')"></td>
                   <td>250</td>
                   <td>250</td>
                 </tr>
@@ -464,44 +464,44 @@ export default {
             <table class="table table-striped">
               <thead class="table-danger">
                 <tr>
-                  <th>Typical Physical Properties</th>
+                  <th v-html="t('product.ffkm.foodMedical.table.heading1')"></th>
                   <th>UFT753</th>
                   <th>UFT750</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td>Hardness<sup>a</sup>, Shore A</td>
+                  <td v-html="t('product.ffkm.lowCompression.table.heading2')"></td>
                   <td>73</td>
                   <td>75</td>
                 </tr>
                 <tr>
-                  <td>Color</td>
+                  <td v-html="t('product.ffkm.lowCompression.table.heading3')"></td>
                   <td>Black</td>
                   <td>White</td>
                 </tr>
                 <tr>
-                  <td>100% Modulus<sup>b</sup>, Mpa</td>
+                  <td v-html="t('product.ffkm.lowCompression.table.heading4')"></td>
                   <td>9.8</td>
                   <td>9.7</td>
                 </tr>
                 <tr>
-                  <td>Tensile Strength<sup>b</sup> at Break, Mpa</td>
+                  <td v-html="t('product.ffkm.lowCompression.table.heading5')"></td>
                   <td>17.2</td>
                   <td>16.5</td>
                 </tr>
                 <tr>
-                  <td>Elongation at Break<sup>b</sup>, %</td>
+                  <td v-html="t('product.ffkm.lowCompression.table.heading6')"></td>
                   <td>180</td>
                   <td>175</td>
                 </tr>
                 <tr>
-                  <td>Compression Set<sup>c</sup> (%, 70hr@200°C)</td>
+                  <td v-html="t('product.ffkm.lowCompression.table.heading7')"></td>
                   <td>17</td>
                   <td>25</td>
                 </tr>
                 <tr>
-                  <td>Max. Continuous Service Temp<sup>d</sup> °C</td>
+                  <td v-html="t('product.ffkm.lowCompression.table.heading8')"></td>
                   <td>250</td>
                   <td>250</td>
                 </tr>

@@ -164,13 +164,33 @@
       "chemicalResistant": {
         "title": "Chemical Resistant Perfluoroelastomer",
         "description": "Based on top-grade chemical-resistant perfluoroelastomer, this product offers the broadest chemical resistance among elastomer products, suitable for the most demanding acid, alkali, and solvent applications. Due to its formulation emphasizing chemical resistance, its temperature resistance is relatively lower. However, its chemical resistance far surpasses other rubber products.",
-        "equivalent": "Chemical resistant FKM. Equivalent to Kalrez® 6375, Chemraz® 505."
+        "equivalent": "Chemical resistant FKM. Equivalent to Kalrez® 6375, Chemraz® 505.",
+        "table": {
+          "heading1": "Typical Physical Properties",
+          "heading2": "Hardness<sup>a</sup>, Shore A",
+          "heading3": "Color",
+          "heading4": "100% Modulus<sup>b</sup>, Mpa",
+          "heading5": "Tensile Strength<sup>b</sup> at Break, Mpa",
+          "heading6": "Elongation at Break<sup>b</sup>, %",
+          "heading7": "Compression Set<sup>c</sup> (%, 70hr@200 °C )",
+          "heading8": "Max. Continuous Service Temp °C<sup>d</sup>"
+        }
       },
       "thermalResistant": {
         "title": "Thermal Resistant Perfluoroelastomer",
         "description1": "Based on nitrile-crosslinked perfluoroelastomer formulation, besides excellent and broad chemical resistance, temperature resistance is increased to 330°C, suitable for processes requiring high temperature, whether in petrochemical industry, semiconductor equipment, and various applications requiring sealing of organic solutions.",
         "description2": "For different applications, we offer different formulations and provide customized formulation services. All materials are available in both finished and semi-finished products.",
-        "equivalent": "Thermal resistant FFKM. Equivalent to Kalrez® 4079"
+        "equivalent": "Thermal resistant FFKM. Equivalent to Kalrez® 4079",
+        "table": {
+          "heading1": "Typical Physical Properties",
+          "heading2": "Hardness<sup>a</sup>, Shore A",
+          "heading3": "Color",
+          "heading4": "100% Modulus<sup>b</sup>, Mpa",
+          "heading5": "Tensile Strength<sup>b</sup> at Break, Mpa",
+          "heading6": "Elongation at Break<sup>b</sup>, %",
+          "heading7": "Compression Set<sup>c</sup> (%, 70hr@200 °C )",
+          "heading8": "Max. Continuous Service Temp °C<sup>d</sup>"
+        }
       },
       "highPurity": {
         "title": "High Purity Perfluoroelastomer",
@@ -184,13 +204,33 @@
         "feature7": "Plasma erosion resistance: High purity perfluoroelastomer remains stable in plasma environments and resists plasma erosion, which is particularly important for plasma etching processes in semiconductor manufacturing.",
         "feature8": "High purity processing: During production, this type of rubber typically undergoes special clean treatment to ensure product cleanliness meets high-requirement applications.",
         "applications": "High purity perfluoroelastomer is widely used in semiconductor manufacturing, chemical processing, pharmaceuticals, medical equipment, and other fields requiring high cleanliness and chemical corrosion resistance due to its excellent chemical and physical properties.",
-        "customization": "For different semiconductor process needs, we have also developed different high purity perfluoroelastomer formulations."
+        "customization": "For different semiconductor process needs, we have also developed different high purity perfluoroelastomer formulations.",
+        "table": {
+          "heading1": "Typical Physical Properties",
+          "heading2": "Hardness<sup>a</sup>, Shore A",
+          "heading3": "Color",
+          "heading4": "100% Modulus<sup>b</sup>, Mpa",
+          "heading5": "Tensile Strength<sup>b</sup> at Break, Mpa",
+          "heading6": "Elongation at Break<sup>b</sup>, %",
+          "heading7": "Compression Set<sup>c</sup> (%, 70hr@200 °C )",
+          "heading8": "Max. Continuous Service Temp °C<sup>d</sup>"
+        }
       },
       "lowCompression": {
         "title": "Low Compression Set Perfluoroelastomer",
         "description": "Low Compression Set Perfluoroelastomer has several advantages, including: 1. Excellent durability: Low compression set rubber maintains its elasticity and shape during long-term use, reducing material fatigue and deformation, extending service life. 2. Good sealing performance: Due to its lower compression set rate, this rubber material maintains good sealing effect in sealing applications, preventing liquid or gas leakage. 3. Wide temperature range: Low compression set rubber typically maintains its performance across a wide temperature range, making it suitable for various extreme temperature environments. 4. Chemical resistance: Low compression set perfluoroelastomer materials typically have excellent chemical resistance, able to resist corrosion from various chemicals, suitable for chemical and petroleum industries. 5. High elasticity: Low compression set rubber has excellent elasticity and resilience, able to quickly recover its original shape under repeated compression. 6. Wide application range: Low compression set rubber is widely used in automotive, electronics, aerospace, medical, and other industries, demonstrating its versatility.",
         "applications": "These advantages make low compression set rubber irreplaceable in applications requiring high-performance sealing and durability. All materials are available in both finished and semi-finished products.",
-        "equivalent": "Low compression set, Thermal resistant FFKM. Equivalent to Kalrez® 7075"
+        "equivalent": "Low compression set, Thermal resistant FFKM. Equivalent to Kalrez® 7075",
+        "table": {
+          "heading1": "Typical Physical Properties",
+          "heading2": "Hardness<sup>a</sup>, Shore A",
+          "heading3": "Color",
+          "heading4": "100% Modulus<sup>b</sup>, Mpa",
+          "heading5": "Tensile Strength<sup>b</sup> at Break, Mpa",
+          "heading6": "Elongation at Break<sup>b</sup>, %",
+          "heading7": "Compression Set<sup>c</sup> (%, 70hr@200 °C )",
+          "heading8": "Max. Continuous Service Temp °C<sup>d</sup>"
+        }
       },
       "foodMedical": {
         "title": "Food and Medical Grade",
@@ -207,7 +247,17 @@
         "fdaDescription3": "Food and medical grade perfluoroelastomer is widely used in food processing equipment safety due to its excellent chemical and physical properties. We offer FDA-compliant perfluoroelastomer, all materials available in both finished and semi-finished products.",
         "medicalTitle": "Medical Grade Perfluoroelastomer (Medical Grade FFKM):",
         "medicalDescription1": "Medical grade FFKM (Medical grade FFKM) must comply with the regulations of the US Pharmacopeia Class VI (USP Cl VI). Fluorez FFKM UFT753 and UFT750, developed by Fluorez Technology, have passed third-party laboratory testing, meeting the requirements of US Chapter 87 (or ISO 10993-5) and Chapter 88 (or ISO 10993-6, -10, -11), as well as the testing requirements for USP Class VI polymers. This type of FFKM material meets the strict standards of the food and medical industries, such as FDA (Food and Drug Administration) and USP Class VI (United States Pharmacopeia Class VI), ensuring its safety and reliability when in contact with food and medical products.",
-        "medicalDescription2": "Fluorez Technology's medical grade FFKM is also a food-grade FFKM that meets food-grade requirements, with its excellent chemical and physical properties widely applied in medical devices, pharmaceuticals, and fields related to biocompatibility, with all materials available in finished products."
+        "medicalDescription2": "Fluorez Technology's medical grade FFKM is also a food-grade FFKM that meets food-grade requirements, with its excellent chemical and physical properties widely applied in medical devices, pharmaceuticals, and fields related to biocompatibility, with all materials available in finished products.",
+        "table": {
+          "heading1": "Typical Physical Properties",
+          "heading2": "Hardness<sup>a</sup>, Shore A",
+          "heading3": "Color",
+          "heading4": "100% Modulus<sup>b</sup>, Mpa",
+          "heading5": "Tensile Strength<sup>b</sup> at Break, Mpa",
+          "heading6": "Elongation at Break<sup>b</sup>, %",
+          "heading7": "Compression Set<sup>c</sup> (%, 70hr@200 °C )",
+          "heading8": "Max. Continuous Service Temp °C<sup>d</sup>"
+        }
       },
       "products": {
         "intro": "For finished products, we offer:",

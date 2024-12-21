@@ -165,13 +165,33 @@
       "chemicalResistant": {
         "title": "耐化型全氟橡胶",
         "description": "以顶级耐化级别的全氟橡胶为基础方向，具备最广泛的耐化性的弹性体产品，适用于最严苛的耐酸碱及耐溶剂应用环境中。由于其整体配方上充分强调耐化性能，因此在耐温方面优异性较低一般。然而其耐化性远胜于其它橡胶产品。",
-        "equivalent": "耐化型全氟橡胶，相当于 Kalrez® 6375, Chemraz® 505"
+        "equivalent": "耐化型全氟橡胶，相当于 Kalrez® 6375, Chemraz® 505",
+        "table": {
+          "heading1": "产品物理特性",
+          "heading2": "硬度<sup>a</sup>, Shore A",
+          "heading3": "颜色",
+          "heading4": "模数(100% Modulus)<sup>b</sup>, Mpa",
+          "heading5": "拉伸强度(Tensile)<sup>b</sup> at Break, Mpa",
+          "heading6": "延伸率<sup>b</sup>, %",
+          "heading7": "压缩变形率<sup>c</sup> (%, 70hr@200 °C )",
+          "heading8": "最高连续使用温度 °C<sup>d</sup>"
+        }
       },
       "thermalResistant": {
         "title": "耐温型全氟橡胶",
         "description1": "以nitrile架桥为基础的全氟橡胶配方，除具备优异的与广泛的化学耐受度，耐温性更提高到330°C，具备高温需求的制程，无论是石油化学工业，半导体设备端，与各种需要能密封有机溶液等等的应用上都有其需求。",
         "description2": "针对不同的应用，我们提供了不同的配方，也提供客制化的配方服务。所有的材料皆可提供成品与半成品。",
-        "equivalent": "Thermal resistant FFKM. Equivalent to Kalrez® 4079"
+        "equivalent": "Thermal resistant FFKM. Equivalent to Kalrez® 4079",
+        "table": {
+          "heading1": "产品物理特性",
+          "heading2": "硬度<sup>a</sup>, Shore A",
+          "heading3": "颜色",
+          "heading4": "模数(100% Modulus)<sup>b</sup>, Mpa",
+          "heading5": "拉伸强度(Tensile)<sup>b</sup> at Break, Mpa",
+          "heading6": "延伸率<sup>b</sup>, %",
+          "heading7": "压缩变形率<sup>c</sup> (%, 70hr@200 °C )",
+          "heading8": "最高连续使用温度 °C<sup>d</sup>"
+        }
       },
       "highPurity": {
         "title": "高洁净度型全氟橡胶",
@@ -185,13 +205,33 @@
         "feature7": "抗等离子体侵蚀：高洁净度型全氟橡胶在等离子体环境中也能保持稳定，不易被等离子体侵蚀，这对于半导体制造中的等离子体蚀刻工艺尤为重要。",
         "feature8": "高洁净度加工：在生产过程中，这类橡胶通常会经过特殊的洁净处理，确保产品的洁净度满足高要求的应用。",
         "applications": "高洁净度型全氟橡胶因其优异的化学和物理特性，被广泛应用于半导体制造、化学加工、制药、医疗设备等需要高度洁净和耐化学腐蚀的领域。",
-        "customization": "针对不同半导体制程的需要，我们也开发出不同的高洁净度型全氟橡胶配方。"
+        "customization": "针对不同半导体制程的需要，我们也开发出不同的高洁净度型全氟橡胶配方。",
+        "table": {
+          "heading1": "产品物理特性",
+          "heading2": "硬度<sup>a</sup>, Shore A",
+          "heading3": "颜色",
+          "heading4": "模数(100% Modulus)<sup>b</sup>, Mpa",
+          "heading5": "拉伸强度(Tensile)<sup>b</sup> at Break, Mpa",
+          "heading6": "延伸率<sup>b</sup>, %",
+          "heading7": "压缩变形率<sup>c</sup> (%, 70hr@200 °C )",
+          "heading8": "最高连续使用温度 °C<sup>d</sup>"
+        }
       },
       "lowCompression": {
         "title": "低压缩变形全氟橡胶",
         "description": "低压缩变型全氟橡胶（Low Compression Set FFKM）具有多项优点，以下是其中几个主要优点： 1. 优良的耐久性：低压缩变型橡胶在长时间的使用中仍能保持其弹性和形状，减少了材料疲劳和变形，延长了使用寿命。 2. 良好的密封性能：由于其较低的压缩变型率，这类橡胶材料在密封应用中能够保持良好的密封效果，防止液体或气体的渗漏。 3. 广泛的温度范围：低压缩变型橡胶通常能在宽广的温度范围内维持其性能，使其适合用于各种极端温度环境中。 4. 耐化学性：低压缩变型全氟橡胶材料通常具有极佳的耐化学性，能够抵抗多种化学物质的侵蚀，适用于化工、石油等行业。 5. 高弹性：低压缩变型橡胶具备优异的弹性和回弹性，能够在反复受压的情况下迅速恢复原状。 6. 适用范围广：低压缩变型橡胶被广泛应用于汽车、电子、航空、医疗等各行各业，展现出其多用途性。",
         "applications": "这些优点使得低压缩变型橡胶在需要高性能密封和耐久性材料的应用中具有不可替代的地位。所有的材料皆可提供成品与半成品。",
-        "equivalent": "Low compression set, Thermal resistant FFKM. Equivalent to Kalrez® 7075"
+        "equivalent": "Low compression set, Thermal resistant FFKM. Equivalent to Kalrez® 7075",
+        "table": {
+          "heading1": "产品物理特性",
+          "heading2": "硬度<sup>a</sup>, Shore A",
+          "heading3": "颜色",
+          "heading4": "模数(100% Modulus)<sup>b</sup>, Mpa",
+          "heading5": "拉伸强度(Tensile)<sup>b</sup> at Break, Mpa",
+          "heading6": "延伸率<sup>b</sup>, %",
+          "heading7": "压缩变形率<sup>c</sup> (%, 70hr@200 °C )",
+          "heading8": "最高连续使用温度 °C<sup>d</sup>"
+        }
       },
       "foodMedical": {
         "title": "食品医疗级",
@@ -208,7 +248,17 @@
         "fdaDescription3": "食品医疗级全氟橡胶因其卓越的化学和物理性能，广泛应用于食品加工设备安全的领域。我们提供了符合FDA规范的全氟橡胶，所有的材料皆可提供成品与半成品。",
         "medicalTitle": "医疗级全氟橡胶(医疗级FFKM):",
         "medicalDescription1": "医疗级全氟橡胶 (Medical grade FFKM) 需符合美国药典第六类的规范 (USP Cl VI)。Fluorez® FFKM UFT753、UFT750为孚瑞科技经过开发，符合第三方实验室测试通过，符合美国 87 章（或 ISO 10993-5）和 88 章（或 ISO 10993-6、-10、-11）的要求，并符合 USP Class VI 聚合物的测试要求。这些全氟橡胶材料符合食品和医疗行业的严格标准，如FDA（美国食品药品监督管理局）、USP Class VI（美国药典第六类）等，确保其在接触食品和医疗产品时的安全性和可靠性。",
-        "medicalDescription2": "孚瑞科技的医疗级全氟橡胶同时也是符合食品级要求全氟橡胶，其卓越的化学和物理性能，广泛应用于医疗器械，制药，与生物相容性相关的领域，所有的材料皆可提供成品。"
+        "medicalDescription2": "孚瑞科技的医疗级全氟橡胶同时也是符合食品级要求全氟橡胶，其卓越的化学和物理性能，广泛应用于医疗器械，制药，与生物相容性相关的领域，所有的材料皆可提供成品。",
+        "table": {
+          "heading1": "产品物理特性",
+          "heading2": "硬度<sup>a</sup>, Shore A",
+          "heading3": "颜色",
+          "heading4": "模数(100% Modulus)<sup>b</sup>, Mpa",
+          "heading5": "拉伸强度(Tensile)<sup>b</sup> at Break, Mpa",
+          "heading6": "延伸率<sup>b</sup>, %",
+          "heading7": "压缩变形率<sup>c</sup> (%, 70hr@200 °C )",
+          "heading8": "最高连续使用温度 °C<sup>d</sup>"
+        }
       },
       "products": {
         "intro": "成品的部分，我们提供:",
