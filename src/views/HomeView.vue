@@ -159,7 +159,11 @@ export default {
           <div class="col-7"><img src="/assets/img/home_bottom.webp" /></div>
           <div class="col-5">
             <h3 v-html="t('index.feature5.title')"></h3>
-            <p>{{ t("index.feature5.content") }}</p>
+            <p>
+              {{ t("index.feature5.content") }}<br>
+              <small>{{ t("index.feature5.content_2") }}</small>
+
+            </p>
             <a :href="`${locale}/about?content=pfas_content`">{{ t("index.feature5.readmore") }}</a>
           </div>
         </div>
