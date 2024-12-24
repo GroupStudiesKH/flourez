@@ -9,11 +9,11 @@
   },
 
   "footer": {
-    "company": "Fluorez Technology Inc.",
+    "company": "Fluorez Technology, Ltd.",
     "address": "11F.-24, No. 6, Ln. 180, Sec. 6, Minquan E. Rd., Neihu Dist., Taipei City 114, Taiwan",
     "phone": "+886-2-22173688",
     "fax": "+886-2-22176411",
-    "intro": "Fluorez Technology Inc."
+    "intro": "Fluorez Technology, Ltd."
   },
   "cookie": {
     "consent": "This website uses cookies to provide a better user experience. By continuing to use this website, you agree to our use of cookies.",
@@ -21,7 +21,7 @@
   },
 
   "about": {
-    "intro": "Founded in 2005, Fluorez Technology Inc. has been dedicated to providing the highest quality perfluoroelastomer (FFKM) products for the global market since its inception. In response to rapid market changes and the pursuit of economic efficiency, and in line with Taiwan's Ministry of Economic Affairs Industrial Development Bureau's policy of localizing semiconductor consumables production, we have further developed our own Taiwan-manufactured perfluoroelastomer brand, Fluorez®.",
+    "intro": "Founded in 2005, Fluorez Technology, Ltd. has been dedicated to providing the highest quality perfluoroelastomer (FFKM) products for the global market since its inception. In response to rapid market changes and the pursuit of economic efficiency, and in line with Taiwan's Ministry of Economic Affairs Industrial Development Bureau's policy of localizing semiconductor consumables production, we have further developed our own Taiwan-manufactured perfluoroelastomer brand, Fluorez®.",
     "badge": {
       "professional": "PROFESSIONAL",
       "quality": "BEST QUALITY",
@@ -30,11 +30,11 @@
     },
     "professional": {
       "title": "Professional",
-      "content": "Fluorez Technology Inc.'s expertise comes from years of market experience and reputation. We believe that good communication is the key to choosing the right materials. Fluorez Technology not only offers a diverse product line including perfluoroelastomer compounds, but also provides standard components manufactured from fluoro-elastomer (FKM) and perfluoro-elastomers (FFKM). We also accept customized FKM/FFKM products tailored to consumer needs. We continuously develop new formulations for applications and have developed products that comply with FDA and USP Class VI standards to meet the needs of the food and medical industries."
+      "content": "Fluorez Technology, Ltd.'s expertise comes from years of market experience and reputation. We believe that good communication is the key to choosing the right materials. Fluorez Technology not only offers a diverse product line including perfluoroelastomer compounds, but also provides standard components manufactured from fluoro-elastomer (FKM) and perfluoro-elastomers (FFKM). We also accept customized FKM/FFKM products tailored to consumer needs. We continuously develop new formulations for applications and have developed products that comply with FDA and USP Class VI standards to meet the needs of the food and medical industries."
     },
     "quality": {
       "title": "Quality",
-      "content": "Fluorez Technology Inc. complies with ISO quality certification, and all products are tested by third-party laboratories, meeting a series of standards including the latest EU chemical control and hazardous chemicals regulations. Clean room production specifications also follow international ASTM and ISO standards. The highest standard of product sampling testing has become the backbone supporting our delivery of high-standard products."
+      "content": "Fluorez Technology, Ltd. complies with ISO quality certification, and all products are tested by third-party laboratories, meeting a series of standards including the latest EU chemical control and hazardous chemicals regulations. Clean room production specifications also follow international ASTM and ISO standards. The highest standard of product sampling testing has become the backbone supporting our delivery of high-standard products."
     },
     "service": {
       "title": "Service",
@@ -42,7 +42,7 @@
     },
     "pfas": {
       "q1": "Do our products contain PFAS?",
-      "a1": "At <strong>Fluorez Technology Inc.</strong>, we take product safety and compliance with international environmental regulations very seriously. We fully understand the concerns surrounding PFAS (Per- and Polyfluoroalkyl Substances), chemicals known for their persistence and potential health risks.",
+      "a1": "At <strong>Fluorez Technology, Ltd.</strong>, we take product safety and compliance with international environmental regulations very seriously. We fully understand the concerns surrounding PFAS (Per- and Polyfluoroalkyl Substances), chemicals known for their persistence and potential health risks.",
       "q2": "What are PFAS?",
       "a2": "PFAS are a large group of synthetic chemicals widely used in many industries for their unique properties such as water resistance, oil resistance, low friction, and stability. However, certain PFAS, such as PFOA (Perfluorooctanoic Acid) and PFOS (Perfluorooctanesulfonic Acid), are of particular concern due to their long-term persistence and potential to accumulate in the environment and living organisms.",
       "q3": "Global Regulatory Compliance",

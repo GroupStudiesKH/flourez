@@ -63,13 +63,13 @@ export default {
                 <thead class="table-danger">
                   <tr>
                     <th v-html="t('product.ffkm.chemicalResistant.table.heading1')"></th>
-                    <th>FCT505</th>
-                    <th>FCT506</th>
-                    <th>FCT28</th>
-                    <th>FCT509</th>
-                    <th>FCT600</th>
-                    <th>FCT606</th>
-                    <th>FCT609</th>
+                    <th>FC750B</th>
+                    <th>FC750W</th>
+                    <th>FC752B</th>
+                    <th>FC752W</th>
+                    <th>FC800B</th>
+                    <th>FC900B</th>
+                    <th>FC600W</th>
                   </tr>
                 </thead>
                 <tbody>

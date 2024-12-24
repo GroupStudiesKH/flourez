@@ -19,7 +19,7 @@
             The<span> solution provider </span>of<br />
             perfluoroelastome.
           </h4>
-          <span class="copyright"> {{ t("footer.intro") }}© 2024</span>
+          <span class="copyright"> ©Fluorez<sup>®</sup> Technology, Ltd. </span>
         </div>
 
         <div class="col-6 company_info d-block d-lg-none">

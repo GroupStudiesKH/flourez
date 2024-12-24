@@ -54,12 +54,12 @@ export default {
             class="banner-content"
           >
             <div class="container">
-              <h1>Discover Fluorez Technology</h1>
+              <h1>Discover Fluorez® Technology</h1>
               <p class="d-none d-lg-block">
                 A global leader in FFKM sealing solutions trusted by
                 international industrial organizations. Our mission is simple:
                 deliver cost-effective, durable solutions tailored to your
-                specific needs. Experience excellence with Fluorez Technology
+                specific needs. Experience excellence with Fluorez® Technology
               </p>
             </div>
           </div>
