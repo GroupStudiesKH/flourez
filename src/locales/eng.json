@@ -196,6 +196,7 @@
       },
       "highPurity": {
         "title": "High Purity Perfluoroelastomer",
+        "cert": "High purity, low extractable perfluoroelastomer FFKM. Equivalent to Kalrez® 8900, 9100, Chemraz® 629",
         "intro": "High Purity Perfluoroelastomer (HPFFKM) has the following characteristics:",
         "feature1": "Excellent chemical stability: Perfluoroelastomer has extremely strong chemical resistance, able to resist corrosion from almost all chemicals, including strong acids, bases, solvents, etc.",
         "feature2": "Extremely low extractables: High purity perfluoroelastomer has very low extractables during use, which is crucial for applications requiring high cleanliness (such as semiconductor manufacturing, medical equipment, pharmaceutical industry).",
@@ -206,7 +207,7 @@
         "feature7": "Plasma erosion resistance: High purity perfluoroelastomer remains stable in plasma environments and resists plasma erosion, which is particularly important for plasma etching processes in semiconductor manufacturing.",
         "feature8": "High purity processing: During production, this type of rubber typically undergoes special clean treatment to ensure product cleanliness meets high-requirement applications.",
         "applications": "High purity perfluoroelastomer is widely used in semiconductor manufacturing, chemical processing, pharmaceuticals, medical equipment, and other fields requiring high cleanliness and chemical corrosion resistance due to its excellent chemical and physical properties.",
-        "customization": "For different semiconductor process needs, we have also developed different high purity perfluoroelastomer formulations.",
+        "customization": "For different semiconductor process needs, we have also developed various high-purity perfluoroelastomer formulations. All materials are available in both finished and semi-finished products.",
         "table": {
           "heading1": "Typical Physical Properties",
           "heading2": "Hardness<sup>a</sup>, Shore A",
@@ -236,6 +237,7 @@
       },
       "foodMedical": {
         "title": "Food and Medical Grade",
+        "fda": "FDA compliant FFKM",
         "intro": "Food and Medical Grade Perfluoroelastomer (FFKM) has the following characteristics: Compliance with food and medical standards: This type of perfluoroelastomer material complies with strict standards in food and medical industries, such as FDA (Food and Drug Administration) and USP Class VI (United States Pharmacopeia Class VI), ensuring its safety and reliability when in contact with food and medical products.",
         "feature1": "Extremely low extractables: Food and medical grade perfluoroelastomer has very low extractables during use, which is crucial for avoiding contamination of food and medical products.",
         "feature2": "Chemical resistance: This rubber material has excellent chemical resistance, able to resist corrosion from various chemicals, including acids, bases, solvents, and cleaning agents, suitable for applications requiring frequent cleaning and sterilization.",

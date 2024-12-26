@@ -63,13 +63,13 @@ export default {
                 <thead class="table-danger">
                   <tr>
                     <th v-html="t('product.ffkm.chemicalResistant.table.heading1')"></th>
-                    <th>FC750B</th>
-                    <th>FC750W</th>
+                    <th>FT750B</th>
+                    <th>FT750W</th>
                     <th>FC752B</th>
                     <th>FC752W</th>
                     <th>FC800B</th>
-                    <th>FC900B</th>
-                    <th>FC600W</th>
+                    <th>FT900B</th>
+                    <th>FT600W</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -241,7 +241,8 @@ export default {
               <li>{{ t('product.ffkm.highPurity.feature8') }}</li>
             </ol>
             <p>{{ t('product.ffkm.highPurity.applications') }}</p>
-            <p><strong>{{ t('product.ffkm.highPurity.customization') }}</strong></p>
+            <p>{{ t('product.ffkm.highPurity.customization') }}</p>
+            <p><strong>{{ t('product.ffkm.highPurity.cert') }}</strong></p>
             <div class="table-responsive">
               <table class="table table-striped">
                 <thead class="table-danger">
@@ -332,7 +333,7 @@ export default {
                   <tr>
                     <th v-html="t('product.ffkm.lowCompression.table.heading1')"></th>
                     <th>LCS759B</th>
-                    <th>LCS759B</th>
+                    <th>LCS759W</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -406,7 +407,7 @@ export default {
               {{ t('product.ffkm.foodMedical.fdaDescription3') }}
             </p>
 
-            <p><strong>FDA compliant FFKM</strong></p>
+            <p><strong>{{ t('product.ffkm.foodMedical.fda') }}</strong></p>
             <table class="table table-striped">
               <thead class="table-danger">
                 <tr>
@@ -448,8 +449,8 @@ export default {
                 </tr>
                 <tr>
                   <td v-html="t('product.ffkm.foodMedical.table.heading8')"></td>
-                  <td>250</td>
-                  <td>250</td>
+                  <td>260</td>
+                  <td>260</td>
                 </tr>
               </tbody>
             </table>
@@ -502,8 +503,8 @@ export default {
                 </tr>
                 <tr>
                   <td v-html="t('product.ffkm.lowCompression.table.heading8')"></td>
-                  <td>250</td>
-                  <td>250</td>
+                  <td>260</td>
+                  <td>260</td>
                 </tr>
               </tbody>
             </table>

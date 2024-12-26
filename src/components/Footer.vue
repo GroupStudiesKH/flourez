@@ -11,7 +11,7 @@
           <p>
             Tel : {{ t("footer.phone") }}<br />
             Fax : {{ t("footer.fax") }}<br />
-            service@fluorez.com.tw
+            sales@fluorez.com.tw
           </p>
         </div>
         <div class="col-12 col-lg-4 slogan d-none d-lg-block">
