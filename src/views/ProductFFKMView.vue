@@ -178,10 +178,10 @@ export default {
                   </tr>
                   <tr>
                     <td v-html="t('product.ffkm.thermalResistant.table.heading3')"></td>
-                    <td>Black</td>
-                    <td>Cream White</td>
-                    <td>Black</td>
-                    <td>White</td>
+                    <td>{{ t('product.color.black') }}</td>
+                    <td>{{ t('product.color.creamwhite') }}</td>
+                    <td>{{ t('product.color.black') }}</td>
+                    <td>{{ t('product.color.white') }}</td>
                   </tr>
                   <tr>
                     <td v-html="t('product.ffkm.thermalResistant.table.heading4')"></td>
@@ -265,11 +265,11 @@ export default {
                   </tr>
                   <tr>
                     <td v-html="t('product.ffkm.highPurity.table.heading3')"></td>
-                    <td>Dark Amber</td>
-                    <td>Dark Amber</td>
-                    <td>Black</td>
-                    <td>CreamWhite</td>
-                    <td>Black</td>
+                    <td>{{ t('product.color.darkamber') }}</td>
+                    <td>{{ t('product.color.darkamber') }}</td>
+                    <td>{{ t('product.color.black') }}</td>
+                    <td>{{ t('product.color.creamwhite') }}</td>
+                    <td>{{ t('product.color.black') }}</td>
                   </tr>
                   <tr>
                     <td v-html="t('product.ffkm.highPurity.table.heading4')"></td>
@@ -343,8 +343,8 @@ export default {
                   </tr>
                   <tr>
                     <td v-html="t('product.ffkm.lowCompression.table.heading3')"></td>
-                    <td>Black</td>
-                    <td>White</td>
+                    <td>{{ t('product.color.black') }}</td>
+                    <td>{{ t('product.color.white') }}</td>
                   </tr>
                   <tr>
                     <td v-html="t('product.ffkm.lowCompression.table.heading4')"></td>

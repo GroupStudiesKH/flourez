@@ -158,7 +158,9 @@
       "color": "顏色",
       "black": "黑",
       "white": "白",
-      "beige": "米白"
+      "beige": "米白",
+      "creamwhite": "乳白",
+      "darkamber": "深琥珀"
     },
     "ffkm": {
       "title": "FFKM 全氟化橡胶",

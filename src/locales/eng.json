@@ -157,7 +157,9 @@
     "color": {
       "black": "Black",
       "white": "White",
-      "beige": "Beige"
+      "beige": "Beige",
+      "creamwhite": "Cream White",
+      "darkamber": "Dark Amber"
     },
     "ffkm": {
       "title": "FFKM Perfluoroelastomer",
