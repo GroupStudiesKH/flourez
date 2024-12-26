@@ -265,8 +265,8 @@ export default {
                   </tr>
                   <tr>
                     <td v-html="t('product.ffkm.highPurity.table.heading3')"></td>
-                    <td>{{ t('product.color.darkamber') }}</td>
-                    <td>{{ t('product.color.darkamber') }}</td>
+                    <td>{{ t('product.color.black') }}</td>
+                    <td>{{ t('product.color.black') }}</td>
                     <td>{{ t('product.color.black') }}</td>
                     <td>{{ t('product.color.creamwhite') }}</td>
                     <td>{{ t('product.color.black') }}</td>
