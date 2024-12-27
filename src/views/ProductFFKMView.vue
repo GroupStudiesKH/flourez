@@ -63,13 +63,13 @@ export default {
                 <thead class="table-danger">
                   <tr>
                     <th v-html="t('product.ffkm.chemicalResistant.table.heading1')"></th>
-                    <th>FT750B</th>
-                    <th>FT750W</th>
+                    <th>FC750B</th>
+                    <th>FC750W</th>
                     <th>FC752B</th>
                     <th>FC752W</th>
                     <th>FC800B</th>
-                    <th>FT900B</th>
-                    <th>FT600W</th>
+                    <th>FC900B</th>
+                    <th>FC600W</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -162,10 +162,10 @@ export default {
                 <thead class="table-danger">
                   <tr>
                     <th v-html="t('product.ffkm.thermalResistant.table.heading1')"></th>
-                    <th>FC750B</th>
-                    <th>FC750W</th>
-                    <th>FC900B</th>
-                    <th>FC600W</th>
+                    <th>FT750B</th>
+                    <th>FT750W</th>
+                    <th>FT900B</th>
+                    <th>FT600W</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -424,8 +424,8 @@ export default {
                 </tr>
                 <tr>
                   <td v-html="t('product.ffkm.foodMedical.table.heading3')"></td>
-                  <td>Black</td>
-                  <td>White</td>
+                  <td>{{ t('product.color.black') }}</td>
+                  <td>{{ t('product.color.white') }}</td>
                 </tr>
                 <tr>
                   <td v-html="t('product.ffkm.foodMedical.table.heading4')"></td>
@@ -461,7 +461,7 @@ export default {
               {{ t('product.ffkm.foodMedical.medicalDescription2') }}
             </p>
 
-            <p><strong>USP CI VI compliant FFKM</strong></p>
+            <p><strong>{{ t('product.ffkm.foodMedical.cert') }}</strong></p>
             <table class="table table-striped">
               <thead class="table-danger">
                 <tr>
@@ -478,8 +478,8 @@ export default {
                 </tr>
                 <tr>
                   <td v-html="t('product.ffkm.lowCompression.table.heading3')"></td>
-                  <td>Black</td>
-                  <td>White</td>
+                  <td>{{ t('product.color.black') }}</td>
+                  <td>{{ t('product.color.white') }}</td>
                 </tr>
                 <tr>
                   <td v-html="t('product.ffkm.lowCompression.table.heading4')"></td>
