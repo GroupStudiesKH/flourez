@@ -82,28 +82,28 @@ export default {
     // 檢查是否已經同意過 cookies
     this.cookieAccepted = localStorage.getItem("cookieAccepted") === "true";
 
-    if (this.cookieAccepted) {
-      gtag("consent", "update", {
-        ad_storage: "granted",
-        analytics_storage: "granted",
-      });
-      console.log("cookieAccepted", this.cookieAccepted);
-    } else {
-      gtag("consent", "update", {
-        ad_storage: "denied",
-        analytics_storage: "denied",
-      });
-      console.log("cookieAccepted", this.cookieAccepted);
-    }
+    // if (this.cookieAccepted) {
+    //   gtag("consent", "update", {
+    //     ad_storage: "granted",
+    //     analytics_storage: "granted",
+    //   });
+    //   console.log("cookieAccepted", this.cookieAccepted);
+    // } else {
+    //   gtag("consent", "update", {
+    //     ad_storage: "denied",
+    //     analytics_storage: "denied",
+    //   });
+    //   console.log("cookieAccepted", this.cookieAccepted);
+    // }
   },
   methods: {
     acceptCookies() {
       this.cookieAccepted = true;
       localStorage.setItem("cookieAccepted", "true");
-      gtag("consent", "update", {
-        ad_storage: "granted",
-        analytics_storage: "granted",
-      });
+      // gtag("consent", "update", {
+      //   ad_storage: "granted",
+      //   analytics_storage: "granted",
+      // });
     },
   },
 };

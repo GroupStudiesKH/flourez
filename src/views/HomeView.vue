@@ -118,7 +118,7 @@ export default {
 
     <div class="container" :class="isIntroScolled ? `scrolled` : ``" id="intro">
       <div class="row">
-        <div class="col-6 col-md-3 badge">
+        <div class="col-12 col-xl-3 col-lg-6 badge">
           <div class="heading">
             <h3>{{ t('index.feature1_title') }}</h3>
             <span>Fluoroelastomers, FFKM</span>
@@ -126,7 +126,7 @@ export default {
           <img src="/assets/img/home_section1.webp" alt="" />
           <p v-html="t('index.feature1_subtitle')"></p>
         </div>
-        <div class="col-6 col-md-3 badge">
+        <div class="col-12 col-xl-3 col-lg-6 badge">
           <div class="heading">
             <h3>{{ t('index.feature2_title') }}</h3>
             <span>Fluoroelastomers, FKM</span>
@@ -134,7 +134,7 @@ export default {
           <img src="/assets/img/home_section2.webp" alt="" />
           <p v-html="t('index.feature2_subtitle')"></p>
         </div>
-        <div class="col-6 col-md-3 badge">
+        <div class="col-12 col-xl-3 col-lg-6 badge">
           <div class="heading">
             <h3>{{ t('index.feature3_title') }}</h3>
             <span>Perfluorinated liquids</span>
@@ -142,7 +142,7 @@ export default {
           <img src="/assets/img/home_section3.webp" alt="" />
           <p v-html="t('index.feature3_subtitle')"></p>
         </div>
-        <div class="col-6 col-md-3 badge">
+        <div class="col-12 col-xl-3 col-lg-6 badge">
           <div class="heading">
             <h3>{{ t('index.feature4_title') }}</h3>
             <span>PTFE micropowders</span>
@@ -156,8 +156,8 @@ export default {
     <div id="csr_red">
       <div class="container">
         <div class="row">
-          <div class="col-7"><img src="/assets/img/home_bottom.webp" /></div>
-          <div class="col-5">
+          <div class="col-6"><img src="/assets/img/home_bottom.webp" /></div>
+          <div class="col-6">
             <h3 v-html="t('index.feature5.title')"></h3>
             <p>
               {{ t("index.feature5.content") }}<br>

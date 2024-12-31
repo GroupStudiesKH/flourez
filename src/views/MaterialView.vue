@@ -95,7 +95,7 @@ export default {
           <li>{{ t('material.ffkmFeature5') }}</li>
         </ul>
         <p>
-          <h3>{{ t('material.ffkmConclusion') }}</h3>
+          <strong>{{ t('material.ffkmConclusion') }}</strong>
         </p>
 
         <img src="/assets/img/material_center.png" />

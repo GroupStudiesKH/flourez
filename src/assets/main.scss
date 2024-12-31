@@ -193,9 +193,9 @@ header {
 
                     .nav-link {
                         border-right: 1.5px solid #000;
-                        padding: 0px 30px;
+                        padding: 0px 20px;
                         transition: color 0.2s ease;
-                        font-size: 20pt;
+                        font-size: 28px;
                         line-height: 40px;
 
 
@@ -477,7 +477,7 @@ footer {
 
         span.copyright {
             transform: translateY(-10px);
-            font-size: 14pt;
+            font-size: 18px;
             color: #fff;
         }
 
@@ -506,7 +506,7 @@ main {
 
         &a {
             color: #696969;
-            font-size: 14pt;
+            font-size: 18px;
             font-weight: 300;
             padding: 10px 20px;
         }
@@ -600,7 +600,7 @@ main {
                     padding-left: 10px;
 
                     h3 {
-                        font-size: 32pt;
+                        font-size: 34px;
                         font-weight: 600;
                         color: #393434;
                     }
@@ -613,7 +613,7 @@ main {
 
                     @media (max-width: 991px) {
                         h3 {
-                            font-size: 20pt;
+                            font-size: 28px;
                         }
 
                         span {
@@ -626,7 +626,7 @@ main {
                     word-break: break-word;
                     white-space: normal;
                     overflow-wrap: break-word;
-                    font-size: 14pt;
+                    font-size: 18px;
                     line-height: 34px;
                     color: #505050;
                 }
@@ -635,7 +635,7 @@ main {
                     word-break: break-word;
                     white-space: normal;
                     overflow-wrap: break-word;
-                    font-size: 14pt;
+                    font-size: 18px;
                     line-height: 34px;
                     color: #505050;
                     margin: 100px 0;
@@ -735,8 +735,8 @@ main {
                 }
 
                 p {
-                    line-height: 36px;
-                    font-size: 17pt;
+                    line-height: 32px;
+                    font-size: 20px;
                     font-weight: 400;
                     color: #505050;
                 }
@@ -801,7 +801,7 @@ main {
             }
 
             h3 {
-                font-size: 46px;
+                font-size: 36px;
                 color: #fff;
                 margin-top: 70px;
                 word-break: break-all;
@@ -831,7 +831,8 @@ main {
             }
 
             p {
-                font-size: 22px;
+                font-size: 20px;
+                line-height: 32px;
 
                 @media (max-width: 991px) {
                     font-size: 16px;
@@ -848,7 +849,8 @@ main {
             }
 
             a {
-                font-size: 26px;
+                font-size: 22px;
+                text-decoration: underline !important;
 
                 @media (max-width: 991px) {
                     font-size: 16px;
@@ -911,9 +913,9 @@ main {
 
 
             p {
-                font-size: 20pt;
+                font-size: 20px;
                 color: #505050;
-                line-height: 46px;
+                line-height: 36px;
                 font-weight: 400;
                 margin: 25px 0;
             }
@@ -981,7 +983,7 @@ main {
 
             h4 {
                 border-left: 10px solid #BE1E2D;
-                font-size: 32pt;
+                font-size: 32px;
                 padding-left: 20px;
                 font-weight: 600;
                 color: #3B4046;
@@ -989,8 +991,8 @@ main {
 
             p {
                 padding-left: 1.3em;
-                font-size: 17pt;
-                line-height: 42px;
+                font-size: 20px;
+                line-height: 36px;
             }
         }
 
@@ -1027,8 +1029,8 @@ main {
                 }
 
                 p {
-                    font-size: 17pt;
-                    line-height: 36px;
+                    font-size: 20px;
+                    line-height: 32px;
                     padding-left: 3.2em;
                 }
 
@@ -1110,6 +1112,7 @@ main {
                     h4 {
                         font-weight: 600;
                         margin: 20px 0;
+                        font-size: 32px;
 
                         @media (max-width: 991px) {
                             font-size: 20px;
@@ -1135,21 +1138,21 @@ main {
 
             h4 {
                 border-left: 10px solid #BE1E2D;
-                font-size: 32pt;
+                font-size: 32px;
                 padding-left: 15px;
                 font-weight: 600;
                 color: #3B4046;
             }
 
             h3 {
-                font-size: 20pt;
+                font-size: 28px;
                 line-height: 40px;
                 font-weight: 600;
                 color: #3B4046;
 
                 @media (max-width: 991px) {
                     font-size: 16pt;
-                    line-height: 36px;
+                    line-height: 32px;
                     font-weight: 500;
                     padding: 0 10px;
 
@@ -1159,15 +1162,15 @@ main {
 
             p {
                 padding-left: 1em;
-                font-size: 17pt;
-                line-height: 42px;
+                font-size: 20px;
+                line-height: 36px;
             }
 
             ul {
                 li {
                     margin-left: 1em;
-                    font-size: 17pt;
-                    line-height: 42px;
+                    font-size: 20px;
+                    line-height: 36px;
                     list-style: disc;
                 }
 
@@ -1250,8 +1253,8 @@ main {
                 }
 
                 p {
-                    font-size: 17pt;
-                    line-height: 42px;
+                    font-size: 20px;
+                    line-height: 36px;
                     font-weight: 500;
                 }
 
@@ -1280,9 +1283,9 @@ main {
         #lab_intro {
 
             p {
-                font-size: 20pt;
+                font-size: 20px;
                 color: #505050;
-                line-height: 46px;
+                line-height: 36px;
                 font-weight: 400;
                 margin: 25px 0;
             }
@@ -1403,7 +1406,7 @@ main {
 
             h4 {
                 border-left: 10px solid #BE1E2D;
-                font-size: 32pt;
+                font-size: 32px;
                 padding-left: 20px;
                 font-weight: 600;
                 color: #3B4046;
@@ -1411,8 +1414,8 @@ main {
 
             p {
                 padding-left: 1em;
-                font-size: 17pt;
-                line-height: 42px;
+                font-size: 20px;
+                line-height: 36px;
             }
 
             img {
@@ -1422,8 +1425,8 @@ main {
             ul {
                 li {
                     margin-left: 2em;
-                    font-size: 28px;
-                    line-height: 55px;
+                    font-size: 20px;
+                    line-height: 32px;
                     list-style-type: disc;
                 }
             }
@@ -1439,9 +1442,9 @@ main {
         #service_intro {
 
             p {
-                font-size: 20pt;
+                font-size: 20px;
                 color: #505050;
-                line-height: 46px;
+                line-height: 36px;
                 font-weight: 600;
                 margin: 25px 0;
             }
@@ -1479,7 +1482,7 @@ main {
 
             h4 {
                 border-left: 10px solid #BE1E2D;
-                font-size: 32pt;
+                font-size: 32px;
                 padding-left: 20px;
                 font-weight: 600;
                 color: #3B4046;
@@ -1487,8 +1490,8 @@ main {
 
             p {
                 padding-left: 1em;
-                font-size: 17pt;
-                line-height: 42px;
+                font-size: 20px;
+                line-height: 36px;
 
                 &.page_intro {
                     margin-bottom: 200px;
@@ -1605,7 +1608,7 @@ main {
                     }
 
                     h4 {
-                        font-size: 17pt;
+                        font-size: 20px;
                         font-weight: 800;
                         margin: 20px 0;
 
@@ -1686,7 +1689,7 @@ main {
 
             h4 {
                 border-left: 10px solid #BE1E2D;
-                font-size: 32pt;
+                font-size: 32px;
                 padding-left: 15px;
                 font-weight: 600;
                 color: #3B4046;
@@ -1694,8 +1697,8 @@ main {
 
             p {
                 padding-left: 1em;
-                font-size: 17pt;
-                line-height: 42px;
+                font-size: 20px;
+                line-height: 36px;
             }
         }
 
@@ -1724,16 +1727,16 @@ main {
                 }
 
                 p {
-                    font-size: 17pt;
-                    line-height: 42px;
+                    font-size: 20px;
+                    line-height: 36px;
                 }
 
                 ol {
                     padding-left: 0;
 
                     li {
-                        font-size: 17pt;
-                        line-height: 42px;
+                        font-size: 20px;
+                        line-height: 36px;
                     }
                 }
 
