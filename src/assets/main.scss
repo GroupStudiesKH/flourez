@@ -371,6 +371,10 @@ footer {
     color: #fff;
     overflow: hidden;
 
+    a{
+        color: #fff;
+    }
+
     &.footer-mobile{
         background: linear-gradient(140deg, rgb(149, 0, 0), rgb(151, 0, 0)), url("/assets/img/footer_zh.jpg");
         &.eng{

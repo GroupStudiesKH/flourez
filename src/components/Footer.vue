@@ -9,9 +9,9 @@
         </div>
         <div class="col-12 col-lg-3 contact d-none d-lg-flex">
           <p>
-            Tel : {{ t("footer.phone") }}<br />
+            <a :href="'tel:' + t('footer.phone')">Tel : {{ t("footer.phone") }}</a><br />
             Fax : {{ t("footer.fax") }}<br />
-            sales@fluorez.com.tw
+            <a :href="'mailto:sales@fluorez.com.tw'">sales@fluorez.com.tw</a>
           </p>
         </div>
         <div class="col-12 col-lg-4 slogan d-none d-lg-block">
@@ -44,9 +44,9 @@
         </div>
         <div class="col-12 contact">
           <p>
-            Tel : {{ t("footer.phone") }}<br />
+            <a :href="'tel:' + t('footer.phone')">Tel : {{ t("footer.phone") }}</a><br />
             Fax : {{ t("footer.fax") }}<br />
-            sales@fluorez.com.tw
+            <a :href="'mailto:sales@fluorez.com.tw'">sales@fluorez.com.tw</a>
             </p>
         </div>
       </div>
