@@ -550,6 +550,10 @@ main {
             background-size: cover;
             background-position: center center;
 
+            @media (max-width: 768px) {
+                background-position: right -140px center;
+            }
+
             .container {
                 padding: 200px 0 0 0;
 
@@ -865,6 +869,10 @@ main {
                 
             }
 
+            @media (max-width: 576px) {
+                background-position: right -90px center;
+            }
+
         }
 
         #company_intro {
@@ -1032,6 +1040,10 @@ main {
             @media (max-width: 991px) {
                 height: 150px;
                 
+            }
+
+            @media (max-width: 576px) {
+                background-position: right -90px center;
             }
 
         }
@@ -1286,6 +1298,10 @@ main {
                 
             }
 
+            @media (max-width: 576px) {
+                background-position: right -90px center;
+            }
+
         }
 
 
@@ -1443,6 +1459,9 @@ main {
                 height: 150px;
                 
             }
+            @media (max-width: 576px) {
+                background-position: right -90px center;
+            }
 
         }
 
@@ -1528,6 +1547,9 @@ main {
             @media (max-width: 991px) {
                 height: 150px;
                 
+            }
+            @media (max-width: 576px) {
+                background-position: right -90px center;
             }
 
         }
