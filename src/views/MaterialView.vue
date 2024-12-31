@@ -48,21 +48,24 @@ export default {
           <div class="col-4 badge">
             <div class="outline" style="margin-right: 20px" @click="scrollToMaterialSection('ffkm_section')" role="button">
               <img src="/assets/img/ffkm.png" alt="" />
-              <h4 class="d-none d-md-block">{{ t('product.ffkm.title') }}</h4>
+              <h4 class="d-none d-md-block" v-if="locale != 'eng'">{{ t('product.ffkm.title') }}</h4>
+              <h5 class="d-none d-md-block" v-else>{{ t('product.ffkm.title') }}</h5>
               <h4 class="d-md-none">{{ t('product.ffkm.title_mobile') }}</h4>
             </div>
           </div>
           <div class="col-4 badge">
             <div class="outline" style="margin: 0 20px" @click="scrollToMaterialSection('fkm_section')" role="button">
               <img src="/assets/img/fkm.png" alt="" />
-              <h4 class="d-none d-md-block">{{ t('product.fkm.title') }}</h4>
+              <h4 class="d-none d-md-block" v-if="locale != 'eng'">{{ t('product.fkm.title') }}</h4>
+              <h5 class="d-none d-md-block" v-else>{{ t('product.fkm.title') }}</h5>
               <h4 class="d-md-none">{{ t('product.fkm.title_mobile') }}</h4>
             </div>
           </div>
           <div class="col-4 badge">
             <div class="outline" style="margin-left: 20px" @click="scrollToMaterialSection('pfls_section')" role="button">
               <img src="/assets/img/pfls.png" alt="" />
-              <h4 class="d-none d-md-block">{{ t('product.pfls.title') }}</h4>
+              <h4 class="d-none d-md-block" v-if="locale != 'eng'">{{ t('product.pfls.title') }}</h4>
+              <h5 class="d-none d-md-block" v-else>{{ t('product.pfls.title') }}</h5>
               <h4 class="d-md-none">{{ t('product.pfls.title_mobile') }}</h4>
             </div>
           </div>
