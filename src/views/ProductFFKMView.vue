@@ -322,8 +322,8 @@ export default {
         <div class="row">
           <div class="col-12 card">
             <h4><img src="/assets/img/ffkm_icon.png" />{{ t('product.ffkm.lowCompression.title') }}</h4>
-            <p>{{ t('product.ffkm.lowCompression.description') }}</p>
-            <p>{{ t('product.ffkm.lowCompression.applications') }}</p>
+            <p v-html="t('product.ffkm.lowCompression.description')"></p>
+            <p v-html="t('product.ffkm.lowCompression.applications')"></p>
             <p>
               <strong>{{ t('product.ffkm.lowCompression.equivalent') }}</strong>
             </p>
@@ -455,10 +455,31 @@ export default {
               </tbody>
             </table>
 
-            <p>
+            <p v-if="locale != 'eng'">
               <strong>{{ t('product.ffkm.foodMedical.medicalTitle') }}</strong><br />
               {{ t('product.ffkm.foodMedical.medicalDescription1') }}<br /><br />
               {{ t('product.ffkm.foodMedical.medicalDescription2') }}
+            </p>
+
+            <p v-else>
+              <strong>Medical Grade Perfluoroelastomers</strong><br />
+              Medical grade perfluoroelastomers (FFKM) must comply with the requirements of the United States Pharmacopeia (USP) Class VI. Fluorez® FFKM UFT753 and UFT750, developed by Fluorez Technology, have been tested and approved by third-party laboratories, meeting the requirements of Chapter 87 (or ISO 10993-5) and Chapter 88 (or ISO 10993-6, -10, -11) and complying with USP Class VI polymer testing standards.<br /><br />
+              <strong>Compliance with Food and Medical Standards:</strong> These perfluoroelastomer materials meet the stringent standards of the food and medical industries, such as FDA (U.S. Food and Drug Administration) and USP Class VI, ensuring safety and reliability when in contact with food and medical products.<br /><br />
+              <strong>1. Extremely Low Extractables:</strong> Food and medical-grade perfluoroelastomers have very low extractables during use, which is crucial to prevent contamination of food and medical products.<br /><br />
+              <strong>2. Chemical Resistance:</strong> These rubber materials exhibit excellent chemical resistance, able to withstand various chemicals, including acids, bases, solvents, and cleaning agents, making them suitable for applications requiring frequent cleaning and sterilization.<br /><br />
+              <strong>3. High-Temperature Performance:</strong> These elastomers can maintain their physical and chemical properties in high-temperature environments without degradation or failure, making them ideal for high-temperature sterilization processes.<br /><br />
+              <strong>4. Biocompatibility:</strong> These rubber materials are non-toxic and non-irritating to human tissues, with good biocompatibility, suitable for sealing and contact components in medical equipment and devices.<br /><br />
+              <strong>5. Excellent Mechanical Properties:</strong> They possess high strength, high elasticity, and wear resistance, maintaining stable sealing performance and mechanical strength over long-term use.<br /><br />
+              <strong>6. Low Gas Permeability:</strong> They have low gas permeability, ensuring effective airtightness and protection in food and medical applications.<br /><br />
+              <strong>7. Resistance to Hot Water and Steam:</strong> They can withstand the erosion of hot water and steam without failure, making them suitable for applications requiring frequent high-temperature sterilization.<br /><br />
+              <strong>8. Easy to Clean:</strong> With a smooth surface that does not easily attract dirt, these elastomers are easy to clean and maintain, meeting the hygiene requirements of the food and medical industries.<br /><br />
+              Due to their excellent chemical and physical properties, food and medical-grade perfluoroelastomers are widely used in food processing, pharmaceuticals, medical equipment, and devices requiring high cleanliness and safety. We offer perfluoroelastomers that meet FDA standards and those that comply with USP Class VI standards.<br /><br />
+              Fluorez Technology's medical-grade perfluoroelastomers also meet food-grade requirements, making them ideal for applications in medical devices, pharmaceuticals, and biocompatibility-related fields. All materials are available in finished forms. Our finished products include:<br /><br />
+              Standard O-rings (JIS B2401, JIS P, JIS V, JIS G, JIS S, and international metric)<br />
+              Various custom parts<br />
+              Metal bonded parts<br /><br />
+              For other special product requirements, please contact us.<br /><br />
+              If you need any further adjustments or additional information, feel free to let me know!
             </p>
 
             <p><strong>{{ t('product.ffkm.foodMedical.cert') }}</strong></p>
