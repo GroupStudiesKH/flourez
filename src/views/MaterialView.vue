@@ -15,20 +15,18 @@ export default {
     const isIntroScolled = ref(false);
     const { t, locale } = useI18n();
 
-
     const scrollToMaterialSection = (elementID) => {
       const element = document.getElementById(elementID);
       if (element) {
-        element.scrollIntoView({ behavior: 'smooth' });
+        element.scrollIntoView({ behavior: "smooth" });
       }
-    }
-
+    };
 
     return {
       isIntroScolled,
       t,
       locale,
-      scrollToMaterialSection
+      scrollToMaterialSection,
     };
   },
 };
@@ -84,7 +82,7 @@ export default {
             <p>{{ t('material.semiconApplications') }}</p>
           </div>
         </div>
-        <p>{{ t('material.ffkmIntro') }}</p>
+        <p v-html="t('material.ffkmIntro')"></p>
 
         <p>
           <h3>{{ t('material.mainFeatures') }}：</h3>
@@ -104,7 +102,7 @@ export default {
         <img src="/assets/img/material_center.png" />
       </div>
 
-      <div class="container text-section" id="fkm_section">
+      <div class="container text-section" id="fkm_section" v-if="locale != 'eng'">
         <h4>{{ t('product.fkm.title') }}</h4>
         <p>{{ t('material.fkmIntro') }}</p>
         <p><h3>{{ t('material.fkmFeatureTitle1') }}：</h3></p>
@@ -138,10 +136,30 @@ export default {
           <li>{{ t('material.fkmApplication4') }}</li>
           <li>{{ t('material.fkmApplication5') }}</li>
         </ul>
-<br>
+        <br>
         <h3>{{ t('material.fkmConclusion') }}</h3>
       </div>
-<br>
+
+      <div class="container text-section" id="fkm_section" v-else>
+        <h4>Fluoroelastomer, FKM (FPM by DIN/ISO)</h4>
+        <p>Fluoroelastomer, FKM (FPM by DIN/ISO) is known by different trade names depending on the manufacturer. The American company DuPont® marketed FKM under the brand name Viton® until 2015, when it was transferred to Chemours®, a spin-off from DuPont®. The FKM products from 3M® are branded as Dyneon®, while the Japanese company Daikin® markets their FKM products under the name DAI-EL®. Another Japanese company, Asahi Glass (ACG)®, sells their FKM products under the brand Aflas® (FEPM).</p>
+        <p>Previously, there was confusion where users often mistook Viton® to represent all FKM types, which was a misconception due to long-standing habits.</p>
+        <p>FKM is a fully synthetic elastomer material characterized by carbon and fluorine atoms in its main or side chains, providing excellent chemical stability and resistance to chemical corrosion. It can withstand attacks from various chemicals. Due to differences in monomer compositions, FKM can be categorized into several types. Unless specified otherwise, the term "fluoroelastomer (FKM, Viton®)" generally refers to fluoroelastomers with bisphenol cross-links, specifically Viton® A.</p>
+        <p>Fluoroelastomers offer superior physical properties compared to other synthetic rubber materials, including high tensile and structural strength, high temperature resistance (operating continuously at up to 230°C, with peak temperatures up to 250 °C, and excellent chemical resistance.</p>
+      <h3>Key characteristics：</h3>
+      <ul>
+        <li>Excellent chemical resistance: FKM resists a wide range of chemicals including oils, fuels, acids, alkalis, and solvents, making it ideal for applications in industries such as chemicals, automotive, and aerospace.</li>
+        <li>Superior temperature resistance: FKM materials maintain stability and performance at extreme high temperatures, suitable for high-temperature sealing applications, with good resistance to aging.</li>
+        <li>Excellent dimensional stability: FKM materials exhibit excellent dimensional stability and recovery, ensuring reliable sealing performance under pressure and temperature fluctuations.</li>
+        <li>Wide range of applications: Due to its outstanding properties, FKM materials are widely used in seals and rubber products in automotive, oil and gas, chemical, aerospace, and other industries.</li>
+      </ul>
+      <p>In terms of chemical resistance, fluoroelastomers excel in corrosion resistance against organic solvents, inorganic acids, strong oxidizers, and oils compared to other types of rubber. Additionally, they offer superior air tightness, weather resistance, flame resistance, radiation resistance, and vacuum resistance, making them suitable for various industrial applications including aviation, defense, machinery, automotive, and chemical industries.</p>
+      <h3>Special Grade of Fluoroelastomers (FKM)：</h3>
+      <p>As mentioned earlier, FKM products generally refer to bisphenol cross-linked fluoroelastomers with a fluorine content of 66% (Viton® A), commonly known as Viton®. The remaining dozen types, influenced by different monomer compositions, affect the rubber's chemical resistance and fluorine content, and are categorized as special fluoroelastomers for distinction. For example, high-fluorine products have a fluorine content ranging from 67% to 70%. Compared to typical fluorine content FKM, they exhibit stronger chemical resistance and physical properties, albeit at a higher price, suitable for applications requiring more stringent environmental conditions. Fluoroelastomers from different brands each have their own characteristics; for instance, Aflas (FEPM) produced by Asahi Glass (ACG)® of Japan demonstrates improved chemical resistance and resistance to steam through variations in monomers. Additionally, special fluoroelastomers also cater to categories requiring low-temperature performance.</p>
+      <p>Fluoroelastomers all require compounding facilities to adjust FKM raw material quality and different additives to manufacture suitable products. Therefore, selecting the appropriate fluoroelastomer product relies not only on experience but also on testing different compounding formulations to meet specific application requirements.</p>
+
+      </div>
+      <br>
       <div class="container text-section" id="pfls_section">
         <h4>{{ t('product.pfls.title') }}</h4>
         <p>{{ t('material.pflsIntro') }}</p>
