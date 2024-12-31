@@ -355,7 +355,7 @@
     }
   },
   "lab": {
-    "intro": "At Fluorez Technology Ltd., we are committed to providing high-quality FKM (Fluoroelastomer) and FFKM (Perfluoroelastomer) products to our customers. Our confidence in product quality stems from our rigorous quality control and comprehensive testing conducted in our advanced internal laboratory.",
+    "intro": "<strong>At Fluorez Technology Ltd.</strong>, we are unwavering in our commitment to delivering superior FKM (Fluoroelastomer) and FFKM (Perfluoroelastomer) products. Our confidence in the quality and reliability of our products is rooted in our rigorous quality control measures and comprehensive testing carried out in our own state-of-the-art laboratory. <br><br><strong>Advanced In-House Testing Capabilities:</strong><br> Our laboratory is equipped with cutting-edge instruments that enable us to conduct a wide range of tests to ensure our products meet the highest industry standards:",
     "ffkmTitle": "FFKM Perfluoroelastomer",
     "equipment1": "Sulfur Test Instrument",
     "equipment2": "Shore Hardness Tester",
@@ -367,26 +367,26 @@
     "equipment8": "Hydraulic Cutting Machine",
     "equipment9": "Mixing Machine",
     "qualityAssurance": {
-      "title": "Quality Assurance Commitment",
-      "content": "Our comprehensive testing system enables us to closely monitor every step of the production process, from raw materials to final product performance control, ensuring each batch meets strict quality standards. This attention to detail reduces variability and enhances product reliability, providing customers with trustworthy materials."
+      "title": "Commitment to Quality Assurance",
+      "content": "Our comprehensive testing regimen enables us to monitor every aspect of the production process meticulously. By controlling material properties from the raw compound stage through to the finished product, we ensure that each batch meets stringent quality criteria. This meticulous attention to detail reduces variability, enhances product reliability, and provides our customers with materials they can trust."
     },
     "cleanroom": {
-      "title": "Cleanroom Manufacturing Environment",
-      "content": "We understand the importance of product purity and contamination control, which is why we have a cleanroom in our factory. This controlled environment minimizes particles and other contaminants in the air, which is particularly important for products used in sensitive applications such as semiconductor manufacturing, pharmaceuticals, and aerospace. The cleanroom ensures our seals and components maintain their integrity and excellent performance even under the most stringent conditions."
+      "title": "Clean Room Manufacturing Environment",
+      "content": "Understanding the importance of product purity and contamination control, we maintain a clean room within our manufacturing facility. This controlled environment minimizes the presence of airborne particles and other contaminants, which is especially critical for products used in sensitive applications such as semiconductor manufacturing, pharmaceuticals, and aerospace. The clean room environment ensures that our seals and components maintain their integrity and performance in the most demanding conditions."
     },
     "customerSupport": {
       "title": "Customer Support and Technical Expertise",
-      "intro": "Beyond our production capabilities, we take pride in our extensive knowledge base and rubber technology expertise. Our team is dedicated to providing customers with:",
-      "point1": "Detailed technical data and guidance to help select materials suitable for specific applications.",
-      "point2": "Insights into material performance under different operating conditions.",
-      "point3": "Assistance in problem-solving and optimizing product performance.",
-      "conclusion": "We believe collaboration and knowledge sharing are key to mutual success. Through working with customers, we strive to develop innovative solutions that meet and exceed industry challenges."
+      "intro": "Beyond our manufacturing capabilities, we pride ourselves on our robust knowledge base and technical expertise in elastomer technology. Our team is dedicated to supporting our customers by:",
+      "point1": "Providing detailed technical data and guidance to help select the most suitable materials for specific applications.",
+      "point2": "Offering insights into material performance under various operating conditions.",
+      "point3": "Assisting with troubleshooting and optimizing product performance.",
+      "conclusion": "We believe that collaboration and knowledge sharing are key to mutual success. By partnering with our customers, we aim to contribute to the development of innovative solutions that meet and exceed industry challenges."
     },
     "qualityManagement": {
       "title": "Quality Management System Alignment",
-      "content": "Our quality control processes align with international standards such as ISO 9001:2015, ensuring our operations are efficient, consistent, and continuously improving. This alignment demonstrates our commitment to maintaining a quality management system that enhances customer satisfaction and meets regulatory requirements."
+      "content": "Our quality control processes are aligned with international standards such as ISO 9001:2015, ensuring that our operations are efficient, consistent, and continually improving. This alignment underscores our commitment to maintaining a quality management system that enhances customer satisfaction and meets regulatory requirements."
     },
-    "conclusion": "At Fluorez Technology Ltd., quality is not just a goal—it is a core component of our culture and operations. From our advanced laboratory testing to cleanroom manufacturing and expert customer support, every aspect of our business focuses on delivering excellence. We invite you to experience our commitment to quality firsthand and look forward to the opportunity to meet your needs with our high-performance FKM and FFKM products."
+    "conclusion": "At Fluorez Technology Ltd., quality is not just a goal—it's an integral part of our culture and operations. From our advanced laboratory testing to our clean room manufacturing and dedicated customer support, every aspect of our business is focused on delivering excellence. We invite you to experience the difference that our commitment to quality can make in your applications and look forward to the opportunity to support your needs with our high-performance FKM and FFKM products."
   },
 
   "material": {

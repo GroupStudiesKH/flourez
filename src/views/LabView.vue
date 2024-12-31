@@ -36,7 +36,7 @@ export default {
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <p>{{ t('lab.intro') }}</p>
+            <p v-html="t('lab.intro')"></p>
           </div>
         </div>
       </div>
