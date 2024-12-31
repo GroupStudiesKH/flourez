@@ -105,30 +105,30 @@ export default {
       <div class="container text-section" id="fkm_section" v-if="locale != 'eng'">
         <h4>{{ t('product.fkm.title') }}</h4>
         <p>{{ t('material.fkmIntro') }}</p>
-        <p><h3>{{ t('material.fkmFeatureTitle1') }}：</h3></p>
+        <h3>{{ t('material.fkmFeatureTitle1') }}：</h3>
         <ul>
           <li>{{ t('material.fkmFeature1_1') }}</li>
           <li>{{ t('material.fkmFeature1_2') }}</li>
         </ul>
 
-        <p><h3>{{ t('material.fkmFeatureTitle2') }}：</h3></p>
+        <h3>{{ t('material.fkmFeatureTitle2') }}：</h3>
         <ul>
           <li>{{ t('material.fkmFeature2_1') }}</li>
           <li>{{ t('material.fkmFeature2_2') }}</li>
         </ul>
 
-        <p><h3>{{ t('material.fkmFeatureTitle3') }}：</h3></p>
+        <h3>{{ t('material.fkmFeatureTitle3') }}：</h3>
         <ul>
           <li>{{ t('material.fkmFeature3_1') }}</li>
         </ul>
 
-        <p><h3>{{ t('material.fkmFeatureTitle4') }}：</h3></p>
+        <h3>{{ t('material.fkmFeatureTitle4') }}：</h3>
         <ul>
           <li>{{ t('material.fkmFeature4_1') }}</li>
           <li>{{ t('material.fkmFeature4_2') }}</li>
         </ul>
 
-        <p><h3>{{ t('material.applicationAreas') }}：</h3></p>
+        <h3>{{ t('material.applicationAreas') }}：</h3>
         <ul>
           <li>{{ t('material.fkmApplication1') }}</li>
           <li>{{ t('material.fkmApplication2') }}</li>
