@@ -1437,6 +1437,10 @@ main {
                     font-size: 20px;
                     line-height: 32px;
                     list-style-type: disc;
+
+                    @media (max-width: 1024px) {
+                        margin: 0;
+                    }
                 }
             }
 
