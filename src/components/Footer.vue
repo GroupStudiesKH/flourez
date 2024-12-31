@@ -1,5 +1,5 @@
 <template>
-  <footer class="footer">
+  <footer class="footer d-none d-lg-block">
     <div class="container">
       <div class="row">
         <div class="col-12 col-lg-5 company_info d-none d-lg-block">
@@ -21,23 +21,6 @@
           </h4>
           <span class="copyright"> ©Fluorez<sup>®</sup> Technology, Ltd. </span>
         </div>
-
-        <div class="col-6 company_info d-block d-lg-none">
-          <img class="logo" src="/assets/img/footer-logo.png" />
-          <h3>{{ t("footer.company") }}</h3>
-        </div>
-
-        <div class="col-6 slogan d-block d-lg-none">
-          <h4>
-            The<br /><span> solution provider </span>of<br />
-            perfluoroelastome.
-          </h4>
-        </div>
-        <div class="col-12 company_info d-block d-lg-none">
-          <p class="bottom_company_info">
-            {{ t("footer.address") }} / {{ t("footer.phone") }}
-          </p>
-        </div>
       </div>
     </div>
     <div id="footer-point">
@@ -51,17 +34,34 @@
         </div>
       </div>
     </div>
+  </footer>
 
-    <!-- Cookie 同意提示框 -->
-    <div v-if="!cookieAccepted" class="cookie-consent">
-      <div class="cookie-content">
-        <p>{{ t("cookie.consent") }}</p>
-        <button @click="acceptCookies" class="accept-btn">
-          {{ t("cookie.accept") }}
-        </button>
+  <footer class="footer-mobile d-lg-none" :class="locale">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 company_info">
+          <p>{{ t("footer.address") }}</p>
+        </div>
+        <div class="col-12 contact">
+          <p>
+            Tel : {{ t("footer.phone") }}<br />
+            Fax : {{ t("footer.fax") }}<br />
+            sales@fluorez.com.tw
+            </p>
+        </div>
       </div>
     </div>
   </footer>
+
+  <!-- Cookie 同意提示框 -->
+  <div v-if="!cookieAccepted" class="cookie-consent">
+    <div class="cookie-content">
+      <p>{{ t("cookie.consent") }}</p>
+      <button @click="acceptCookies" class="accept-btn">
+        {{ t("cookie.accept") }}
+      </button>
+    </div>
+  </div>
 </template>
 
 <script>
