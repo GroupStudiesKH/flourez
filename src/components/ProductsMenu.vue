@@ -1,6 +1,6 @@
 <template>
     <div class="container" id="badge_area">
-\        <div class="row">
+        <div class="row">
             <div class="col-6 col-lg-3">
                 <a href="ffkm">
                     <img src="/assets/img/m_product_icon01.png" alt="" class="img-fluid mb-2" />
