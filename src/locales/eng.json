@@ -21,7 +21,7 @@
   },
 
   "about": {
-    "intro": "Founded in 2005, Fluorez Technology, Ltd. has been dedicated to providing the highest quality perfluoroelastomer (FFKM) products for the global market since its inception. In response to rapid market changes and the pursuit of economic efficiency, and in line with Taiwan's Ministry of Economic Affairs Industrial Development Bureau's policy of localizing semiconductor consumables production, we have further developed our own Taiwan-manufactured perfluoroelastomer brand, Fluorez®.",
+    "intro": "Founded in 2005, Fluorez Technology Co., Ltd. specializes in high-quality perfluoroelastomer (FFKM) products. To meet market demands and support Taiwan’s semiconductor localization policy, we launched the “Fluorez®” brand, made in Taiwan.",
     "badge": {
       "professional": "PROFESSIONAL",
       "quality": "BEST QUALITY",
@@ -29,16 +29,16 @@
       "service_mobile": "CUSTOMER<br/>SERVICE"
     },
     "professional": {
-      "title": "Professional",
-      "content": "Fluorez Technology, Ltd.'s expertise comes from years of market experience and reputation. We believe that good communication is the key to choosing the right materials. Fluorez Technology not only offers a diverse product line including perfluoroelastomer compounds, but also provides standard components manufactured from fluoro-elastomer (FKM) and perfluoro-elastomers (FFKM). We also accept customized FKM/FFKM products tailored to consumer needs. We continuously develop new formulations for applications and have developed products that comply with FDA and USP Class VI standards to meet the needs of the food and medical industries."
+      "title": "Professionalism",
+      "content": "With extensive market experience, we prioritize effective communication to choose the right materials and formulations. We offer a diverse product line, including compounded perfluoroelastomers and standard components made from FKM and FFKM. We also provide customized FKM/FFKM products and FDA and USP Class VI compliant solutions for the food and medical industries."
     },
     "quality": {
       "title": "Quality",
-      "content": "Fluorez Technology, Ltd. complies with ISO quality certification, and all products are tested by third-party laboratories, meeting a series of standards including the latest EU chemical control and hazardous chemicals regulations. Clean room production specifications also follow international ASTM and ISO standards. The highest standard of product sampling testing has become the backbone supporting our delivery of high-standard products."
+      "content": "ISO certified, our products are tested by third-party labs to comply with the latest EU chemical regulations and standards for hazardous substances. Products produced in our cleanrooms adhere to international ASTM and ISO standards. Rigorous sampling ensures high product standards."
     },
     "service": {
       "title": "Service",
-      "content": "Over the years, we have collaborated with different customers on various OEM and ODM production models, going beyond production and sales to provide comprehensive solutions to customers. We also provide pre-sales and after-sales laboratory analysis, supporting customer problem-solving solutions. Customized inventory management solutions better meet customer efficiency and cost requirements."
+      "content": "We collaborate on OEM and ODM production, providing comprehensive solutions and laboratory analysis for pre- and post-sales support. Our customized inventory management enhances efficiency and cost-effectiveness."
     },
     "pfas": {
       "q1": "Do our products contain PFAS?",
