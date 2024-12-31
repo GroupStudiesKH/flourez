@@ -16,6 +16,15 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
+
+        <button 
+          class="btn-close d-lg-none" 
+          type="button" 
+          data-bs-toggle="collapse" 
+          data-bs-target="#navbarNav" 
+          aria-label="Close"
+        ></button>
+
         <ul class="navbar-nav ml-auto" :class="locale">
           <li class="nav-item">
             <a class="nav-link" :href="`/${locale}/about`">{{ t('header.about') }}</a>
@@ -32,7 +41,7 @@
           <li class="nav-item">
             <a class="nav-link" :href="`/${locale}/service`">{{ t('header.service') }}</a>
           </li>
-          <li class="nav-item language_switch dropdown">
+          <li class="nav-item language_switch dropdown d-none d-lg-block">
             <div
               class="dropdown-toggle"
               role="button"
@@ -56,6 +65,20 @@
                 >
               </li>
             </ul>
+          </li>
+          <li class="nav-item language_switch d-lg-none">
+            <div class="btn-group w-100" role="group">
+              <button
+              v-for="(lOption, lOptionIndex) in localeOptions"
+              :key="lOptionIndex"
+              type="button"
+              class="btn"
+              :class="['btn', { 'btn-secondary': locale === lOption.lang, 'btn-outline-secondary text-dark': locale !== lOption.lang }]"
+              @click="urlSetLocale(lOption.lang)"
+              >
+              {{ lOption.name }}
+              </button>
+            </div>
           </li>
         </ul>
       </div>

@@ -165,6 +165,54 @@ header {
             transition: all 0.3s ease;
             flex-direction: row-reverse;
 
+            @media(max-width: 991px){
+
+                box-shadow: 0px 10px 10px #666;
+                background-color: #fff;
+                z-index: 99;
+                transform: translateX(-100vw);
+                opacity: 1;
+                position: fixed;
+                top: 0px;
+                z-index: 99;
+                width: 95%;
+                left: 0%;
+                font-size: 16px;
+                height: 100vh !important;
+                &.show {
+                    transform: translateX(0);
+                }
+
+                .btn-close{
+                    margin-top: 20px;
+                    margin-left: 20px;
+                    margin-bottom: 20px;
+                    font-size: 20px;
+                    color: #000;
+                    outline: none;
+                }
+
+                .navbar-nav {
+                    .nav-item {
+                        
+                        .nav-link {
+                            padding: 5px 10px !important;
+                            transition: all 0.2s ease;
+                            border-right: none !important;
+                            font-size: 20px !important;
+                            color: #000;
+                            border-bottom: 1px solid #999 !important;
+                            margin: 0 20px;
+                            
+                        }
+
+                        &:hover:not(:last-child) {
+                            border-bottom: 5px solid transparent !important;
+                        }
+                    }
+                }
+            }
+
             .navbar-nav {
                 &.eng {
                     @media (min-width: 991px) {
@@ -199,10 +247,6 @@ header {
                         font-size: 28px;
                         line-height: 40px;
 
-
-                        @media (max-width: 1400px) {
-                            padding: 0px 20px;
-                        }
                     }
 
                     &:hover:not(:last-child) {
@@ -219,43 +263,6 @@ header {
 
             @media (max-width: 1400px) {
                 font-size: 23px;
-            }
-
-            @media (max-width: 991px) {
-                box-shadow: 0px 10px 10px #666;
-                background-color: #fff;
-                z-index: 99;
-                transform: translateY(0);
-                opacity: 1;
-                position: fixed;
-                top: 80px;
-                z-index: 99;
-                width: 90%;
-                left: 5%;
-                font-size: 20px;
-
-                &.collapsing {
-                    transform: translateY(-10px);
-                    opacity: 0;
-                }
-
-                .navbar-nav {
-
-                    .nav-item {
-                        .nav-link {
-                            border: none;
-                            padding: 10px 12px;
-                            transition: all 0.2s ease;
-
-                            &:hover {
-                                color: #696969;
-                                box-shadow: none;
-                                background-color: rgba(39, 78, 128, 0.1);
-                            }
-                        }
-                    }
-                }
-
             }
         }
 
