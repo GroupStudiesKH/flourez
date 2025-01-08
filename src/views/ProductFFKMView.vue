@@ -261,7 +261,7 @@ export default {
                     <td>65</td>
                     <td>75</td>
                     <td>65</td>
-                    <td>80</td>
+                    <td>78</td>
                     <td>75</td>
                   </tr>
                   <tr>
@@ -277,7 +277,7 @@ export default {
                     <td>3.3</td>
                     <td>6.2</td>
                     <td>6.8</td>
-                    <td>8.1</td>
+                    <td>4.7</td>
                     <td>8.5</td>
                   </tr>
                   <tr>
@@ -285,7 +285,7 @@ export default {
                     <td>13</td>
                     <td>17</td>
                     <td>12.8</td>
-                    <td>3.5</td>
+                    <td>11.5</td>
                     <td>12.5</td>
                   </tr>
                   <tr>
@@ -293,7 +293,7 @@ export default {
                     <td>215</td>
                     <td>251</td>
                     <td>232</td>
-                    <td>195</td>
+                    <td>303</td>
                     <td>220</td>
                   </tr>
                   <tr>
@@ -301,7 +301,7 @@ export default {
                     <td>12.5</td>
                     <td>17.5</td>
                     <td>17</td>
-                    <td>22</td>
+                    <td>25</td>
                     <td>25</td>
                   </tr>
                   <tr>
@@ -429,7 +429,7 @@ export default {
                 </tr>
                 <tr>
                   <td v-html="t('product.ffkm.foodMedical.table.heading4')"></td>
-                  <td>10</td>
+                  <td>16</td>
                   <td>5.8</td>
                 </tr>
                 <tr>
@@ -471,15 +471,11 @@ export default {
               <strong>4. Biocompatibility:</strong> These rubber materials are non-toxic and non-irritating to human tissues, with good biocompatibility, suitable for sealing and contact components in medical equipment and devices.<br /><br />
               <strong>5. Excellent Mechanical Properties:</strong> They possess high strength, high elasticity, and wear resistance, maintaining stable sealing performance and mechanical strength over long-term use.<br /><br />
               <strong>6. Low Gas Permeability:</strong> They have low gas permeability, ensuring effective airtightness and protection in food and medical applications.<br /><br />
-              <strong>7. Resistance to Hot Water and Steam:</strong> They can withstand the erosion of hot water and steam without failure, making them suitable for applications requiring frequent high-temperature sterilization.<br /><br />
-              <strong>8. Easy to Clean:</strong> With a smooth surface that does not easily attract dirt, these elastomers are easy to clean and maintain, meeting the hygiene requirements of the food and medical industries.<br /><br />
+              <strong>7. Resistance to Hot Water and Steam:</strong> They can withstand the erosion of hot water and steam without failure, making them suitable for applications requiring frequent high-temperature sterilization.<br />
+              <strong>8. Easy to Clean:</strong> With a smooth surface that does not easily attract dirt, these elastomers are easy to clean and maintain, meeting the hygiene requirements of the food and medical industries.<br />
               Due to their excellent chemical and physical properties, food and medical-grade perfluoroelastomers are widely used in food processing, pharmaceuticals, medical equipment, and devices requiring high cleanliness and safety. We offer perfluoroelastomers that meet FDA standards and those that comply with USP Class VI standards.<br /><br />
-              Fluorez Technology's medical-grade perfluoroelastomers also meet food-grade requirements, making them ideal for applications in medical devices, pharmaceuticals, and biocompatibility-related fields. All materials are available in finished forms. Our finished products include:<br /><br />
-              Standard O-rings (JIS B2401, JIS P, JIS V, JIS G, JIS S, and international metric)<br />
-              Various custom parts<br />
-              Metal bonded parts<br /><br />
-              For other special product requirements, please contact us.<br /><br />
-              If you need any further adjustments or additional information, feel free to let me know!
+              Fluorez Technology's medical-grade perfluoroelastomers also meet food-grade requirements, making them ideal for applications in medical devices, pharmaceuticals, and biocompatibility-related fields. All materials are available in finished forms.<br />
+              
             </p>
 
             <p><strong>{{ t('product.ffkm.foodMedical.cert') }}</strong></p>
@@ -504,7 +500,7 @@ export default {
                 </tr>
                 <tr>
                   <td v-html="t('product.ffkm.lowCompression.table.heading4')"></td>
-                  <td>9.8</td>
+                  <td>18.1</td>
                   <td>9.7</td>
                 </tr>
                 <tr>

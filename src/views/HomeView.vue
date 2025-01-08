@@ -120,7 +120,7 @@ export default {
           <div class="heading">
             <h3 v-if="locale != 'eng'">{{ t("index.feature1_title") }}</h3>
             <h4 class="h4 text-dark" v-else>{{ t("index.feature1_title") }}</h4>
-            <span>Fluoroelastomers, FFKM</span>
+            <span>Perfluoroelastomer, FFKM</span>
           </div>
           <img src="/assets/img/home_section1.webp" alt="" />
           <p v-html="t('index.feature1_subtitle')"></p>
@@ -138,18 +138,18 @@ export default {
           <div class="heading">
             <h3 v-if="locale != 'eng'">{{ t("index.feature3_title") }}</h3>
             <h4 class="h4 text-dark" v-else>{{ t("index.feature3_title") }}</h4>
-            <span>Perfluorinated liquids</span>
+            <span>PTFE micropowders</span>
           </div>
-          <img src="/assets/img/home_section3.webp" alt="" />
+          <img src="/assets/img/home_section4.webp" alt="" />
           <p v-html="t('index.feature3_subtitle')"></p>
         </div>
         <div class="col-12 col-xl-3 col-lg-6 badge">
           <div class="heading">
             <h3 v-if="locale != 'eng'">{{ t("index.feature4_title") }}</h3>
             <h4 class="h4 text-dark" v-else>{{ t("index.feature4_title") }}</h4>
-            <span>PTFE micropowders</span>
+            <span>Perfluorinated liquids</span>
           </div>
-          <img src="/assets/img/home_section4.webp" alt="" />
+          <img src="/assets/img/home_section3.webp" alt="" />
           <p v-html="t('index.feature4_subtitle')"></p>
         </div>
       </div>

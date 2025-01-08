@@ -122,7 +122,7 @@ export default {
             <table class="table table-striped">
               <thead class="table-danger">
                 <tr>
-                  <th class="text-center" scope="col" width="15%">{{ t('about.pfas.table.th1') }}</th>
+                  <th class="text-center" scope="col" width="55%">{{ t('about.pfas.table.th1') }}</th>
                   <th class="text-center" scope="col">{{ t('about.pfas.table.th2') }}</th>
                   <th class="text-center" scope="col">{{ t('about.pfas.table.th3') }}</th>
                   <th class="text-center" scope="col">{{ t('about.pfas.table.th4') }}</th>

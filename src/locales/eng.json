@@ -4,7 +4,7 @@
     "about": "About",
     "material": "Materials",
     "product": "Products",
-    "lab": "Lab Testing",
+    "lab": "Our Lab",
     "service": "Services"
   },
 
@@ -21,7 +21,7 @@
   },
 
   "about": {
-    "intro": "Founded in 2005, Fluorez Technology Co., Ltd. specializes in high-quality perfluoroelastomer (FFKM) products. To meet market demands and support Taiwan’s semiconductor localization policy, we launched the “Fluorez®” brand, made in Taiwan.",
+    "intro": "Founded in 2005, Fluorez Technology Co., Ltd. specializes in high-quality perfluoroelastomer (FFKM) products. To meet market demands and support Taiwan's semiconductor localization policy, we launched the \"Fluorez®\" brand, made in Taiwan.",
     "badge": {
       "professional": "PROFESSIONAL",
       "quality": "BEST QUALITY",
@@ -121,14 +121,14 @@
 
   "index": {
     "intro": "Fluorez Technology offers diversified fluorine products and fluororubber products, adhering to Taiwan manufacturing, and creating a series of fluororubber (fluoroelastomer, FKM) finished products, as well as perfluororubber (perfluoroelastomers, FFKM) compounds and finished products. Fluorez's independent laboratory provides rigorous testing data, ensuring the quality and stability of each product. We offer fluororubber O-rings (O-rings), gaskets, seals, sheets, molds, expandable seals, and metal bonding components, as well as customized O-ring repair kits. With evolving quality requirements and services, we aim to become a partner in helping customers succeed.",
-    "feature1_title": "Fluoroelastomer",
-    "feature2_title": "Perfluoroelastomer",
-    "feature3_title": "Perfluorinated Liquid",
-    "feature4_title": "Special Fluoroelastomer",
+    "feature1_title": "Perfluoroelastomer",
+    "feature2_title": "Fluoroelastomer",
+    "feature3_title": "Special Fluoroelastomer",
+    "feature4_title": "Perfluorinated Liquid",
     "feature1_subtitle": "Fluoroelastomer (FKM) has different brand names from different manufacturers. DuPont®'s FKM brand name is Viton®, 3M®'s FKM brand name is Dyneon®; Daikin®'s brand name is DAI-EL®, and Japanese Asahi Glass®'s brand name is Aflas®.",
     "feature2_subtitle": "Fluoroelastomer (FKM) has different brand names from different manufacturers. DuPont®'s FKM brand name is Viton®, 3M®'s FKM brand name is Dyneon®; Daikin®'s brand name is DAI-EL®, and Japanese Asahi Glass®'s brand name is Aflas®.",
-    "feature3_subtitle": "• Non-flammable even in high oxygen oxidizing environments<br/>• Does not react with metals, plastics, rubber, or most materials<br/>• Wide working temperature range from -60°C to 165°C<br/>• Excellent insulation properties at both high and low temperatures<br/>• Superior thermal conductivity",
-    "feature4_subtitle": "The so-called special fluororubber refers to fluororubbers other than Viton A: products with high fluorine content, whose raw materials have a fluorine content between 67-70%, which have stronger resistance and physical properties compared to general fluorine-containing FKM, but are also relatively more expensive, low-temperature resistant products, and peroxide-crosslinked products. They are applied in areas with higher requirements for the use environment.",
+    "feature3_subtitle": "The so-called special fluororubber refers to fluororubbers other than Viton A: products with high fluorine content, whose raw materials have a fluorine content between 67-70%, which have stronger resistance and physical properties compared to general fluorine-containing FKM, but are also relatively more expensive, low-temperature resistant products, and peroxide-crosslinked products.",
+    "feature4_subtitle": "• Non-flammable even in high oxygen oxidizing environments<br/>• Does not react with metals, plastics, rubber, or most materials<br/>• Wide working temperature range from -60°C to 165°C<br/>• Excellent insulation properties at both high and low temperatures<br/>• Superior thermal conductivity",
     "feature5": {
       "title": "Sustainable Commitment to<br>Safety and Environmental<br> Responsibility",
       "content": "Safe and reliable products compliant<br> with global regulatory standards",
@@ -165,7 +165,7 @@
       "title": "FFKM Perfluoroelastomer",
       "chemicalResistant": {
         "title": "Chemical Resistant Perfluoroelastomer",
-        "description": "Perfluoroelastomer (FFKM) formulations based on peroxide curing provide excellent and broad chemical resistance. Although the maximum operating temperature is not as high as high-temperature perfluoroelastomers, they offer a more economical option for applications in the petrochemical industry, semiconductor facility management, and various other scenarios requiring the sealing of organic solvents. We offer different formulations for various applications and also provide customized formulation services. All materials are available in finished and semi-finished forms. Our finished products include: Standard O-rings (JIS B2401, JIS P, JIS V, JIS G, JIS S, and international metric), Various custom parts, Metal bonded parts. If you need any further adjustments or additional information, feel free to let me know!",
+        "description": "Perfluoroelastomer (FFKM) formulations based on peroxide curing provide excellent and broad chemical resistance. Although the maximum operating temperature is not as high as high-temperature perfluoroelastomers, they offer a more economical option for applications in the petrochemical industry, semiconductor facility management, and various other scenarios requiring the sealing of organic solvents. We offer different formulations for various applications and also provide customized formulation services. All materials are available in finished and semi-finished forms. ",
         "equivalent": "Chemical resistant FKM. Equivalent to Kalrez® 6375, Chemraz® 505.",
         "table": {
           "heading1": "Typical Physical Properties",
@@ -175,12 +175,12 @@
           "heading5": "Tensile Strength<sup>b</sup> at Break, Mpa",
           "heading6": "Elongation at Break<sup>b</sup>, %",
           "heading7": "Compression Set<sup>c</sup> (%, 70hr&#64;200 °C )",
-          "heading8": "Max. Continuous Service Temp °C<sup>d</sup>"
+          "heading8": "Max. Continuous Service Temp.<sup>d</sup>, °C"
         }
       },
       "thermalResistant": {
         "title": "Thermal Resistant Perfluoroelastomer",
-        "description1": "Our perfluoroelastomer (FFKM) formulations based on nitrile curing provide excellent and broad chemical resistance. The high-temperature resistance is further enhanced up to 330°C. These formulations are ideal for processes requiring high-temperature resistance, such as petrochemical industries, semiconductor equipment, and various applications needing the sealing of organic solvents. We offer different formulations for various applications and also provide customized formulation services. All materials are available in both finished and semi-finished forms. Our finished products include: Standard O-rings (JIS B2401, JIS P, JIS V, JIS G, JIS S, and international metric), Various custom parts, Metal bonded parts. For more formulations and customization options, feel free to contact us. If you need any further adjustments or additional information, feel free to let me know!",
+        "description1": "Our perfluoroelastomer (FFKM) formulations based on nitrile curing provide excellent and broad chemical resistance. The high-temperature resistance is further enhanced up to 330°C. These formulations are ideal for processes requiring high-temperature resistance, such as petrochemical industries, semiconductor equipment, and various applications needing the sealing of organic solvents. We offer different formulations for various applications and also provide customized formulation services. All materials are available in both finished and semi-finished forms.",
         "equivalent": "Thermal resistant FFKM. Equivalent to Kalrez® 4079",
         "table": {
           "heading1": "Typical Physical Properties",
@@ -190,7 +190,7 @@
           "heading5": "Tensile Strength<sup>b</sup> at Break, Mpa",
           "heading6": "Elongation at Break<sup>b</sup>, %",
           "heading7": "Compression Set<sup>c</sup> (%, 70hr&#64;200 °C )",
-          "heading8": "Max. Continuous Service Temp °C<sup>d</sup>"
+          "heading8": "Max. Continuous Service Temp.<sup>d</sup>, °C"
         }
       },
       "highPurity": {
@@ -206,7 +206,7 @@
         "feature7": "7. Plasma Resistance: High purity perfluoroelastomers remain stable in plasma environments, resisting plasma erosion, which is particularly important for plasma etching processes in semiconductor manufacturing.",
         "feature8": "8. High Purity Processing: During production, these elastomers typically undergo special cleaning treatments to ensure product purity meets high-demand applications.",
         "applications": "Due to their superior chemical and physical properties, high purity perfluoroelastomers are widely used in semiconductor manufacturing, chemical processing, pharmaceuticals, medical equipment, and other fields requiring high cleanliness and chemical resistance.",
-        "customization": "For different semiconductor processes, we have developed various high purity perfluoroelastomer formulations. All materials are available in finished and semi-finished forms. Our finished products include: Standard O-rings (JIS B2401, JIS P, JIS V, JIS G, JIS S, and international metric), Various custom parts, Metal bonded parts. For more formulations and customization options, please contact us. If you need any further adjustments or additional information, feel free to let me know!",
+        "customization": "For different semiconductor processes, we have developed various high purity perfluoroelastomer formulations. All materials are available in finished and semi-finished forms. ",
         "table": {
           "heading1": "Typical Physical Properties",
           "heading2": "Hardness<sup>a</sup>, Shore A",
@@ -215,13 +215,13 @@
           "heading5": "Tensile Strength<sup>b</sup> at Break, Mpa",
           "heading6": "Elongation at Break<sup>b</sup>, %",
           "heading7": "Compression Set<sup>c</sup> (%, 70hr&#64;200 °C )",
-          "heading8": "Max. Continuous Service Temp °C<sup>d</sup>"
+          "heading8": "Max. Continuous Service Temp.<sup>d</sup>, °C"
         }
       },
       "lowCompression": {
         "title": "Low Compression Set Perfluoroelastomer",
         "description": "Low Compression Set Perfluoroelastomers (Low Compression Set FFKM) offer several key advantages, including: <br>1. Excellent Durability: These elastomers maintain their elasticity and shape over long periods, reducing material fatigue and deformation, which extends their service life. <br>2. Good Sealing Performance: With a low compression set rate, these rubber materials can maintain effective sealing, preventing leaks of liquids or gases in sealing applications. <br>3. Wide Temperature Range: Low compression set elastomers can maintain their performance over a wide temperature range, making them suitable for various extreme temperature environments. <br>4. Chemical Resistance: These perfluoroelastomer materials exhibit excellent chemical resistance, capable of withstanding various chemical substances, making them ideal for chemical and petroleum industries. <br>5. High Elasticity: These elastomers possess excellent elasticity and rebound, allowing them to quickly return to their original shape even under repeated pressure. <br>6. Versatile Applications: Low compression set elastomers are widely used in the automotive, electronics, aerospace, and medical industries, showcasing their multipurpose nature.",
-        "applications": "These advantages make low compression set elastomers indispensable in applications requiring high-performance sealing and durability. All materials are available in finished and semi-finished forms. Our finished products include:<br>• Standard O-rings (JIS B2401, JIS P, JIS V, JIS G, JIS S, and international metric)<br>• Various custom parts<br>• Metal bonded parts<br>For more formulations and customization options, please contact us.<br>If you need any further adjustments or additional information, feel free to let me know!",
+        "applications": "These advantages make low compression set elastomers indispensable in applications requiring high-performance sealing and durability. All materials are available in finished and semi-finished forms. ",
         "equivalent": "Low compression set, Thermal resistant FFKM. Equivalent to Kalrez® 7075",
         "table": {
           "heading1": "Typical Physical Properties",
@@ -231,7 +231,7 @@
           "heading5": "Tensile Strength<sup>b</sup> at Break, Mpa",
           "heading6": "Elongation at Break<sup>b</sup>, %",
           "heading7": "Compression Set<sup>c</sup> (%, 70hr&#64;200 °C )",
-          "heading8": "Max. Continuous Service Temp °C<sup>d</sup>"
+          "heading8": "Max. Continuous Service Temp.<sup>d</sup>, °C"
         }
       },
       "foodMedical": {
@@ -248,7 +248,7 @@
         "fdaTitle": "Food Grade Perfluoroelastomer (FDA Grade FFKM):",
         "fdaDescription1": "The FDA (U.S. Food and Drug Administration) has established a regulation for the use of rubber in food-related applications, known as FDA CFR 21.177.2600, which is both a U.S. law and an international standard. Sections A to D of FDA CFR 21.177.2600 describe the requirements for \"rubber\" products intended for repeated use. Sections E and F further specify the extractable limits for FDA rubber seals when in contact with aqueous or fatty foods. The regulation defines the extract testing limits in water and n-hexane.",
         "fdaDescription2": "The FDA does not \"approve\" any product conforming to CFR 21.177.2600 but provides guidelines for manufacturers and users to follow and choose from. Compliance is demonstrated by the final manufacturer of FDA rubber products issuing an FDA certificate. It is also important to note that while a component may be made from FDA rubber material suitable for food contact, it does not necessarily mean that the component is technically suitable for its intended application.",
-        "fdaDescription3": "Food and medical-grade perfluoroelastomers, due to their outstanding chemical and physical properties, are widely used in food processing and safety fields. We offer perfluoroelastomers that meet FDA standards, available in both finished and semi-finished forms. Our finished products include:",
+        "fdaDescription3": "Food and medical-grade perfluoroelastomers, due to their outstanding chemical and physical properties, are widely used in food processing and safety fields. We offer perfluoroelastomers that meet FDA standards, available in both finished and semi-finished forms.",
         "medicalTitle": "Medical Grade Perfluoroelastomer (Medical Grade FFKM):",
         "medicalDescription1": "Medical grade FFKM (Medical grade FFKM) must comply with the regulations of the US Pharmacopeia Class VI (USP Cl VI). Fluorez FFKM UFT753 and UFT750, developed by Fluorez Technology, have passed third-party laboratory testing, meeting the requirements of US Chapter 87 (or ISO 10993-5) and Chapter 88 (or ISO 10993-6, -10, -11), as well as the testing requirements for USP Class VI polymers. This type of FFKM material meets the strict standards of the food and medical industries, such as FDA (Food and Drug Administration) and USP Class VI (United States Pharmacopeia Class VI), ensuring its safety and reliability when in contact with food and medical products.",
         "medicalDescription2": "Fluorez Technology's medical grade FFKM is also a food-grade FFKM that meets food-grade requirements, with its excellent chemical and physical properties widely applied in medical devices, pharmaceuticals, and fields related to biocompatibility, with all materials available in finished products.",
@@ -260,7 +260,7 @@
           "heading5": "Tensile Strength<sup>b</sup> at Break, Mpa",
           "heading6": "Elongation at Break<sup>b</sup>, %",
           "heading7": "Compression Set<sup>c</sup> (%, 70hr&#64;200 °C )",
-          "heading8": "Max. Continuous Service Temp °C<sup>d</sup>"
+          "heading8": "Max. Continuous Service Temp.<sup>d</sup>, °C"
         }
       },
       "products": {
@@ -356,13 +356,13 @@
   },
   "lab": {
     "intro": "<strong>At Fluorez Technology Ltd.</strong>, we are unwavering in our commitment to delivering superior FKM (Fluoroelastomer) and FFKM (Perfluoroelastomer) products. Our confidence in the quality and reliability of our products is rooted in our rigorous quality control measures and comprehensive testing carried out in our own state-of-the-art laboratory. <br><br><strong>Advanced In-House Testing Capabilities:</strong><br> Our laboratory is equipped with cutting-edge instruments that enable us to conduct a wide range of tests to ensure our products meet the highest industry standards:",
-    "ffkmTitle": "FFKM Perfluoroelastomer",
+    "ffkmTitle": "Clean Room Production",
     "equipment1": "Sulfur Test Instrument",
     "equipment2": "Shore Hardness Tester",
     "equipment3": "Viscosity Test Instrument",
     "equipment4": "Cutting Sample Machine",
     "equipment5": "Tensile Strength Test Instrument",
-    "equipment6": "Image Measurement Instrument",
+    "equipment6": "Optical Measurement Instrumnet",
     "equipment7": "Density Meter",
     "equipment8": "Hydraulic Cutting Machine",
     "equipment9": "Mixing Machine",
