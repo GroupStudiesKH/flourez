@@ -11,7 +11,7 @@
           <p>
             <a :href="'tel:' + t('footer.phone')">Tel : {{ t("footer.phone") }}</a><br />
             Fax : {{ t("footer.fax") }}<br />
-            <a :href="`mailto:${t('footer.email')}`">{{ t('footer.email') }}</a>
+            <a :href="`mailto:` + t('footer.email')">{{ t('footer.email') }}</a>
           </p>
         </div>
         <div class="col-12 col-lg-4 slogan d-none d-lg-block">
@@ -46,7 +46,7 @@
           <p>
             <a :href="'tel:' + t('footer.phone')">Tel : {{ t("footer.phone") }}</a><br />
             Fax : {{ t("footer.fax") }}<br />
-            <a :href="`mailto:${t('footer.email')}`">{{ t('footer.email') }}</a>
+            <a :href="`mailto:` + t('footer.email')">{{ t('footer.email') }}</a>
             </p>
         </div>
       </div>
