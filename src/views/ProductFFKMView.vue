@@ -248,69 +248,69 @@ export default {
                 <thead class="table-danger">
                   <tr>
                     <th v-html="t('product.ffkm.highPurity.table.heading1')"></th>
-                    <th>FU650N</th>
+                    <th>FU800W</th>
                     <th>FU750N</th>
                     <th>FU650B</th>
-                    <th>FU800W</th>
-                    <th>FU750B</th>
+                    <th>FU650N</th>
+                    <th>FU650W</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
                     <td v-html="t('product.ffkm.highPurity.table.heading2')"></td>
-                    <td>65</td>
-                    <td>75</td>
-                    <td>65</td>
                     <td>78</td>
                     <td>75</td>
+                    <td>65</td>
+                    <td>65</td>
+                    <td>67</td>
                   </tr>
                   <tr>
                     <td v-html="t('product.ffkm.highPurity.table.heading3')"></td>
-                    <td>{{ t('product.color.black') }}</td>
-                    <td>{{ t('product.color.black') }}</td>
-                    <td>{{ t('product.color.black') }}</td>
                     <td>{{ t('product.color.creamwhite') }}</td>
+                    <td>{{ t('product.color.black') }}</td>
+                    <td>{{ t('product.color.black') }}</td>
+                    <td>{{ t('product.color.black') }}</td>
                     <td>{{ t('product.color.black') }}</td>
                   </tr>
                   <tr>
                     <td v-html="t('product.ffkm.highPurity.table.heading4')"></td>
-                    <td>3.3</td>
+                    <td>4.7</td>
                     <td>6.2</td>
                     <td>6.8</td>
-                    <td>4.7</td>
-                    <td>8.5</td>
+                    <td>3.3</td>
+                    <td>6.9</td>
                   </tr>
                   <tr>
                     <td v-html="t('product.ffkm.highPurity.table.heading5')"></td>
-                    <td>13</td>
+                    <td>11.5</td>
                     <td>17</td>
                     <td>12.8</td>
-                    <td>11.5</td>
-                    <td>12.5</td>
+                    <td>13</td>
+                    <td>13.7</td>
                   </tr>
                   <tr>
                     <td v-html="t('product.ffkm.highPurity.table.heading6')"></td>
-                    <td>215</td>
+                    <td>303</td>
                     <td>251</td>
                     <td>232</td>
-                    <td>303</td>
-                    <td>220</td>
+                    <td>215</td>
+                    <td>229</td>
                   </tr>
                   <tr>
                     <td v-html="t('product.ffkm.highPurity.table.heading7')"></td>
-                    <td>12.5</td>
+                    <td>25</td>
                     <td>17.5</td>
                     <td>17</td>
-                    <td>25</td>
-                    <td>25</td>
+                    <td>12.5</td>
+                    <td>16.3</td>
                   </tr>
                   <tr>
                     <td v-html="t('product.ffkm.highPurity.table.heading8')"></td>
-                    <td>315</td>
+                    <td>330</td>
                     <td>315</td>
                     <td>275</td>
-                    <td>330</td>
-                    <td>280</td>
+                    <td>315</td>
+                    <td>275</td>
                   </tr>
                 </tbody>
               </table>
@@ -471,8 +471,8 @@ export default {
               <strong>4. Biocompatibility:</strong> These rubber materials are non-toxic and non-irritating to human tissues, with good biocompatibility, suitable for sealing and contact components in medical equipment and devices.<br /><br />
               <strong>5. Excellent Mechanical Properties:</strong> They possess high strength, high elasticity, and wear resistance, maintaining stable sealing performance and mechanical strength over long-term use.<br /><br />
               <strong>6. Low Gas Permeability:</strong> They have low gas permeability, ensuring effective airtightness and protection in food and medical applications.<br /><br />
-              <strong>7. Resistance to Hot Water and Steam:</strong> They can withstand the erosion of hot water and steam without failure, making them suitable for applications requiring frequent high-temperature sterilization.<br />
-              <strong>8. Easy to Clean:</strong> With a smooth surface that does not easily attract dirt, these elastomers are easy to clean and maintain, meeting the hygiene requirements of the food and medical industries.<br />
+              <strong>7. Resistance to Hot Water and Steam:</strong> They can withstand the erosion of hot water and steam without failure, making them suitable for applications requiring frequent high-temperature sterilization.<br /><br />
+              <strong>8. Easy to Clean:</strong> With a smooth surface that does not easily attract dirt, these elastomers are easy to clean and maintain, meeting the hygiene requirements of the food and medical industries.<br /><br />
               Due to their excellent chemical and physical properties, food and medical-grade perfluoroelastomers are widely used in food processing, pharmaceuticals, medical equipment, and devices requiring high cleanliness and safety. We offer perfluoroelastomers that meet FDA standards and those that comply with USP Class VI standards.<br /><br />
               Fluorez Technology's medical-grade perfluoroelastomers also meet food-grade requirements, making them ideal for applications in medical devices, pharmaceuticals, and biocompatibility-related fields. All materials are available in finished forms.<br />
               
