@@ -63,7 +63,7 @@ export default {
             <div class="outline" style="margin-left: 20px" @click="scrollToMaterialSection('pfls_section')" role="button">
               <img src="/assets/img/pfls.png" alt="" />
               <h4 class="d-none d-md-block" v-if="locale != 'eng'">{{ t('product.pfls.title') }}</h4>
-              <h5 class="d-none d-md-block" v-else>{{ t('product.pfls.title') }}</h5>
+              <h5 class="d-none d-md-block" v-else>{{ t('product.pfls.engMenuTitle') }}</h5>
               <h4 class="d-md-none">{{ t('product.pfls.title_mobile') }}</h4>
             </div>
           </div>

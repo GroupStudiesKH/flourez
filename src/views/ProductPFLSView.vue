@@ -45,7 +45,7 @@ export default {
               <p>{{ t('product.pfls.intro') }}</p>
 
               <!-- 第一個表格：測試項目 -->
-              <div class="table-responsive">
+              <div class="table-responsive text-center">
                 <table class="table table-striped">
                   <thead class="table-danger">
                     <tr>
@@ -72,14 +72,14 @@ export default {
                       <td></td>
                     </tr>
                     <tr>
-                      <td>  Detector Fluids (Bombing)</td>
+                      <td>Detector Fluids (Bombing)</td>
                       <td></td>
                       <td></td>
                       <td></td>
                       <td></td>
                     </tr>
                     <tr>
-                      <td>  Bubble Tank or NID</td>
+                      <td>Bubble Tank or NID</td>
                       <td></td>
                       <td></td>
                       <td></td>
@@ -93,21 +93,21 @@ export default {
                       <td>×</td>
                     </tr>
                     <tr>
-                      <td>  Thermal Shock</td>
+                      <td>Thermal Shock</td>
                       <td></td>
                       <td></td>
                       <td></td>
                       <td></td>
                     </tr>
                     <tr>
-                      <td>  Cold Side</td>
+                      <td>Cold Side</td>
                       <td></td>
                       <td>×</td>
                       <td></td>
                       <td></td>
                     </tr>
                     <tr>
-                      <td>  Hot Side</td>
+                      <td>Hot Side</td>
                       <td></td>
                       <td></td>
                       <td>×</td>
@@ -146,7 +146,7 @@ export default {
               </div>
 
               <!-- 第二個表格：產品規格 -->
-              <div class="table-responsive">
+              <div class="table-responsive  text-center">
                 <table class="table table-striped">
                   <thead class="table-danger">
                     <tr>

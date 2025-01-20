@@ -46,20 +46,20 @@ export default {
               <p>{{ t('product.fkm.intro2') }}</p>
             </div>
             <div class="table-responsive">
-              <table class="table table-striped">
+              <table class="table table-striped text-center">
                 <thead class="table-danger">
                   <tr>
-                    <th>{{ t('product.fkm.table.header.product') }}</th>
-                    <th>A</th>
-                    <th>B</th>
-                    <th>F</th>
-                    <th>GBL-S</th>
-                    <th>GF-S</th>
-                    <th>GLT-S</th>
-                    <th>GLT-S</th>
-                    <th>GFLT-S</th>
-                    <th>TBR-S</th>
-                    <th>ETP-S</th>
+                    <th style="width: 120px;">{{ t('product.fkm.table.header.product') }}</th>
+                    <th style="width: 80px;">A</th>
+                    <th style="width: 80px;">B</th>
+                    <th style="width: 80px;">F</th>
+                    <th style="width: 80px;">GBL-S</th>
+                    <th style="width: 80px;">GF-S</th>
+                    <th style="width: 80px;">GLT-S</th>
+                    <th style="width: 80px;">GLT-S</th>
+                    <th style="width: 80px;">GFLT-S</th>
+                    <th style="width: 80px;">TBR-S</th>
+                    <th style="width: 80px;">ETP-S</th>
                   </tr>
                 </thead>
                 <tbody>

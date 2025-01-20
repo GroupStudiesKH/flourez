@@ -39,6 +39,13 @@ export default {
   },
 };
 </script>
+<style scoped>
+  @media (max-width: 768px) {
+    table td:first-child, table th:first-child{
+      width: 90px;
+    }
+  }
+</style>
 
 <template>
   <Header />

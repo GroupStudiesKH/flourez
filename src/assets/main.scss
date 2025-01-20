@@ -376,9 +376,13 @@ footer {
     }
 
     &.footer-mobile{
-        background: linear-gradient(140deg, rgb(149, 0, 0), rgb(151, 0, 0)), url("/assets/img/footer_zh.jpg");
+        background-color: rgb(175 15 31); /* 填充背景顏色 */
+        background-image: url("/assets/img/footer_zh.jpg");
+        background-blend-mode: lighten !important;
+        
         &.eng{
-            background: linear-gradient(140deg, rgb(149, 0, 0), rgb(151, 0, 0)), url("/assets/img/footer_eng.jpg");
+            background-color: rgb(175 15 31); /* 填充背景顏色 */
+            background-image: url("/assets/img/footer_eng.jpg");
 
             @media (max-width: 991px) {
                 background-size: contain;
@@ -389,7 +393,7 @@ footer {
             }
 
             background-size: cover;
-            background-blend-mode: overlay;
+            background-blend-mode: lighten !important;
             background-position: center;
     
             background-position: top center;
