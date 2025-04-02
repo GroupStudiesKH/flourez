@@ -33,7 +33,7 @@
             <a class="nav-link" :href="`/${locale}/material`">{{ t('header.material') }}</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" :href="`/${locale}/product/ffkm`">{{ t('header.product') }}</a>
+            <a class="nav-link" :href="`/${locale}/products`">{{ t('header.product') }}</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" :href="`/${locale}/lab`">{{ t('header.lab') }}</a>

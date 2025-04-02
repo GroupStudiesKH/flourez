@@ -29,6 +29,11 @@ const router = createRouter({
       component: () => import("../views/ServiceView.vue"),
     },
     {
+      path: "/:locale(eng|zh_TW|zh_CN)?/products",
+      name: "Products",
+      component: () => import("../views/ProductsView.vue"),
+    },
+    {
       path: "/:locale(eng|zh_TW|zh_CN)?/product/ffkm",
       name: "ProductFFKM",
       component: () => import("../views/ProductFFKMView.vue"),
