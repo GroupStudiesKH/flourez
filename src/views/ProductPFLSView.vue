@@ -49,7 +49,7 @@ export default {
                 <table class="table table-striped">
                   <thead class="table-danger">
                     <tr>
-                      <th width="30%">Perfluorinated liquid (PFLs) </th>
+                      <th width="30%" :class="locale">Perfluorinated liquid (PFLs) </th>
                       <th>FL-50</th>
                       <th>FL-98</th>
                       <th>FL-125</th>

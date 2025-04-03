@@ -138,7 +138,7 @@ export default {
           <div class="heading">
             <h3 v-if="locale != 'eng'">{{ t("index.feature3_title") }}</h3>
             <h4 class="h4 text-dark" v-else>{{ t("index.feature3_title") }}</h4>
-            <span>PTFE micropowders</span>
+            <span>Special grade FKM</span>
           </div>
           <img src="/assets/img/home_section4.webp" alt="" />
           <p v-html="t('index.feature3_subtitle')"></p>

@@ -75,18 +75,19 @@ export default {
                 <thead class="table-danger">
                   <tr>
                     <th
-                      style="width: 120px; line-height: 47px"
+                      :class="locale"
+                      width="200px"
                       v-html="
                         t('product.ffkm.chemicalResistant.table.heading1')
                       "
                     ></th>
-                    <th style="width: 80px; line-height: 47px">FC750B</th>
-                    <th style="width: 80px; line-height: 47px">FC750W</th>
-                    <th style="width: 80px; line-height: 47px">FC752B</th>
-                    <th style="width: 80px; line-height: 47px">FC752W</th>
-                    <th style="width: 80px; line-height: 47px">FC800B</th>
-                    <th style="width: 80px; line-height: 47px">FC900B</th>
-                    <th style="width: 80px; line-height: 47px">FC600W</th>
+                    <th width="80px" style="line-height: 47px;">FC750B</th>
+                    <th width="80px" style="line-height: 47px;">FC750W</th>
+                    <th width="80px" style="line-height: 47px;">FC752B</th>
+                    <th width="80px" style="line-height: 47px;">FC752W</th>
+                    <th width="80px" style="line-height: 47px;">FC800B</th>
+                    <th width="80px" style="line-height: 47px;">FC900B</th>
+                    <th width="80px" style="line-height: 47px;">FC600W</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -215,13 +216,14 @@ export default {
                 <thead class="table-danger">
                   <tr>
                     <th
-                      style="width: 150px; line-height: 47px"
+                      :class="locale"
+                      width="33%"
                       v-html="t('product.ffkm.thermalResistant.table.heading1')"
                     ></th>
-                    <th style="line-height: 47px">FT750B</th>
-                    <th style="line-height: 47px">FT750W</th>
-                    <th style="line-height: 47px">FT900B</th>
-                    <th style="line-height: 47px">FT600W</th>
+                    <th width="80px" style="line-height: 47px;">FT750B</th>
+                    <th width="80px" style="line-height: 47px;">FT750W</th>
+                    <th width="80px" style="line-height: 47px;">FT900B</th>
+                    <th width="80px" style="line-height: 47px;">FT600W</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -324,14 +326,15 @@ export default {
                 <thead class="table-danger">
                   <tr>
                     <th
-                      style="width: 180px; line-height: 47px"
+                      :class="locale"
+                      width="33%"
                       v-html="t('product.ffkm.highPurity.table.heading1')"
                     ></th>
-                    <th style="line-height: 47px">FU800W</th>
-                    <th style="line-height: 47px">FU750N</th>
-                    <th style="line-height: 47px">FU650B</th>
-                    <th style="line-height: 47px">FU650N</th>
-                    <th style="line-height: 47px">FU650W</th>
+                    <th width="80px" style="line-height: 47px;">FU800W</th>
+                    <th width="80px" style="line-height: 47px;">FU750N</th>
+                    <th width="80px" style="line-height: 47px;">FU650B</th>
+                    <th width="80px" style="line-height: 47px;">FU650N</th>
+                    <th width="80px" style="line-height: 47px;">FU650W</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -429,11 +432,12 @@ export default {
                 <thead class="table-danger">
                   <tr>
                     <th
-                      style="width: 180px; line-height: 47px"
+                      :class="locale"
+                      width="33%"
                       v-html="t('product.ffkm.lowCompression.table.heading1')"
                     ></th>
-                    <th style="line-height: 47px">LCS759B</th>
-                    <th style="line-height: 47px">LCS759W</th>
+                    <th width="33%" style="line-height: 47px;">LCS759B</th>
+                    <th width="33%" style="line-height: 47px;">LCS759W</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -540,11 +544,12 @@ export default {
                 <thead class="table-danger">
                   <tr>
                     <th
-                      style="width: 180px; line-height: 47px"
+                      :class="locale"
+                      width="33%"
                       v-html="t('product.ffkm.foodMedical.table.heading1')"
                     ></th>
-                    <th style="line-height: 47px">F807B</th>
-                    <th style="line-height: 47px">F807W</th>
+                    <th width="33%" style="line-height: 47px;">F807B</th>
+                    <th width="33%" style="line-height: 47px;">F807W</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -688,11 +693,12 @@ export default {
                 <thead class="table-danger">
                   <tr>
                     <th
-                      style="width: 180px; line-height: 47px"
+                      :class="locale"
+                      width="33%"
                       v-html="t('product.ffkm.foodMedical.table.heading1')"
                     ></th>
-                    <th style="line-height: 47px">UFT753</th>
-                    <th style="line-height: 47px">UFT750</th>
+                    <th width="33%" style="line-height: 47px;">UFT753</th>
+                    <th width="33%" style="line-height: 47px;">UFT750</th>
                   </tr>
                 </thead>
                 <tbody>

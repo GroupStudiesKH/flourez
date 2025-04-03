@@ -77,16 +77,19 @@ table {
         left: 0;
         /* 首行永遠固定於左 */
         z-index: 1;
-        width: 180px;
     }
 
     thead tr th {
         position: sticky;
         top: 0;
         /* 列首永遠固定於上 */
-        // @media (max-width: 1198px) {
-        //     line-height: initial;
-        // }
+        @media (min-width: 1198px) {
+            line-height: 47px;   
+        }
+
+        &:not(.eng){
+            line-height: 47px;
+        }
     }
 }
 

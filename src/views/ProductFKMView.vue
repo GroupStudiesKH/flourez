@@ -49,7 +49,7 @@ export default {
               <table class="table table-striped text-center">
                 <thead class="table-danger">
                   <tr>
-                    <th style="width: 120px;">{{ t('product.fkm.table.header.product') }}</th>
+                    <th :class="locale" style="width: 120px;">{{ t('product.fkm.table.header.product') }}</th>
                     <th style="width: 80px;">A</th>
                     <th style="width: 80px;">B</th>
                     <th style="width: 80px;">F</th>
