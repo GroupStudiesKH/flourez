@@ -69,6 +69,7 @@ strong {
 table {
     table-layout: fixed;
     width: 100%;
+
     /* 固定寬度 */
     td:first-child,
     th:first-child {
@@ -83,6 +84,9 @@ table {
         position: sticky;
         top: 0;
         /* 列首永遠固定於上 */
+        // @media (max-width: 1198px) {
+        //     line-height: initial;
+        // }
     }
 }
 
@@ -106,7 +110,7 @@ header {
             filter: invert(21%) sepia(0%) saturate(0%) hue-rotate(153deg) brightness(98%) contrast(92%);
         }
 
-        .collapsed{
+        .collapsed {
             .navbar-toggler-icon {
                 transform: rotate(0deg);
             }
@@ -172,7 +176,7 @@ header {
             transition: all 0.3s ease;
             flex-direction: row-reverse;
 
-            @media(max-width: 991px){
+            @media(max-width: 991px) {
 
                 box-shadow: 0px 10px 10px #666;
                 background-color: #fff;
@@ -186,11 +190,12 @@ header {
                 left: 0%;
                 font-size: 16px;
                 height: 100vh !important;
+
                 &.show {
                     transform: translateX(5vw);
                 }
 
-                .btn-close{
+                .btn-close {
                     margin-top: 30px;
                     margin-left: 82vw;
                     margin-bottom: 20px;
@@ -201,7 +206,7 @@ header {
 
                 .navbar-nav {
                     .nav-item {
-                        
+
                         .nav-link {
                             padding: 5px 10px !important;
                             transition: all 0.2s ease;
@@ -210,7 +215,7 @@ header {
                             color: #000;
                             border-bottom: 1px solid #999 !important;
                             margin: 0 20px;
-                            
+
                         }
 
                         &:hover:not(:last-child) {
@@ -371,23 +376,25 @@ footer {
     color: #fff;
     overflow: hidden;
 
-    a{
+    a {
         color: #fff;
     }
 
-    &.footer-mobile{
-        background-color: rgb(175 15 31); /* 填充背景顏色 */
+    &.footer-mobile {
+        background-color: rgb(175 15 31);
+        /* 填充背景顏色 */
         background-image: url("/assets/img/footer_zh.jpg");
         background-blend-mode: lighten !important;
-        
-        &.eng{
-            background-color: rgb(175 15 31); /* 填充背景顏色 */
+
+        &.eng {
+            background-color: rgb(175 15 31);
+            /* 填充背景顏色 */
             background-image: url("/assets/img/footer_eng.jpg");
 
             @media (max-width: 991px) {
                 background-size: contain;
             }
-    
+
             @media (max-width: 576px) {
                 background-size: cover;
             }
@@ -395,7 +402,7 @@ footer {
             background-size: cover;
             background-blend-mode: lighten !important;
             background-position: center;
-    
+
             background-position: top center;
             background-repeat: no-repeat;
             text-align: center;
@@ -412,7 +419,7 @@ footer {
 
 
 
-        
+
 
         background-size: cover;
         background-blend-mode: overlay;
@@ -423,15 +430,16 @@ footer {
         text-align: center;
         padding-top: 180px;
 
-        .company_info{
+        .company_info {
             max-width: 100%;
-            p{
+
+            p {
                 padding: 0 50px;
             }
         }
 
-        .contact{
-            p{
+        .contact {
+            p {
                 width: 250px;
                 margin: 0 auto;
             }
@@ -871,19 +879,21 @@ main {
                 }
             }
 
-            h3{
+            h3 {
                 font-size: 34px;
                 font-weight: 600;
                 margin-top: 50px;
+
                 @media (max-width: 1280px) {
                     margin-top: 20px;
                 }
             }
 
-            h4{
+            h4 {
                 font-size: 32px;
                 font-weight: 600;
                 margin-top: 30px;
+
                 @media (max-width: 1280px) {
                     margin-top: 20px;
                     font-size: 28px;
@@ -893,7 +903,8 @@ main {
             p {
                 font-size: 20px;
                 line-height: 32px;
-                span small{
+
+                span small {
                     line-height: 25px;
                     display: inline-block;
                 }
@@ -942,7 +953,7 @@ main {
 
             @media (max-width: 991px) {
                 height: 150px;
-                
+
             }
 
             @media (max-width: 576px) {
@@ -1100,6 +1111,8 @@ main {
                 table thead.table-danger {
                     --bs-table-bg: #BE1E2D;
                     --bs-table-color: #fff;
+                    background-color: #BE1E2D;
+
                 }
             }
         }
@@ -1136,7 +1149,7 @@ main {
 
             @media (max-width: 991px) {
                 height: 150px;
-                
+
             }
 
             @media (max-width: 576px) {
@@ -1192,7 +1205,7 @@ main {
                         }
                     }
 
-                    h5{
+                    h5 {
                         font-weight: 600;
                         font-size: 24px;
                     }
@@ -1341,6 +1354,8 @@ main {
                 table thead.table-danger {
                     --bs-table-bg: #BE1E2D;
                     --bs-table-color: #fff;
+                    background-color: #BE1E2D;
+
                 }
             }
         }
@@ -1392,7 +1407,7 @@ main {
 
             @media (max-width: 991px) {
                 height: 150px;
-                
+
             }
 
             @media (max-width: 576px) {
@@ -1558,8 +1573,9 @@ main {
 
             @media (max-width: 991px) {
                 height: 150px;
-                
+
             }
+
             @media (max-width: 576px) {
                 background-position: right -90px center;
             }
@@ -1647,8 +1663,9 @@ main {
 
             @media (max-width: 991px) {
                 height: 150px;
-                
+
             }
+
             @media (max-width: 576px) {
                 background-position: right -90px center;
             }
@@ -1717,7 +1734,7 @@ main {
                         }
                     }
 
-                    h5{
+                    h5 {
                         font-weight: 600;
                         font-size: 24px;
                     }
@@ -1803,6 +1820,7 @@ main {
 
         .company_card {
             padding: 0 30px;
+
             .card {
                 border: 1px solid #ccc;
                 border-radius: 25px;
@@ -1845,6 +1863,8 @@ main {
                 table thead.table-danger {
                     --bs-table-bg: #BE1E2D;
                     --bs-table-color: #fff;
+                    background-color: #BE1E2D;
+
                 }
             }
         }
@@ -1861,6 +1881,7 @@ main {
         table thead.table-danger {
             --bs-table-bg: #BE1E2D;
             --bs-table-color: #fff;
+            background-color: #BE1E2D;
         }
 
     }
