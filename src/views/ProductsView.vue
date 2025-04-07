@@ -27,15 +27,15 @@ export default {
         route: '/product/fkm'
       },
       {
+        image: '/assets/img/p_special.webp',
+        title: 'product.specFkm.title',
+        route: '/product/spec-fkm'
+      },
+      {
         image: '/assets/img/p_pfls.webp',
         title: 'product.pfls.title',
         route: '/product/pfls'
       },
-      {
-        image: '/assets/img/p_special.webp',
-        title: 'product.specFkm.title',
-        route: '/product/spec-fkm'
-      }
     ];
 
     return {
