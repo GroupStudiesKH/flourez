@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Disallow: /assets/
+Disallow: /src/
+Disallow: /node_modules/
+
+# Sitemap
+Sitemap: https://www.fluorez.com/sitemap.xml
+Sitemap: https://www.fluorez.com.tw/sitemap.xml
+Sitemap: https://www.fluorez.com.cn/sitemap.xml
+Sitemap: https://fluorez.com/sitemap.xml
